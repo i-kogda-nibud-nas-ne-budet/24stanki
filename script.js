@@ -23,6 +23,33 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
+    // Карусель
+    const carousel = document.querySelector('.carousel');
+    if (carousel) {
+        const slides = carousel.querySelectorAll('.slide');
+        let currentSlide = 0;
+
+        // Функция для показа слайда
+        function showSlide(index) {
+            // Убираем класс active у всех слайдов
+            slides.forEach(slide => slide.classList.remove('active'));
+            
+            // Добавляем класс active к нужному слайду
+            slides[index].classList.add('active');
+        }
+
+        // Показываем первый слайд
+        if (slides.length > 0) {
+            showSlide(currentSlide);
+        }
+
+        // Автоматическая смена слайдов каждые 5 секунд
+        setInterval(() => {
+            currentSlide = (currentSlide + 1) % slides.length;
+            showSlide(currentSlide);
+        }, 5000);
+    }
+
     // FAQ функциональность
     const faqContainers = document.querySelectorAll('.faq-container');
     
