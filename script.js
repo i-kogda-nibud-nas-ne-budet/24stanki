@@ -60,6 +60,12 @@ document.addEventListener('DOMContentLoaded', function() {
             const question = item.querySelector('.faq-question');
             const icon = question.querySelector('.faq-icon');
             
+            // Убедимся, что все FAQ изначально свернуты
+            item.classList.remove('active');
+            if (icon) {
+                icon.textContent = '+';
+            }
+            
             question.addEventListener('click', () => {
                 // Закрываем все остальные элементы в том же контейнере
                 faqItems.forEach(otherItem => {
