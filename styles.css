@@ -967,6 +967,11 @@ footer .quick-links a:hover {
         padding: 0 1rem;
     }
     
+    .travel-map {
+        display: block;
+        width: 100%;
+    }
+    
     .travel-info h3 {
         font-size: 1.5rem;
     }
@@ -1532,7 +1537,7 @@ footer .quick-links a:hover {
     
     .price-box {
         padding: 1rem;
-        border-radius
+        border-radius: 12px;
 
 /* Адаптивность для очень маленьких экранов */
 @media (max-width: 320px) {
