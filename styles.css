@@ -602,7 +602,7 @@ section h2::after {
     gap: 0.8rem;
 }
 
-.contacts .phone-widget {
+.contacts .phone-widget, .contacts .email-widget {
     background: rgba(58, 12, 163, 0.1);
     backdrop-filter: blur(10px);
     padding: 1.5rem 3rem;
@@ -618,7 +618,7 @@ section h2::after {
     border: 2px solid rgba(58, 12, 163, 0.2);
 }
 
-.contacts .phone-widget:hover {
+.contacts .phone-widget:hover, .contacts .email-widget:hover {
     transform: translateY(-5px);
     box-shadow: 0 15px 40px rgba(58, 12, 163, 0.25);
     background: rgba(58, 12, 163, 0.15);
