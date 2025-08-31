@@ -556,9 +556,16 @@ section h2::after {
 /* Контакты */
 .contact-methods {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 2.5rem 0;
+}
+
+.contact-row {
+    display: flex;
     justify-content: center;
     gap: 2.5rem;
-    margin: 2.5rem 0;
     flex-wrap: wrap;
 }
 
@@ -603,7 +610,7 @@ section h2::after {
 }
 
 .contacts .phone-widget, .contacts .email-widget {
-    background: rgba(58, 12, 163, 0.1);
+    background: linear-gradient(135deg, rgba(58, 12, 163, 0.1) 0%, rgba(114, 9, 183, 0.1) 100%);
     backdrop-filter: blur(10px);
     padding: 1.5rem 3rem;
     border-radius: 50px;
@@ -611,18 +618,51 @@ section h2::after {
     font-weight: 600;
     color: #333;
     box-shadow: 0 8px 25px rgba(58, 12, 163, 0.15);
-    transition: all 0.3s ease;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     text-align: center;
     margin: 2rem auto;
     max-width: fit-content;
     border: 2px solid rgba(58, 12, 163, 0.2);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.contacts .phone-widget::before, .contacts .email-widget::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    transition: left 0.6s;
+}
+
+.contacts .phone-widget:hover::before, .contacts .email-widget:hover::before {
+    left: 100%;
 }
 
 .contacts .phone-widget:hover, .contacts .email-widget:hover {
-    transform: translateY(-5px);
+    transform: translateY(-5px) scale(1.05);
     box-shadow: 0 15px 40px rgba(58, 12, 163, 0.25);
-    background: rgba(58, 12, 163, 0.15);
+    background: linear-gradient(135deg, rgba(58, 12, 163, 0.15) 0%, rgba(114, 9, 183, 0.15) 100%);
     border-color: rgba(58, 12, 163, 0.3);
+}
+
+.contacts .phone-widget a, .contacts .email-widget a {
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.contacts .phone-widget .icon, .contacts .email-widget .icon {
+    font-size: 2rem;
+    color: #3a0ca3;
 }
 
 /* Темы */
@@ -715,6 +755,10 @@ section h2::after {
     gap: 0.8rem;
     font-weight: 600;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp .icon, .telegram .icon {
+    font-size: 1.4rem;
 }
 
 .whatsapp:hover, .telegram:hover {
