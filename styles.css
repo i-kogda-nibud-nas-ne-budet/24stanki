@@ -862,18 +862,19 @@ footer .quick-links a:hover {
         gap: 2rem;
     }
     
-    /* Адаптивность hero-текста */
+/* Адаптивность hero-текста */
     .hero-text {
         padding: 2rem 1rem;
         margin: 1rem auto;
     }
     
     .hero-text h1 {
-        font-size: 2.5rem;
+        font-size: 1.8rem;
+        word-break: break-word;
     }
     
     .hero-text p {
-        font-size: 1.4rem;
+        font-size: 1.1rem;
     }
     
     section {
@@ -987,25 +988,42 @@ footer .quick-links a:hover {
         grid-template-columns: 1fr;
         gap: 1.5rem;
         padding: 0 1rem;
+        justify-content: center;
     }
     
-.service-card {
-    background: #2a2a2a;
-    border-radius: 10px;
-    padding: 25px;
-    text-align: left;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-}
+    .service-card {
+        background: rgba(255, 255, 255, 0.95);
+        border-radius: 15px;
+        padding: 1.5rem;
+        text-align: center;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        max-width: 500px;
+        border: 1px solid rgba(58, 12, 163, 0.1);
+        align-items: center;
+    }
     
     .service-card p {
         font-size: 1rem;
+        line-height: 1.5;
+        color: #666;
+        margin-bottom: 1rem;
+        flex-shrink: 1;
     }
     
     .service-price {
         font-size: 1.1rem;
+        font-weight: 600;
+        color: #f60909;
+        background: rgba(246, 9, 9, 0.1);
+        padding: 0.4rem 0.8rem;
+        border-radius: 20px;
+        display: inline-block;
+        margin: 0 auto;
+        align-self: center;
     }
     
     /* Адаптивность для выезда по России */
@@ -3351,20 +3369,25 @@ nav {
 
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     padding: 0 2rem;
+    justify-content: center;
 }
 
 .service-card {
     background: rgba(255, 255, 255, 0.95);
-    padding: 2.5rem;
+    padding: 2rem;
     border-radius: 15px;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     border: 1px solid rgba(58, 12, 163, 0.1);
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
+    max-width: 350px;
+    text-align: center;
+    align-items: center;
 }
 
 .service-card:hover {
@@ -3391,7 +3414,6 @@ nav {
     line-height: 1.6;
     color: #666;
     margin-bottom: 1.5rem;
-    flex-grow: 1;
 }
 
 .service-price {
@@ -3478,16 +3500,14 @@ nav {
 }
 
 .travel-advantages li {
-    font-size: 1.1rem;
-    line-height: 1.6;
+    padding: 0.5rem 0;
     color: #666;
-    margin-bottom: 0.8rem;
-    padding-left: 1.5rem;
     position: relative;
+    padding-left: 1.5rem;
 }
 
 .travel-advantages li::before {
-    content: '✓';
+    content: "✓";
     position: absolute;
     left: 0;
     color: #f60909;
@@ -3538,6 +3558,71 @@ nav {
     margin: 0;
     font-size: 1rem;
     color: #666;
+}
+
+/* Адаптивность для выезда по России */
+@media (max-width: 768px) {
+    .travel-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 0 1rem;
+    }
+    
+    .travel-info h3 {
+        font-size: 1.5rem;
+    }
+    
+    .travel-info p {
+        font-size: 1rem;
+    }
+    
+    .price-highlight {
+        padding: 1.5rem;
+    }
+    
+    .price {
+        font-size: 1.8rem;
+    }
+    
+    .price-highlight h4 {
+        font-size: 1.2rem;
+    }
+    
+    .travel-advantages h4 {
+        font-size: 1.2rem;
+    }
+    
+    .travel-advantages li {
+        font-size: 1rem;
+    }
+    
+    .map-placeholder {
+        padding: 1.5rem;
+    }
+    
+    .map-placeholder h3 {
+        font-size: 1.5rem;
+    }
+    
+    .map-placeholder p {
+        font-size: 1rem;
+    }
+    
+    .map-cities {
+        gap: 0.8rem;
+    }
+    
+    .city-group {
+        padding: 0.8rem;
+    }
+    
+    .city-group span {
+        font-size: 0.9rem;
+    }
+    
+    .city-group p {
+        font-size: 0.9rem;
+    }
 }
 
 /* Стили для процесса работы */
