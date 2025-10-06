@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>24stanki.ru - Экспертный сервис</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Montserrat', sans-serif;
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* Фоновые элементы для глубины */
+        .bg-elements {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+
+        .bg-circle {
+            position: absolute;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(246, 9, 9, 0.1) 0%, transparent 70%);
+            filter: blur(40px);
+        }
+
+        .bg-circle-1 {
+            width: 400px;
+            height: 400px;
+            top: -100px;
+            right: -100px;
+        }
+
+        .bg-circle-2 {
+            width: 300px;
+            height: 300px;
+            bottom: -50px;
+            left: -50px;
+            background: radial-gradient(circle, rgba(227, 158, 8, 0.1) 0%, transparent 70%);
+        }
+
+        .bg-circle-3 {
+            width: 200px;
+            height: 200px;
+            top: 50%;
+            left: 10%;
+            background: radial-gradient(circle, rgba(246, 9, 9, 0.05) 0%, transparent 70%);
+        }
+
+        /* Основной контейнер */
+        .container {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            max-width: 900px;
+            padding: 0 20px;
+        }
+
+        /* Лого */
+        .logo-container {
+            margin-bottom: 40px;
+            position: relative;
+        }
+
+        .logo {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto;
+            position: relative;
+            filter: drop-shadow(0 10px 30px rgba(246, 9, 9, 0.3));
+        }
+
+        /* Основной оранжевый блок */
+        .main-block {
+            background: linear-gradient(135deg, #f60909 0%, #e39e08 100%);
+            padding: 40px 60px;
+            border-radius: 20px;
+            box-shadow: 
+                0 20px 40px rgba(246, 9, 9, 0.3),
+                inset 0 1px 0 rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .main-block::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+            animation: shimmer 3s infinite;
+        }
+
+        @keyframes shimmer {
+            0% { left: -100%; }
+            100% { left: 100%; }
+        }
+
+        /* Домен */
+        .domain {
+            font-size: 4rem;
+            font-weight: 800;
+            color: white;
+            text-shadow: 
+                0 2px 10px rgba(0, 0, 0, 0.3),
+                0 0 20px rgba(255, 255, 255, 0.2);
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+            position: relative;
+        }
+
+        /* Подзаголовок */
+        .subtitle {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-shadow: 
+                0 2px 10px rgba(0, 0, 0, 0.3),
+                0 0 15px rgba(255, 255, 255, 0.1);
+        }
+
+        /* Дополнительные оранжевые элементы для вау-эффекта */
+        .accent-elements {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        .accent-orb {
+            position: absolute;
+            border-radius: 50%;
+            background: linear-gradient(135deg, rgba(246, 9, 9, 0.2) 0%, rgba(227, 158, 8, 0.2) 100%);
+            filter: blur(20px);
+        }
+
+        .orb-1 {
+            width: 150px;
+            height: 150px;
+            top: 10%;
+            right: 5%;
+        }
+
+        .orb-2 {
+            width: 100px;
+            height: 100px;
+            bottom: 15%;
+            left: 8%;
+            background: linear-gradient(135deg, rgba(227, 158, 8, 0.2) 0%, rgba(246, 9, 9, 0.2) 100%);
+        }
+
+        .orb-3 {
+            width: 80px;
+            height: 80px;
+            top: 60%;
+            right: 15%;
+        }
+
+        /* Геометрические элементы */
+        .geometric-element {
+            position: absolute;
+            border: 2px solid rgba(246, 9, 9, 0.3);
+            border-radius: 10px;
+        }
+
+        .geo-1 {
+            width: 60px;
+            height: 60px;
+            top: 20%;
+            left: 5%;
+            transform: rotate(45deg);
+        }
+
+        .geo-2 {
+            width: 40px;
+            height: 40px;
+            bottom: 25%;
+            right: 10%;
+            transform: rotate(30deg);
+        }
+
+        /* Адаптивность */
+        @media (max-width: 768px) {
+            .domain {
+                font-size: 2.5rem;
+            }
+            
+            .subtitle {
+                font-size: 1.2rem;
+            }
+            
+            .main-block {
+                padding: 30px 40px;
+            }
+            
+            .logo {
+                width: 80px;
+                height: 80px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Фоновые элементы -->
+    <div class="bg-elements">
+        <div class="bg-circle bg-circle-1"></div>
+        <div class="bg-circle bg-circle-2"></div>
+        <div class="bg-circle bg-circle-3"></div>
+    </div>
+
+    <!-- Акцентные элементы -->
+    <div class="accent-elements">
+        <div class="accent-orb orb-1"></div>
+        <div class="accent-orb orb-2"></div>
+        <div class="accent-orb orb-3"></div>
+        <div class="geometric-element geo-1"></div>
+        <div class="geometric-element geo-2"></div>
+    </div>
+
+    <!-- Основной контент -->
+    <div class="container">
+        <!-- Лого -->
+        <div class="logo-container">
+            <svg class="logo" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Шестеренка внешняя -->
+                <g transform="translate(60,60)">
+                    <!-- Шестеренка -->
+                    <path d="M-35 -15 L-35 -25 C-35 -30 -30 -35 -25 -35 L-15 -35 C-10 -35 -5 -30 -5 -25 L-5 -15 C-5 -10 0 -5 5 -5 L25 -5 C30 -5 35 -10 35 -15 L35 -25 C35 -30 30 -35 25 -35 L15 -35 C10 -35 5 -30 5 -25 L5 -15 C5 -10 0 -5 -5 -5 L-25 -5 C-30 -5 -35 -10 -35 -15 Z" 
+                          fill="url(#gearGradient)" stroke="white" stroke-width="2"/>
+                    
+                    <!-- Внутренняя шестеренка -->
+                    <circle r="20" fill="url(#innerGradient)" stroke="white" stroke-width="2"/>
+                    
+                    <!-- Отвертка (вертикальная) -->
+                    <g transform="rotate(0)">
+                        <rect x="-3" y="-30" width="6" height="50" fill="white"/>
+                        <rect x="-8" y="-35" width="16" height="10" fill="white" rx="2"/>
+                    </g>
+                    
+                    <!-- Гаечный ключ (горизонтальный) -->
+                    <g transform="rotate(90)">
+                        <rect x="-3" y="-30" width="6" height="50" fill="white"/>
+                        <rect x="-8" y="-35" width="16" height="10" fill="white" rx="2"/>
+                        <!-- Головка ключа -->
+                        <rect x="-12" y="-8" width="24" height="16" fill="white" rx="3"/>
+                        <circle cx="-8" cy="0" r="3" fill="#f60909"/>
+                        <circle cx="8" cy="0" r="3" fill="#f60909"/>
+                    </g>
+                    
+                    <!-- Центральный круг -->
+                    <circle r="8" fill="white"/>
+                    <circle r="5" fill="url(#centerGradient)"/>
+                </g>
+                
+                <!-- Градиенты -->
+                <defs>
+                    <linearGradient id="gearGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#f60909;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#e39e08;stop-opacity:1" />
+                    </linearGradient>
+                    <radialGradient id="innerGradient">
+                        <stop offset="0%" style="stop-color:#f60909;stop-opacity:0.8" />
+                        <stop offset="100%" style="stop-color:#e39e08;stop-opacity:0.8" />
+                    </radialGradient>
+                    <linearGradient id="centerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#f60909;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#e39e08;stop-opacity:1" />
+                    </linearGradient>
+                </defs>
+            </svg>
+        </div>
+
+        <!-- Основной блок -->
+        <div class="main-block">
+            <h1 class="domain">24stanki.ru</h1>
+            <p class="subtitle">ЭКСПЕРТНЫЙ СЕРВИС</p>
+        </div>
+    </div>
+</body>
+</html>
