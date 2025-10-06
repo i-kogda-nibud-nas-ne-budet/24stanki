@@ -3888,3 +3888,174 @@ nav {
 .faq-item {
     position: relative;
 }
+
+/* Стили для раздела контактов */
+.contact-cta {
+    max-width: 1132px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(58, 12, 163, 0.1);
+    text-align: center;
+    animation: slideIn 0.8s ease-out;
+}
+
+.cta-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 2.5rem;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    line-height: 1.4;
+}
+
+.contact-widgets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.contact-widget {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem 1.5rem;
+    background: linear-gradient(135deg, #f60909 0%, #e39e08 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    box-shadow: 0 5px 15px rgba(246, 9, 9, 0.2);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    min-width: 160px;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact-widget::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    transition: left 0.6s;
+}
+
+.contact-widget:hover::before {
+    left: 100%;
+}
+
+.contact-widget:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(246, 9, 9, 0.3);
+    background: linear-gradient(135deg, #e39e08 0%, #f60909 100%);
+}
+
+.contact-widget:active {
+    transform: translateY(-2px);
+}
+
+.contact-widget .icon {
+    font-size: 1.4rem;
+    margin-right: 0.8rem;
+    display: inline-block;
+}
+
+.contact-widget.phone .icon {
+    color: #f60909;
+}
+
+.contact-widget.whatsapp .icon {
+    color: #25D366;
+}
+
+.contact-widget.telegram .icon {
+    color: #0088cc;
+}
+
+.contact-widget.email .icon {
+    color: #ea4335;
+}
+
+/* Адаптивность для раздела контактов */
+@media (max-width: 768px) {
+    .contact-cta {
+        margin: 1rem auto;
+        padding: 1.5rem;
+        border-radius: 15px;
+    }
+    
+    .cta-text {
+        font-size: 1.4rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .contact-widgets {
+        gap: 1rem;
+    }
+    
+    .contact-widget {
+        min-width: 140px;
+        padding: 0.8rem 1.2rem;
+        font-size: 0.85rem;
+    }
+    
+    .contact-widget .icon {
+        font-size: 1.1rem;
+        margin-right: 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-cta {
+        padding: 1.2rem;
+    }
+    
+    .cta-text {
+        font-size: 1.2rem;
+        margin-bottom: 1.2rem;
+    }
+    
+    .contact-widgets {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+    
+    .contact-widget {
+        min-width: 100%;
+        padding: 1rem 2rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-cta {
+        padding: 1.2rem;
+    }
+    
+    .cta-text {
+        font-size: 1rem;
+        margin-bottom: 1.2rem;
+    }
+    
+    .contact-widgets {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+    
+    .contact-widget {
+        min-width: 100%;
+        padding: 1rem 2rem;
+        font-size: 0.95rem;
+    }
+}
