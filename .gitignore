@@ -1,0 +1,28 @@
+# Node modules
+node_modules/
+package.json
+package-lock.json
+
+# Development files
+compress-video.js
+
+# Video files (remove original large files)
+stanki.mp4
+
+# Git attributes (will be recreated if needed)
+.gitattributes
+
+# Temporary files
+*.tmp
+*.log
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Build files
+*.min.*
