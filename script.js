@@ -1,4 +1,21 @@
 document.addEventListener('DOMContentLoaded', function() {
+    // Управление видео
+    const video = document.querySelector('.hero-video');
+    const playPauseBtn = document.getElementById('playPauseBtn');
+    const controlIcon = playPauseBtn.querySelector('.control-icon');
+    
+    if (video && playPauseBtn) {
+        playPauseBtn.addEventListener('click', function() {
+            if (video.muted) {
+                video.muted = false;
+                controlIcon.textContent = '🔊';
+            } else {
+                video.muted = true;
+                controlIcon.textContent = '🔇';
+            }
+        });
+    }
+
     // Эффект навигации при скролле
     const nav = document.querySelector('nav');
     window.addEventListener('scroll', () => {
