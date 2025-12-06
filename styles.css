@@ -1037,6 +1037,73 @@ footer .quick-links a:hover {
     }
 }
 
+/* Адаптивность для секции брендов */
+@media (max-width: 768px) {
+    .brands-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 0 1rem;
+    }
+    
+    .brands-section {
+        padding: 1.5rem;
+    }
+    
+    .brands-section h3 {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+    }
+    
+    .brands-grid {
+        grid-template-columns: 1fr;
+        gap: 0.8rem;
+    }
+    
+    .brand-item {
+        padding: 0.8rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .brands-section {
+        padding: 1.2rem;
+    }
+    
+    .brands-section h3 {
+        font-size: 1.2rem;
+        margin-bottom: 0.8rem;
+    }
+    
+    .brands-grid {
+        gap: 0.6rem;
+    }
+    
+    .brand-item {
+        padding: 0.7rem;
+        font-size: 0.85rem;
+    }
+}
+
+/* Адаптивность для секции обучения */
+@media (max-width: 768px) {
+    .training-content {
+        padding: 0 1rem;
+    }
+    
+    .training-content p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+}
+
+@media (max-width: 480px) {
+    .training-content p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+}
+
 /* Адаптивность */
 @media (max-width: 768px) {
     nav {
@@ -3911,6 +3978,95 @@ nav {
     line-height: 1.6;
     color: #666;
     margin: 0;
+}
+
+/* Стили для секции брендов оборудования */
+.equipment-brands {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 3rem 0;
+    margin: 2rem auto;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(58, 12, 163, 0.1);
+}
+
+.brands-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    padding: 0 2rem;
+    align-items: start;
+}
+
+.brands-section {
+    background: rgba(58, 12, 163, 0.05);
+    border: 1px solid rgba(58, 12, 163, 0.1);
+    border-radius: 15px;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.brands-section:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(58, 12, 163, 0.15);
+    border-color: rgba(58, 12, 163, 0.2);
+}
+
+.brands-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+    text-align: center;
+}
+
+.brands-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.brand-item {
+    background: white;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    font-weight: 600;
+    color: #333;
+    border: 2px solid rgba(58, 12, 163, 0.1);
+}
+
+.brand-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(58, 12, 163, 0.15);
+    border-color: rgba(58, 12, 163, 0.2);
+    background: linear-gradient(135deg, rgba(58, 12, 163, 0.05) 0%, rgba(114, 9, 183, 0.05) 100%);
+}
+
+/* Стили для секции обучения */
+.training {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 3rem 0;
+    margin: 2rem auto;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(58, 12, 163, 0.1);
+}
+
+.training-content {
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.training-content p {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: #555;
+    margin: 0 auto;
+    max-width: 800px;
 }
 
 /* Стили для FAQ */
