@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2025-12-14 13:49">
+    <shop>
+        <name>24stanki.ru</name>
+        <company>ИП Горбунов М.А.</company>
+        <url>https://24stanki.ru</url>
+        <platform>24stanki.ru</platform>
+        <version>1.0</version>
+        <agency>24stanki.ru</agency>
+        <email>max.gorbunov.service@yandex.ru</email>
+        
+        <categories>
+            <category id="101">Ремонт листогибов</category>
+            <category id="102">Ремонт гильотин</category>
+            <category id="103">Ремонт гидропрессов</category>
+            <category id="104">Ремонт ленточных пил</category>
+            <category id="105">Ремонт профилегибов</category>
+            <category id="106">Ремонт вальцевых станков</category>
+            <category id="107">Ремонт трубогибов</category>
+            <category id="108">Диагностика оборудования</category>
+            <category id="109">Наладка оборудования</category>
+            <category id="110">Техническое обслуживание</category>
+            <category id="111">Выезд по России</category>
+        </categories>
+        
+        <offers>
+            <!-- Ремонт листогибов -->
+            <offer id="101" available="true">
+                <name>Ремонт листогибов</name>
+                <vendor>24stanki.ru</vendor>
+                <price>15000</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>101</categoryId>
+                <picture>https://24stanki.ru/favicon.ico</picture>
+                <description>
+                    Капитальный и текущий ремонт листогибочных станков всех типов и производителей. 
+                    Работаем с оборудованием: Ermaksan, ERMAK, ADH, DURMA, ISITAN, SAHINLER. 
+                    Срочный выезд 24/7, гарантия качества. Диагностика → договоренность о цене.
+                </description>
+                <shortDescription>
+                    Ремонт листогибочных станков всех производителей. Срочный выезд 24/7.
+                </shortDescription>
+                <url>https://24stanki.ru/remont-listogibov.html</url>
+            </offer>
+            
+            <!-- Ремонт гильотин -->
+            <offer id="102" available="true">
+                <name>Ремонт гильотин</name>
+                <vendor>24stanki.ru</vendor>
+                <price>12000</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>102</categoryId>
+                <picture>https://24stanki.ru/favicon.ico</picture>
+                <description>
+                    Восстановление работоспособности гильотинных ножниц и режущих механизмов. 
+                    Профессиональный ремонт гильотин по всей России. Срочный выезд 24/7, гарантия качества. 
+                    Диагностика → договоренность о цене.
+                </description>
+                <shortDescription>
+                    Ремонт гильотинных ножниц. Профессиональный сервис по всей России.
+                </shortDescription>
+                <url>https://24stanki.ru/remont-gilotin.html</url>
+            </offer>
+            
+            <!-- Ремонт гидропрессов -->
+            <offer id="103" available="true">
+                <name>Ремонт гидропрессов</name>
+                <vendor>24stanki.ru</vendor>
+                <price>18000</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>103</categoryId>
+                <picture>https://24stanki.ru/favicon.ico</picture>
+                <description>
+                    Диагностика и ремонт гидравлических систем и прессового оборудования. 
+                    Опытные специалисты с 15-летним стажем. Срочный выезд 24/7, гарантия качества. 
+                    Диагностика → договоренность о цене.
+                </description>
+                <shortDescription>
+                    Ремонт гидравлических прессов и систем. Опыт 15 лет.
+                </shortDescription>
+                <url>https://24stanki.ru/uslugi.html</url>
+            </offer>
+            
+            <!-- Ремонт ленточных пил -->
+            <offer id="104" available="true">
+                <name>Ремонт ленточных пил</name>
+                <vendor>24stanki.ru</vendor>
+                <price>10000</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>104</categoryId>
+                <picture>https://24stanki.ru/favicon.ico</picture>
+                <description>
+                    Ремонт и обслуживание ленточных пильных станков. 
+                    Пуско-наладочные работы, замена гидравлического масла, регулировка полотна. 
+                    Срочный выезд 24/7, гарантия качества. Диагностика → договоренность о цене.
+                </description>
+                <shortDescription>
+                    Ремонт ленточных пильных станков. ПНР и обслуживание.
+                </shortDescription>
+                <url>https://24stanki.ru/remont-lentochnyh-pil.html</url>
+            </offer>
+            
+            <!-- Ремонт профилегибов -->
+            <offer id="105" available="true">
+                <name>Ремонт профилегибов</name>
+                <vendor>24stanki.ru</vendor>
+                <price>14000</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>105</categoryId>
+                <picture>https://24stanki.ru/favicon.ico</picture>
+                <description>
+                    Ремонт профилегибочных станков всех типов. 
+                    Пуско-наладочные работы, диагностика, замена запчастей. 
+                    Срочный выезд 24/7, гарантия качества. Диагностика → договоренность о цене.
+                </description>
+                <shortDescription>
+                    Ремонт профилегибочных станков. ПНР и диагностика.
+                </shortDescription>
+                <url>https://24stanki.ru/remont-profilgebiv.html</url>
+            </offer>
+            
+            <!-- Ремонт вальцевых станков -->
+            <offer id="106" available="true">
+                <name>Ремонт вальцевых станков</name>
+                <vendor>24stanki.ru</vendor>
+                <price>16000</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>106</categoryId>
+                <picture>https://24stanki.ru/favicon.ico</picture>
+                <description>
+                    Ремонт вальцевого оборудования для гибки металла. 
+                    Диагностика, замена запчастей, наладка оборудования. 
+                    Срочный выезд 24/7, гарантия качества. Диагностика → договоренность о цене.
+                </description>
+                <shortDescription>
+                    Ремонт вальцевых станков. Диагностика и наладка.
+                </shortDescription>
+                <url>https://24stanki.ru/remont-valtsev.html</url>
+            </offer>
+            
+            <!-- Ремонт трубогибов -->
+            <offer id="107" available="true">
+                <name>Ремонт трубогибов</name>
+                <vendor>24stanki.ru</vendor>
+                <price>13000</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>107</categoryId>
+                <picture>https://24stanki.ru/favicon.ico</picture>
+                <description>
+                    Ремонт трубогибочного оборудования всех типов. 
+                    Диагностика, замена запчастей, пуско-наладочные работы. 
+                    Срочный выезд 24/7, гарантия качества. Диагностика → договоренность о цене.
+                </description>
+                <shortDescription>
+                    Ремонт трубогибочного оборудования. Все виды работ.
+                </shortDescription>
+                <url>https://24stanki.ru/remont-trubogibov.html</url>
+            </offer>
+            
+            <!-- Диагностика оборудования -->
+            <offer id="108" available="true">
+                <name>Диагностика оборудования</name>
+                <vendor>24stanki.ru</vendor>
+                <price>5000</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>108</categoryId>
+                <picture>https://24stanki.ru/favicon.ico</picture>
+                <description>
+                    Комплексная диагностика и определение причин неисправностей 
+                    промышленного оборудования. Быстрая диагностика на месте заказчика. 
+                    Срочный выезд 24/7, гарантия качества. Цена диагностики - от 5000 рублей.
+                </description>
+                <shortDescription>
+                    Диагностика промышленного оборудования. Быстро и точно.
+                </shortDescription>
+                <url>https://24stanki.ru/uslugi.html</url>
+            </offer>
+            
+            <!-- Наладка оборудования -->
+            <offer id="109" available="true">
+                <name>Наладка оборудования</name>
+                <vendor>24stanki.ru</vendor>
+                <price>10000</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>109</categoryId>
+                <picture>https://24stanki.ru/favicon.ico</picture>
+                <description>
+                    Настройка и калибровка станков для оптимальной работы. 
+                    Наладка листогибов, гильотин, прессов и другого оборудования. 
+                    Обучение работе на стойках ЧПУ: Delem, Cebelec, Estun, ErTouch, Durma, DNC. 
+                    Срочный выезд 24/7, гарантия качества.
+                </description>
+                <shortDescription>
+                    Наладка и калибровка станков. Обучение работе на ЧПУ.
+                </shortDescription>
+                <url>https://24stanki.ru/uslugi.html</url>
+            </offer>
+            
+            <!-- Техническое обслуживание -->
+            <offer id="110" available="true">
+                <name>Техническое обслуживание</name>
+                <vendor>24stanki.ru</vendor>
+                <price>8000</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>110</categoryId>
+                <picture>https://24stanki.ru/favicon.ico</picture>
+                <description>
+                    Плановое техническое обслуживание и профилактика 
+                    промышленного оборудования. Регулярное ТО для предотвращения поломок. 
+                    Срочный выезд 24/7, гарантия качества. Цена от 8000 рублей.
+                </description>
+                <shortDescription>
+                    Плановое ТО промышленного оборудования. Профилактика поломок.
+                </shortDescription>
+                <url>https://24stanki.ru/uslugi.html</url>
+            </offer>
+            
+            <!-- Выезд по России -->
+            <offer id="111" available="true">
+                <name>Выезд по России</name>
+                <vendor>24stanki.ru</vendor>
+                <price>25000</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>111</categoryId>
+                <picture>https://24stanki.ru/favicon.ico</picture>
+                <description>
+                    Выезд бригады по всей территории России для проведения 
+                    ремонтных и сервисных работ. Москва, Санкт-Петербург, 
+                    Екатеринбург, Новосибирск, Казань, Ростов-на-Дону и все регионы. 
+                    В стоимость входят транспортные расходы и проживание специалиста. 
+                    Срочный выезд 24/7, гарантия качества.
+                </description>
+                <shortDescription>
+                    Выезд по всей России. Транспорт и проживание включены.
+                </shortDescription>
+                <url>https://24stanki.ru/uslugi.html</url>
+            </offer>
+            
+            <!-- Дополнительные предложения с типом vendor.model -->
+            <offer id="201" type="vendor.model" available="true">
+                <typePrefix>Ремонт</typePrefix>
+                <vendor>24stanki.ru</vendor>
+                <model>ЭКСПРЕСС-РЕМОНТ</model>
+                <currencyId>RUR</currencyId>
+                <categoryId>101</categoryId>
+                <picture>https://24stanki.ru/favicon.ico</picture>
+                <url>https://24stanki.ru/remont-listogibov.html</url>
+                <shortDescription>
+                    Срочный ремонт листогибов в день обращения. Гарантия 12 месяцев.
+                </shortDescription>
+            </offer>
+            
+            <offer id="202" type="vendor.model" available="true">
+                <typePrefix>Обслуживание</typePrefix>
+                <vendor>24stanki.ru</vendor>
+                <model>КОМПЛЕКС-СЕРВИС</model>
+                <currencyId>RUR</currencyId>
+                <categoryId>110</categoryId>
+                <picture>https://24stanki.ru/favicon.ico</picture>
+                <url>https://24stanki.ru/uslugi.html</url>
+                <shortDescription>
+                    Комплексное обслуживание промышленного оборудования. Договорное обслуживание.
+                </shortDescription>
+            </offer>
+            
+            <offer id="203" type="vendor.model" available="true">
+                <typePrefix>Обучение</typePrefix>
+                <vendor>24stanki.ru</vendor>
+                <model>ЧПУ-ИНСТРУКТАЖ</model>
+                <currencyId>RUR</currencyId>
+                <categoryId>109</categoryId>
+                <picture>https://24stanki.ru/favicon.ico</picture>
+                <url>https://24stanki.ru/uslugi.html</url>
+                <shortDescription>
+                    Обучение работе на стойках ЧПУ: Delem, Cebelec, Estun, ErTouch, Durma, DNC.
+                </shortDescription>
+            </offer>
+        </offers>
+    </shop>
+</yml_catalog>
