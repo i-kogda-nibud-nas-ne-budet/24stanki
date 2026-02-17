@@ -142,6 +142,41 @@ nav a {
     position: relative;
 }
 
+/* Гамбургер-меню (скрыто по умолчанию) */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 24px;
+    cursor: pointer;
+    z-index: 1001;
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.hamburger span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: white;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(6px, 6px);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -7px);
+}
+
 nav a:hover {
     color: #ffffff;
     background: rgba(255, 255, 255, 0.1);
@@ -172,6 +207,92 @@ nav a.active {
 .dropdown-content a:hover {
     background: rgba(255, 255, 255, 0.2);
     padding-left: 20px;
+}
+
+/* Мобильное меню */
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+    
+    nav ul {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 280px;
+        height: 100vh;
+        flex-direction: column;
+        background: var(--accent-gradient);
+        padding: 80px 30px 30px;
+        gap: 0;
+        transition: right 0.3s ease;
+        z-index: 1000;
+        box-shadow: -5px 0 25px rgba(0, 0, 0, 0.2);
+    }
+    
+    nav ul.active {
+        right: 0;
+    }
+    
+    nav ul li {
+        width: 100%;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    nav a {
+        display: block;
+        padding: 1.2rem 1rem;
+        font-size: 1.1rem;
+        color: white;
+        text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    }
+    
+    nav a:hover {
+        background: rgba(255, 255, 255, 0.15);
+        color: white;
+    }
+    
+    nav a.active {
+        background: rgba(255, 255, 255, 0.25);
+        border-radius: 10px;
+    }
+    
+    /* Dropdown на мобильных */
+    .dropdown-content {
+        position: static;
+        display: none;
+        background: rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        margin-top: 0.5rem;
+        padding: 0.5rem 0;
+    }
+    
+    .dropdown.active .dropdown-content {
+        display: block;
+        animation: slideDown 0.3s ease;
+    }
+    
+    .dropdown-content a {
+        padding: 1rem 1.5rem;
+        color: white;
+        border-bottom: none;
+    }
+    
+    .dropdown-content a:hover {
+        padding-left: 1.5rem;
+        background: rgba(255, 255, 255, 0.1);
+    }
+    
+    @keyframes slideDown {
+        from {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
 }
 
 /* Улучшенные секции */
@@ -506,6 +627,73 @@ section h2::after {
         padding: 0.8rem 1.2rem;
         font-size: 0.9rem;
     }
+    
+    /* Скрыть плавающие элементы на мобильных */
+    .floating-elements {
+        display: none;
+    }
+    
+    /* Оптимизация видео для мобильных */
+    .video-hero {
+        position: relative;
+        width: 100%;
+        height: 50vh;
+        min-height: 300px;
+        overflow: hidden;
+    }
+    
+    .video-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .hero-video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .video-overlay {
+        background: rgba(0, 0, 0, 0.5);
+    }
+    
+    .video-content {
+        padding: 1.5rem;
+    }
+    
+    .video-title {
+        font-size: 1.5rem !important;
+    }
+    
+    .video-subtitle {
+        font-size: 1rem !important;
+    }
+    
+    .video-controls {
+        top: 10px;
+        right: 10px;
+    }
+    
+    .control-btn {
+        width: 40px;
+        height: 40px;
+        min-width: 40px;
+        min-height: 40px;
+    }
+    
+    /* Увеличить кликабельные зоны на мобильных */
+    .contact-widget,
+    .cta-button,
+    nav a,
+    .faq-question {
+        min-height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 @media (max-width: 480px) {
@@ -522,13 +710,39 @@ section h2::after {
     .hero-text {
         border-radius: 12px;
         min-height: 150px;
+        padding: 1.2rem 1rem;
     }
     
     .hero-text h1 {
         font-size: 1.6rem;
+        margin-bottom: 0.8rem;
     }
     
     .hero-text p {
+        font-size: 1rem;
+        margin: 0;
+    }
+    
+    .video-hero {
+        height: 40vh;
+        min-height: 250px;
+    }
+    
+    .video-title {
+        font-size: 1.3rem !important;
+        margin-bottom: 0.8rem;
+    }
+    
+    .video-subtitle {
+        font-size: 0.9rem !important;
+    }
+    
+    .video-cta {
+        margin-top: 0.8rem;
+    }
+    
+    .cta-button {
+        padding: 0.9rem 1.5rem;
         font-size: 1rem;
     }
     
@@ -546,6 +760,25 @@ section h2::after {
         min-width: 100%;
         padding: 1rem 2rem;
         font-size: 0.95rem;
+    }
+    
+    /* Убедиться, что все контейнеры адаптивны */
+    .container {
+        padding: 0 12px;
+    }
+    
+    .services-grid {
+        gap: 1.2rem;
+    }
+    
+    .service-card {
+        padding: 1.5rem;
+        min-height: auto;
+    }
+    
+    section {
+        padding: 1.2rem 0;
+        margin: 1rem auto;
     }
 }
 

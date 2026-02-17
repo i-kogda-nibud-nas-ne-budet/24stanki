@@ -2,9 +2,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // Управление видео
     const video = document.querySelector('.hero-video');
     const playPauseBtn = document.getElementById('playPauseBtn');
-    const controlIcon = playPauseBtn.querySelector('.control-icon');
+    const controlIcon = playPauseBtn ? playPauseBtn.querySelector('.control-icon') : null;
     
-    if (video && playPauseBtn) {
+    if (video && playPauseBtn && controlIcon) {
         playPauseBtn.addEventListener('click', function() {
             if (video.muted) {
                 video.muted = false;
@@ -16,26 +16,73 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Эффект навигации при скролле
-    const nav = document.querySelector('nav');
-    window.addEventListener('scroll', () => {
-        if (window.scrollY > 50) {
-            nav.classList.add('scrolled');
-        } else {
-            nav.classList.remove('scrolled');
+    // Гамбургер-меню
+    const hamburger = document.querySelector('.hamburger');
+    const navUl = document.querySelector('nav ul');
+    const dropdowns = document.querySelectorAll('.dropdown');
+    
+    if (hamburger && navUl) {
+        hamburger.addEventListener('click', function() {
+            hamburger.classList.toggle('active');
+            navUl.classList.toggle('active');
+            
+            // Обновляем aria-expanded для доступности
+            const isExpanded = hamburger.classList.contains('active');
+            hamburger.setAttribute('aria-expanded', isExpanded);
+        });
+        
+        // Закрытие меню при клике на ссылку
+        navUl.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                if (window.innerWidth <= 768) {
+                    hamburger.classList.remove('active');
+                    navUl.classList.remove('active');
+                    hamburger.setAttribute('aria-expanded', 'false');
+                }
+            });
+        });
+    }
+    
+    // Dropdown на мобильных
+    dropdowns.forEach(dropdown => {
+        const dropbtn = dropdown.querySelector('.dropbtn');
+        if (dropdown && window.innerWidth <= 768) {
+            dropbtn.addEventListener('click', function(e) {
+                e.preventDefault();
+                dropdown.classList.toggle('active');
+            });
         }
     });
+
+    // Эффект навигации при скролле
+    const nav = document.querySelector('nav');
+    if (nav) {
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+    }
 
     // Плавная прокрутка для навигационных ссылок
     document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            const target = document.querySelector(this.getAttribute('href'));
-            if (target) {
-                target.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start'
-                });
+            const targetId = this.getAttribute('href');
+            if (targetId && targetId !== '#' && targetId.startsWith('#')) {
+                const target = document.querySelector(targetId);
+                if (target) {
+                    e.preventDefault();
+                    // Учитываем высоту навигации
+                    const navHeight = nav ? nav.offsetHeight : 0;
+                    const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - navHeight;
+                    
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                }
             }
         });
     });
@@ -52,7 +99,9 @@ document.addEventListener('DOMContentLoaded', function() {
             slides.forEach(slide => slide.classList.remove('active'));
             
             // Добавляем класс active к нужному слайду
-            slides[index].classList.add('active');
+            if (slides[index]) {
+                slides[index].classList.add('active');
+            }
         }
 
         // Показываем первый слайд
@@ -75,7 +124,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         faqItems.forEach(item => {
             const question = item.querySelector('.faq-question');
-            const icon = question.querySelector('.faq-icon');
+            const icon = question ? question.querySelector('.faq-icon') : null;
             
             // Убедимся, что все FAQ изначально свернуты
             item.classList.remove('active');
@@ -83,24 +132,26 @@ document.addEventListener('DOMContentLoaded', function() {
                 icon.textContent = '+';
             }
             
-            question.addEventListener('click', () => {
-                // Закрываем все остальные элементы в том же контейнере
-                faqItems.forEach(otherItem => {
-                    if (otherItem !== item && otherItem.classList.contains('active')) {
-                        otherItem.classList.remove('active');
-                        const otherIcon = otherItem.querySelector('.faq-icon');
-                        if (otherIcon) {
-                            otherIcon.textContent = '+';
+            if (question) {
+                question.addEventListener('click', () => {
+                    // Закрываем все остальные элементы в том же контейнере
+                    faqItems.forEach(otherItem => {
+                        if (otherItem !== item && otherItem.classList.contains('active')) {
+                            otherItem.classList.remove('active');
+                            const otherIcon = otherItem.querySelector('.faq-icon');
+                            if (otherIcon) {
+                                otherIcon.textContent = '+';
+                            }
                         }
+                    });
+                    
+                    // Переключаем текущий элемент
+                    item.classList.toggle('active');
+                    if (icon) {
+                        icon.textContent = item.classList.contains('active') ? '−' : '+';
                     }
                 });
-                
-                // Переключаем текущий элемент
-                item.classList.toggle('active');
-                if (icon) {
-                    icon.textContent = item.classList.contains('active') ? '−' : '+';
-                }
-            });
+            }
         });
     });
 });
