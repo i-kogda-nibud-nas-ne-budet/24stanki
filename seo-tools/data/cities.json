@@ -1,0 +1,7975 @@
+[
+  {
+    "name": "Абаза",
+    "region": "Хакасия",
+    "population": 12272,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Абакан",
+    "region": "Хакасия",
+    "population": 184769,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Абдулино",
+    "region": "Оренбургская область",
+    "population": 17274,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Абинск",
+    "region": "Краснодарский край",
+    "population": 39511,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Агидель",
+    "region": "Башкортостан",
+    "population": 14219,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Агрыз",
+    "region": "Татарстан",
+    "population": 19991,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Адыгейск",
+    "region": "Адыгея",
+    "population": 13175,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Азнакаево",
+    "region": "Татарстан",
+    "population": 34750,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Азов",
+    "region": "Ростовская область",
+    "population": 81924,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ак-Довурак",
+    "region": "Тыва",
+    "population": 12456,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Аксай",
+    "region": "Ростовская область",
+    "population": 48372,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Алагир",
+    "region": "Северная Осетия",
+    "population": 21550,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Алапаевск",
+    "region": "Свердловская область",
+    "population": 36189,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Алатырь",
+    "region": "Чувашия",
+    "population": 32265,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Алдан",
+    "region": "Якутия",
+    "population": 21590,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Алейск",
+    "region": "Алтайский край",
+    "population": 25380,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Александров",
+    "region": "Владимирская область",
+    "population": 57053,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Александровск",
+    "region": "Пермский край",
+    "population": 10780,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Александровск-Сахалинский",
+    "region": "Сахалинская область",
+    "population": 8854,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Алексеевка",
+    "region": "Белгородская область",
+    "population": 36578,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Алексин",
+    "region": "Тульская область",
+    "population": 60842,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Алзамай",
+    "region": "Иркутская область",
+    "population": 5373,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Алупка",
+    "region": "Крым",
+    "population": 9063,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Алушта",
+    "region": "Крым",
+    "population": 31364,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Альметьевск",
+    "region": "Татарстан",
+    "population": 163512,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Амурск",
+    "region": "Хабаровский край",
+    "population": 38606,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Анадырь",
+    "region": "Чукотский АО",
+    "population": 13202,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Анапа",
+    "region": "Краснодарский край",
+    "population": 81863,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ангарск",
+    "region": "Иркутская область",
+    "population": 221296,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Андреаполь",
+    "region": "Тверская область",
+    "population": 6956,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Анжеро-Судженск",
+    "region": "Кемеровская область",
+    "population": 66583,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Анива",
+    "region": "Сахалинская область",
+    "population": 9638,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Апатиты",
+    "region": "Мурманская область",
+    "population": 49647,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Апрелевка",
+    "region": "Московская область",
+    "population": 35514,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Апшеронск",
+    "region": "Краснодарский край",
+    "population": 40289,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Арамиль",
+    "region": "Свердловская область",
+    "population": 19013,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Аргун",
+    "region": "Чечня",
+    "population": 41622,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ардатов",
+    "region": "Мордовия",
+    "population": 8857,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ардон",
+    "region": "Северная Осетия",
+    "population": 18956,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Арзамас",
+    "region": "Нижегородская область",
+    "population": 104908,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Аркадак",
+    "region": "Саратовская область",
+    "population": 10990,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Армавир",
+    "region": "Краснодарский край",
+    "population": 187177,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Армянск",
+    "region": "Крым",
+    "population": 20692,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Арсеньев",
+    "region": "Приморский край",
+    "population": 47937,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Арск",
+    "region": "Татарстан",
+    "population": 20421,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Артём",
+    "region": "Приморский край",
+    "population": 109556,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Артёмовск",
+    "region": "Красноярский край",
+    "population": 1510,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Артёмовский",
+    "region": "Свердловская область",
+    "population": 28943,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Архангельск",
+    "region": "Архангельская область",
+    "population": 301199,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Асбест",
+    "region": "Свердловская область",
+    "population": 57317,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Асино",
+    "region": "Томская область",
+    "population": 24913,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Астрахань",
+    "region": "Астраханская область",
+    "population": 475629,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Аткарск",
+    "region": "Саратовская область",
+    "population": 22709,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ахтубинск",
+    "region": "Астраханская область",
+    "population": 35635,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ачинск",
+    "region": "Красноярский край",
+    "population": 100621,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ачхой-Мартан",
+    "region": "Чечня",
+    "population": 30739,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Аша",
+    "region": "Челябинская область",
+    "population": 27890,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Бабаево",
+    "region": "Вологодская область",
+    "population": 11739,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Бабушкин",
+    "region": "Бурятия",
+    "population": 4368,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Бавлы",
+    "region": "Татарстан",
+    "population": 21628,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Багратионовск",
+    "region": "Калининградская область",
+    "population": 6417,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Байкальск",
+    "region": "Иркутская область",
+    "population": 13199,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Баймак",
+    "region": "Башкортостан",
+    "population": 17833,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Бакал",
+    "region": "Челябинская область",
+    "population": 16345,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Баксан",
+    "region": "Кабардино-Балкария",
+    "population": 39593,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Балабаново",
+    "region": "Калужская область",
+    "population": 29029,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Балаково",
+    "region": "Саратовская область",
+    "population": 184466,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Балахна",
+    "region": "Нижегородская область",
+    "population": 48569,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Балашиха",
+    "region": "Московская область",
+    "population": 520962,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Балашов",
+    "region": "Саратовская область",
+    "population": 74057,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Балей",
+    "region": "Забайкальский край",
+    "population": 10286,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Балтийск",
+    "region": "Калининградская область",
+    "population": 26796,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Барабинск",
+    "region": "Новосибирская область",
+    "population": 27648,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Барнаул",
+    "region": "Алтайский край",
+    "population": 630877,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Барыш",
+    "region": "Ульяновская область",
+    "population": 14924,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Батайск",
+    "region": "Ростовская область",
+    "population": 126988,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Бахчисарай",
+    "region": "Крым",
+    "population": 28609,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Бежецк",
+    "region": "Тверская область",
+    "population": 21466,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Белая Калитва",
+    "region": "Ростовская область",
+    "population": 40448,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Белая Холуница",
+    "region": "Кировская область",
+    "population": 9659,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Белгород",
+    "region": "Белгородская область",
+    "population": 339978,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Белебей",
+    "region": "Башкортостан",
+    "population": 59195,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Белёв",
+    "region": "Тульская область",
+    "population": 12846,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Белинский",
+    "region": "Пензенская область",
+    "population": 8656,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Белово",
+    "region": "Кемеровская область",
+    "population": 68542,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Белогорск",
+    "region": "Амурская область",
+    "population": 61440,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Белогорск",
+    "region": "Крым",
+    "population": 17445,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Белозерск",
+    "region": "Вологодская область",
+    "population": 8375,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Белокуриха",
+    "region": "Алтайский край",
+    "population": 14735,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Беломорск",
+    "region": "Карелия",
+    "population": 7708,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Белоозёрский",
+    "region": "Московская область",
+    "population": 13737,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Белорецк",
+    "region": "Башкортостан",
+    "population": 64525,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Белореченск",
+    "region": "Краснодарский край",
+    "population": 55870,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Белоусово",
+    "region": "Калужская область",
+    "population": 10946,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Белоярский",
+    "region": "Ханты-Мансийский АО",
+    "population": 19994,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Белый",
+    "region": "Тверская область",
+    "population": 3125,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Бердск",
+    "region": "Новосибирская область",
+    "population": 102850,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Березники",
+    "region": "Пермский край",
+    "population": 138069,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Берёзовский",
+    "region": "Кемеровская область",
+    "population": 44932,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Берёзовский",
+    "region": "Свердловская область",
+    "population": 59698,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Беслан",
+    "region": "Северная Осетия",
+    "population": 35929,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Бийск",
+    "region": "Алтайский край",
+    "population": 183852,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Бикин",
+    "region": "Хабаровский край",
+    "population": 16240,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Билибино",
+    "region": "Чукотский АО",
+    "population": 5546,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Биробиджан",
+    "region": "Еврейская АО",
+    "population": 70064,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Бирск",
+    "region": "Башкортостан",
+    "population": 44295,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Бирюсинск",
+    "region": "Иркутская область",
+    "population": 8632,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Бирюч",
+    "region": "Белгородская область",
+    "population": 7114,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Благовещенск",
+    "region": "Башкортостан",
+    "population": 35481,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Благовещенск",
+    "region": "Амурская область",
+    "population": 241437,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Благодарный",
+    "region": "Ставропольский край",
+    "population": 30827,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Бобров",
+    "region": "Воронежская область",
+    "population": 20871,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Богданович",
+    "region": "Свердловская область",
+    "population": 30142,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Богородицк",
+    "region": "Тульская область",
+    "population": 29560,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Богородск",
+    "region": "Нижегородская область",
+    "population": 35068,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Боготол",
+    "region": "Красноярский край",
+    "population": 18206,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Богучар",
+    "region": "Воронежская область",
+    "population": 14370,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Бодайбо",
+    "region": "Иркутская область",
+    "population": 8921,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Бокситогорск",
+    "region": "Ленинградская область",
+    "population": 16185,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Болгар",
+    "region": "Татарстан",
+    "population": 8285,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Бологое",
+    "region": "Тверская область",
+    "population": 20234,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Болотное",
+    "region": "Новосибирская область",
+    "population": 15644,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Болохово",
+    "region": "Тульская область",
+    "population": 9339,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Болхов",
+    "region": "Орловская область",
+    "population": 9495,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Большой Камень",
+    "region": "Приморский край",
+    "population": 41825,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Бор",
+    "region": "Нижегородская область",
+    "population": 78372,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Борзя",
+    "region": "Забайкальский край",
+    "population": 29596,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Борисоглебск",
+    "region": "Воронежская область",
+    "population": 60687,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Боровичи",
+    "region": "Новгородская область",
+    "population": 47883,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Боровск",
+    "region": "Калужская область",
+    "population": 12598,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Бородино",
+    "region": "Красноярский край",
+    "population": 15174,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Братск",
+    "region": "Иркутская область",
+    "population": 224071,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Бронницы",
+    "region": "Московская область",
+    "population": 21831,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Брянск",
+    "region": "Брянская область",
+    "population": 379152,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Бугры",
+    "region": "Ленинградская область",
+    "population": 22428,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Бугульма",
+    "region": "Татарстан",
+    "population": 81677,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Бугуруслан",
+    "region": "Оренбургская область",
+    "population": 43593,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Будённовск",
+    "region": "Ставропольский край",
+    "population": 58103,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Бузулук",
+    "region": "Оренбургская область",
+    "population": 88341,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Буинск",
+    "region": "Татарстан",
+    "population": 19968,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Буй",
+    "region": "Костромская область",
+    "population": 20564,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Буйнакск",
+    "region": "Дагестан",
+    "population": 68121,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Бутурлиновка",
+    "region": "Воронежская область",
+    "population": 24397,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Валдай",
+    "region": "Новгородская область",
+    "population": 14074,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Валуйки",
+    "region": "Белгородская область",
+    "population": 33032,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Велиж",
+    "region": "Смоленская область",
+    "population": 6293,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Великие Луки",
+    "region": "Псковская область",
+    "population": 86711,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Великий Новгород",
+    "region": "Новгородская область",
+    "population": 224286,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Великий Устюг",
+    "region": "Вологодская область",
+    "population": 28670,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Вельск",
+    "region": "Архангельская область",
+    "population": 21613,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Венёв",
+    "region": "Тульская область",
+    "population": 12668,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Верещагино",
+    "region": "Пермский край",
+    "population": 22239,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Верея",
+    "region": "Московская область",
+    "population": 4906,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Верхнеуральск",
+    "region": "Челябинская область",
+    "population": 8929,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Верхний Тагил",
+    "region": "Свердловская область",
+    "population": 10113,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Верхний Уфалей",
+    "region": "Челябинская область",
+    "population": 22981,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Верхняя Пышма",
+    "region": "Свердловская область",
+    "population": 71335,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Верхняя Салда",
+    "region": "Свердловская область",
+    "population": 41034,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Верхняя Тура",
+    "region": "Свердловская область",
+    "population": 8554,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Верхотурье",
+    "region": "Свердловская область",
+    "population": 6706,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Верхоянск",
+    "region": "Якутия",
+    "population": 828,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Весьегонск",
+    "region": "Тверская область",
+    "population": 6330,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ветлуга",
+    "region": "Нижегородская область",
+    "population": 7681,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Видное",
+    "region": "Московская область",
+    "population": 101490,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Вилюйск",
+    "region": "Якутия",
+    "population": 10032,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Вилючинск",
+    "region": "Камчатский край",
+    "population": 21774,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Вихоревка",
+    "region": "Иркутская область",
+    "population": 21719,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Вичуга",
+    "region": "Ивановская область",
+    "population": 30694,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Владивосток",
+    "region": "Приморский край",
+    "population": 603519,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Владикавказ",
+    "region": "Северная Осетия",
+    "population": 295830,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Владимир",
+    "region": "Владимирская область",
+    "population": 349951,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Волгоград",
+    "region": "Волгоградская область",
+    "population": 1028036,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Волгодонск",
+    "region": "Ростовская область",
+    "population": 168048,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Волгореченск",
+    "region": "Костромская область",
+    "population": 14355,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Волжск",
+    "region": "Марий Эл",
+    "population": 53013,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Волжский",
+    "region": "Волгоградская область",
+    "population": 321479,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Вологда",
+    "region": "Вологодская область",
+    "population": 313944,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Володарск",
+    "region": "Нижегородская область",
+    "population": 9705,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Волоколамск",
+    "region": "Московская область",
+    "population": 26389,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Волосово",
+    "region": "Ленинградская область",
+    "population": 11931,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Волхов",
+    "region": "Ленинградская область",
+    "population": 38511,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Волчанск",
+    "region": "Свердловская область",
+    "population": 8573,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Вольск",
+    "region": "Саратовская область",
+    "population": 55035,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Воркута",
+    "region": "Коми",
+    "population": 56985,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Воронеж",
+    "region": "Воронежская область",
+    "population": 1057681,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ворсма",
+    "region": "Нижегородская область",
+    "population": 10162,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Воскресенск",
+    "region": "Московская область",
+    "population": 95495,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Воткинск",
+    "region": "Удмуртия",
+    "population": 97471,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Всеволожск",
+    "region": "Ленинградская область",
+    "population": 79038,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Вуктыл",
+    "region": "Коми",
+    "population": 9322,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Выборг",
+    "region": "Ленинградская область",
+    "population": 72530,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Выкса",
+    "region": "Нижегородская область",
+    "population": 45240,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Высоковск",
+    "region": "Московская область",
+    "population": 13081,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Высоцк",
+    "region": "Ленинградская область",
+    "population": 1129,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Вытегра",
+    "region": "Вологодская область",
+    "population": 10386,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Вышний Волочёк",
+    "region": "Тверская область",
+    "population": 45830,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Вяземский",
+    "region": "Хабаровский край",
+    "population": 12775,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Вязники",
+    "region": "Владимирская область",
+    "population": 36203,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Вязьма",
+    "region": "Смоленская область",
+    "population": 51950,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Вятские Поляны",
+    "region": "Кировская область",
+    "population": 29742,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Гаврилов Посад",
+    "region": "Ивановская область",
+    "population": 5429,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Гаврилов-Ям",
+    "region": "Ярославская область",
+    "population": 16084,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Гагарин",
+    "region": "Смоленская область",
+    "population": 26500,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Гаджиево",
+    "region": "Мурманская область",
+    "population": 9297,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Гай",
+    "region": "Оренбургская область",
+    "population": 33280,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Галич",
+    "region": "Костромская область",
+    "population": 12856,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Гатчина",
+    "region": "Ленинградская область",
+    "population": 94377,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Гвардейск",
+    "region": "Калининградская область",
+    "population": 14122,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Гдов",
+    "region": "Псковская область",
+    "population": 3455,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Геленджик",
+    "region": "Краснодарский край",
+    "population": 80204,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Георгиевск",
+    "region": "Ставропольский край",
+    "population": 63221,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Глазов",
+    "region": "Удмуртия",
+    "population": 87762,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Голицыно",
+    "region": "Московская область",
+    "population": 22733,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Горбатов",
+    "region": "Нижегородская область",
+    "population": 2009,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Горно-Алтайск",
+    "region": "Алтай",
+    "population": 65342,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Горнозаводск",
+    "region": "Пермский край",
+    "population": 11073,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Горняк",
+    "region": "Алтайский край",
+    "population": 10112,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Городец",
+    "region": "Нижегородская область",
+    "population": 28660,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Городище",
+    "region": "Пензенская область",
+    "population": 7796,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Городовиковск",
+    "region": "Калмыкия",
+    "population": 8285,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Гороховец",
+    "region": "Владимирская область",
+    "population": 12666,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Горячий Ключ",
+    "region": "Краснодарский край",
+    "population": 40903,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Грайворон",
+    "region": "Белгородская область",
+    "population": 6179,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Гремячинск",
+    "region": "Пермский край",
+    "population": 8360,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Грозный",
+    "region": "Чечня",
+    "population": 328533,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Грязи",
+    "region": "Липецкая область",
+    "population": 43908,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Грязовец",
+    "region": "Вологодская область",
+    "population": 14505,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Губаха",
+    "region": "Пермский край",
+    "population": 23397,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Губкин",
+    "region": "Белгородская область",
+    "population": 85225,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Губкинский",
+    "region": "Ямало-Ненецкий АО",
+    "population": 33273,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Гудермес",
+    "region": "Чечня",
+    "population": 64376,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Гуково",
+    "region": "Ростовская область",
+    "population": 60361,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Гулькевичи",
+    "region": "Краснодарский край",
+    "population": 33357,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Гурьевск",
+    "region": "Калининградская область",
+    "population": 26760,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Гурьевск",
+    "region": "Кемеровская область",
+    "population": 22134,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Гусев",
+    "region": "Калининградская область",
+    "population": 29234,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Гусиноозёрск",
+    "region": "Бурятия",
+    "population": 24451,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Гусь-Хрустальный",
+    "region": "Владимирская область",
+    "population": 51552,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Давлеканово",
+    "region": "Башкортостан",
+    "population": 21834,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Дагестанские Огни",
+    "region": "Дагестан",
+    "population": 31412,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Далматово",
+    "region": "Курганская область",
+    "population": 11584,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Дальнегорск",
+    "region": "Приморский край",
+    "population": 33655,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Дальнереченск",
+    "region": "Приморский край",
+    "population": 23613,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Данилов",
+    "region": "Ярославская область",
+    "population": 13677,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Данков",
+    "region": "Липецкая область",
+    "population": 19726,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Дегтярск",
+    "region": "Свердловская область",
+    "population": 15497,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Дедовск",
+    "region": "Московская область",
+    "population": 30731,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Демидов",
+    "region": "Смоленская область",
+    "population": 6326,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Дербент",
+    "region": "Дагестан",
+    "population": 124953,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Десногорск",
+    "region": "Смоленская область",
+    "population": 25345,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Джанкой",
+    "region": "Крым",
+    "population": 37014,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Дзержинск",
+    "region": "Нижегородская область",
+    "population": 218630,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Дзержинский",
+    "region": "Московская область",
+    "population": 57918,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Дивногорск",
+    "region": "Красноярский край",
+    "population": 27477,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Дигора",
+    "region": "Северная Осетия",
+    "population": 9922,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Димитровград",
+    "region": "Ульяновская область",
+    "population": 110968,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Дмитриев",
+    "region": "Курская область",
+    "population": 6317,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Дмитров",
+    "region": "Московская область",
+    "population": 65574,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Дмитровск",
+    "region": "Орловская область",
+    "population": 5202,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Дно",
+    "region": "Псковская область",
+    "population": 7850,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Добрянка",
+    "region": "Пермский край",
+    "population": 28782,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Долгопрудный",
+    "region": "Московская область",
+    "population": 120907,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Долинск",
+    "region": "Сахалинская область",
+    "population": 11740,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Домодедово",
+    "region": "Московская область",
+    "population": 152404,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Донецк",
+    "region": "Ростовская область",
+    "population": 46623,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Донской",
+    "region": "Тульская область",
+    "population": 63837,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Дорогобуж",
+    "region": "Смоленская область",
+    "population": 9528,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Дрезна",
+    "region": "Московская область",
+    "population": 12295,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Дубна",
+    "region": "Московская область",
+    "population": 74183,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Дубовка",
+    "region": "Волгоградская область",
+    "population": 14779,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Дудинка",
+    "region": "Красноярский край",
+    "population": 19556,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Духовщина",
+    "region": "Смоленская область",
+    "population": 3990,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Дюртюли",
+    "region": "Башкортостан",
+    "population": 31185,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Дятьково",
+    "region": "Брянская область",
+    "population": 25255,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Евпатория",
+    "region": "Крым",
+    "population": 107877,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Егорьевск",
+    "region": "Московская область",
+    "population": 71686,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ейск",
+    "region": "Краснодарский край",
+    "population": 82943,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Екатеринбург",
+    "region": "Свердловская область",
+    "population": 1544376,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Елабуга",
+    "region": "Татарстан",
+    "population": 73630,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Елец",
+    "region": "Липецкая область",
+    "population": 99875,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Елизово",
+    "region": "Камчатский край",
+    "population": 36240,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ельня",
+    "region": "Смоленская область",
+    "population": 8332,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Еманжелинск",
+    "region": "Челябинская область",
+    "population": 27632,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Емва",
+    "region": "Коми",
+    "population": 10994,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Енисейск",
+    "region": "Красноярский край",
+    "population": 17537,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ермолино",
+    "region": "Калужская область",
+    "population": 10809,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ершов",
+    "region": "Саратовская область",
+    "population": 18095,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ессентуки",
+    "region": "Ставропольский край",
+    "population": 119658,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ефремов",
+    "region": "Тульская область",
+    "population": 36545,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Железноводск",
+    "region": "Ставропольский край",
+    "population": 22863,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Железногорск",
+    "region": "Красноярский край",
+    "population": 82723,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Железногорск",
+    "region": "Курская область",
+    "population": 97038,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Железногорск-Илимский",
+    "region": "Иркутская область",
+    "population": 21621,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Жердевка",
+    "region": "Тамбовская область",
+    "population": 13883,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Жигулёвск",
+    "region": "Самарская область",
+    "population": 50466,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Жиздра",
+    "region": "Калужская область",
+    "population": 5545,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Жирновск",
+    "region": "Волгоградская область",
+    "population": 15555,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Жуков",
+    "region": "Калужская область",
+    "population": 16224,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Жуковка",
+    "region": "Брянская область",
+    "population": 17628,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Жуковский",
+    "region": "Московская область",
+    "population": 111222,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Завитинск",
+    "region": "Амурская область",
+    "population": 9615,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Заводоуковск",
+    "region": "Тюменская область",
+    "population": 27100,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Заволжск",
+    "region": "Ивановская область",
+    "population": 8896,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Заволжье",
+    "region": "Нижегородская область",
+    "population": 36763,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Задонск",
+    "region": "Липецкая область",
+    "population": 9887,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Заинск",
+    "region": "Татарстан",
+    "population": 39739,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Закаменск",
+    "region": "Бурятия",
+    "population": 11365,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Заозёрный",
+    "region": "Красноярский край",
+    "population": 10573,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Заозёрск",
+    "region": "Мурманская область",
+    "population": 7762,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Западная Двина",
+    "region": "Тверская область",
+    "population": 7869,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Заполярный",
+    "region": "Мурманская область",
+    "population": 14791,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Зарайск",
+    "region": "Московская область",
+    "population": 20736,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Заречный",
+    "region": "Пензенская область",
+    "population": 58510,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Заречный",
+    "region": "Свердловская область",
+    "population": 28112,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Заринск",
+    "region": "Алтайский край",
+    "population": 41272,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Звенигово",
+    "region": "Марий Эл",
+    "population": 10994,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Звенигород",
+    "region": "Московская область",
+    "population": 35842,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Зверево",
+    "region": "Ростовская область",
+    "population": 19353,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Зеленогорск",
+    "region": "Красноярский край",
+    "population": 54279,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Зеленоградск",
+    "region": "Калининградская область",
+    "population": 16625,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Зеленодольск",
+    "region": "Татарстан",
+    "population": 99137,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Зеленокумск",
+    "region": "Ставропольский край",
+    "population": 33187,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Зерноград",
+    "region": "Ростовская область",
+    "population": 24076,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Зея",
+    "region": "Амурская область",
+    "population": 19414,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Зима",
+    "region": "Иркутская область",
+    "population": 30640,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Златоуст",
+    "region": "Челябинская область",
+    "population": 161774,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Злынка",
+    "region": "Брянская область",
+    "population": 5270,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Змеиногорск",
+    "region": "Алтайский край",
+    "population": 9410,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Знаменск",
+    "region": "Астраханская область",
+    "population": 24628,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Зубцов",
+    "region": "Тверская область",
+    "population": 6217,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Зуевка",
+    "region": "Кировская область",
+    "population": 9767,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ивангород",
+    "region": "Ленинградская область",
+    "population": 9861,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Иваново",
+    "region": "Ивановская область",
+    "population": 361644,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ивантеевка",
+    "region": "Московская область",
+    "population": 82827,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ивдель",
+    "region": "Свердловская область",
+    "population": 14306,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Игарка",
+    "region": "Красноярский край",
+    "population": 3634,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ижевск",
+    "region": "Удмуртия",
+    "population": 623472,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Избербаш",
+    "region": "Дагестан",
+    "population": 55996,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Изобильный",
+    "region": "Ставропольский край",
+    "population": 38614,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Иланский",
+    "region": "Красноярский край",
+    "population": 15945,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Инза",
+    "region": "Ульяновская область",
+    "population": 16293,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Иннополис",
+    "region": "Татарстан",
+    "population": 3955,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Инсар",
+    "region": "Мордовия",
+    "population": 7920,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Инта",
+    "region": "Коми",
+    "population": 20271,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ипатово",
+    "region": "Ставропольский край",
+    "population": 26122,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ирбит",
+    "region": "Свердловская область",
+    "population": 37009,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Иркутск",
+    "region": "Иркутская область",
+    "population": 606369,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Исилькуль",
+    "region": "Омская область",
+    "population": 20515,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Искитим",
+    "region": "Новосибирская область",
+    "population": 57147,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Истра",
+    "region": "Московская область",
+    "population": 37474,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ишим",
+    "region": "Тюменская область",
+    "population": 67614,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ишимбай",
+    "region": "Башкортостан",
+    "population": 64041,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Йошкар-Ола",
+    "region": "Марий Эл",
+    "population": 281248,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кадников",
+    "region": "Вологодская область",
+    "population": 4106,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Казань",
+    "region": "Татарстан",
+    "population": 1308660,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Калач",
+    "region": "Воронежская область",
+    "population": 17624,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Калач-на-Дону",
+    "region": "Волгоградская область",
+    "population": 24277,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Калачинск",
+    "region": "Омская область",
+    "population": 21378,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Калининград",
+    "region": "Калининградская область",
+    "population": 490449,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Калининск",
+    "region": "Саратовская область",
+    "population": 14949,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Калтан",
+    "region": "Кемеровская область",
+    "population": 21752,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Калуга",
+    "region": "Калужская область",
+    "population": 337058,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Калязин",
+    "region": "Тверская область",
+    "population": 12621,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Камбарка",
+    "region": "Удмуртия",
+    "population": 10080,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Каменка",
+    "region": "Пензенская область",
+    "population": 33491,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Каменногорск",
+    "region": "Ленинградская область",
+    "population": 7160,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Каменск-Уральский",
+    "region": "Свердловская область",
+    "population": 164192,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Каменск-Шахтинский",
+    "region": "Ростовская область",
+    "population": 86365,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Камень-на-Оби",
+    "region": "Алтайский край",
+    "population": 32385,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Камешково",
+    "region": "Владимирская область",
+    "population": 12028,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Камызяк",
+    "region": "Астраханская область",
+    "population": 16154,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Камышин",
+    "region": "Волгоградская область",
+    "population": 107927,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Камышлов",
+    "region": "Свердловская область",
+    "population": 27117,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Канаш",
+    "region": "Чувашия",
+    "population": 44354,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кандалакша",
+    "region": "Мурманская область",
+    "population": 29138,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Канск",
+    "region": "Красноярский край",
+    "population": 86816,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Карабаново",
+    "region": "Владимирская область",
+    "population": 13150,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Карабаш",
+    "region": "Челябинская область",
+    "population": 10514,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Карабулак",
+    "region": "Ингушетия",
+    "population": 43037,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Карасук",
+    "region": "Новосибирская область",
+    "population": 24890,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Карачаевск",
+    "region": "Карачаево-Черкесия",
+    "population": 23867,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Карачев",
+    "region": "Брянская область",
+    "population": 17449,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Каргат",
+    "region": "Новосибирская область",
+    "population": 8316,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Каргополь",
+    "region": "Архангельская область",
+    "population": 8849,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Карпинск",
+    "region": "Свердловская область",
+    "population": 25879,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Карталы",
+    "region": "Челябинская область",
+    "population": 27103,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Касимов",
+    "region": "Рязанская область",
+    "population": 28443,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Касли",
+    "region": "Челябинская область",
+    "population": 15383,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Каспийск",
+    "region": "Дагестан",
+    "population": 121140,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Катав-Ивановск",
+    "region": "Челябинская область",
+    "population": 14663,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Катайск",
+    "region": "Курганская область",
+    "population": 11881,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Качканар",
+    "region": "Свердловская область",
+    "population": 37307,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кашин",
+    "region": "Тверская область",
+    "population": 14113,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кашира",
+    "region": "Московская область",
+    "population": 45922,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кедровый",
+    "region": "Томская область",
+    "population": 1818,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кемерово",
+    "region": "Кемеровская область",
+    "population": 557119,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кемь",
+    "region": "Карелия",
+    "population": 10018,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Керчь",
+    "region": "Крым",
+    "population": 154621,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кизел",
+    "region": "Пермский край",
+    "population": 15619,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кизилюрт",
+    "region": "Дагестан",
+    "population": 38335,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кизляр",
+    "region": "Дагестан",
+    "population": 49999,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кимовск",
+    "region": "Тульская область",
+    "population": 26475,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кимры",
+    "region": "Тверская область",
+    "population": 40875,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кингисепп",
+    "region": "Ленинградская область",
+    "population": 49716,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кинель",
+    "region": "Самарская область",
+    "population": 36729,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кинешма",
+    "region": "Ивановская область",
+    "population": 77694,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Киреевск",
+    "region": "Тульская область",
+    "population": 25560,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Киренск",
+    "region": "Иркутская область",
+    "population": 10998,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Киржач",
+    "region": "Владимирская область",
+    "population": 27318,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кириллов",
+    "region": "Вологодская область",
+    "population": 7149,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кириши",
+    "region": "Ленинградская область",
+    "population": 51028,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Киров",
+    "region": "Калужская область",
+    "population": 28097,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Киров",
+    "region": "Кировская область",
+    "population": 468212,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кировград",
+    "region": "Свердловская область",
+    "population": 18698,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кирово-Чепецк",
+    "region": "Кировская область",
+    "population": 66651,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кировск",
+    "region": "Ленинградская область",
+    "population": 27238,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кировск",
+    "region": "Мурманская область",
+    "population": 24857,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кирс",
+    "region": "Кировская область",
+    "population": 8982,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кирсанов",
+    "region": "Тамбовская область",
+    "population": 16164,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Киселёвск",
+    "region": "Кемеровская область",
+    "population": 83431,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кисловодск",
+    "region": "Ставропольский край",
+    "population": 127521,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Клин",
+    "region": "Московская область",
+    "population": 88511,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Клинцы",
+    "region": "Брянская область",
+    "population": 63059,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Княгинино",
+    "region": "Нижегородская область",
+    "population": 6447,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ковдор",
+    "region": "Мурманская область",
+    "population": 15770,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ковров",
+    "region": "Владимирская область",
+    "population": 132417,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ковылкино",
+    "region": "Мордовия",
+    "population": 19793,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Когалым",
+    "region": "Ханты-Мансийский АО",
+    "population": 61441,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кодинск",
+    "region": "Красноярский край",
+    "population": 13324,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Козельск",
+    "region": "Калужская область",
+    "population": 16759,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Козловка",
+    "region": "Чувашия",
+    "population": 7781,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Козьмодемьянск",
+    "region": "Марий Эл",
+    "population": 19731,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кола",
+    "region": "Мурманская область",
+    "population": 9016,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кологрив",
+    "region": "Костромская область",
+    "population": 2468,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Коломна",
+    "region": "Московская область",
+    "population": 134850,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Колпашево",
+    "region": "Томская область",
+    "population": 20824,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Колтуши",
+    "region": "Ленинградская область",
+    "population": 14289,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кольчугино",
+    "region": "Владимирская область",
+    "population": 39410,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Коммунар",
+    "region": "Ленинградская область",
+    "population": 25793,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Комсомольск",
+    "region": "Ивановская область",
+    "population": 8364,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Комсомольск-на-Амуре",
+    "region": "Хабаровский край",
+    "population": 238505,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Конаково",
+    "region": "Тверская область",
+    "population": 33560,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кондопога",
+    "region": "Карелия",
+    "population": 25851,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кондрово",
+    "region": "Калужская область",
+    "population": 15734,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Константиновск",
+    "region": "Ростовская область",
+    "population": 17207,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Копейск",
+    "region": "Челябинская область",
+    "population": 147806,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кораблино",
+    "region": "Рязанская область",
+    "population": 10334,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кореновск",
+    "region": "Краснодарский край",
+    "population": 41826,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Коркино",
+    "region": "Челябинская область",
+    "population": 37224,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Королёв",
+    "region": "Московская область",
+    "population": 228095,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Короча",
+    "region": "Белгородская область",
+    "population": 5623,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Корсаков",
+    "region": "Сахалинская область",
+    "population": 33950,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Коряжма",
+    "region": "Архангельская область",
+    "population": 34523,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Костерёво",
+    "region": "Владимирская область",
+    "population": 7113,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Костомукша",
+    "region": "Карелия",
+    "population": 26048,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кострома",
+    "region": "Костромская область",
+    "population": 267481,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Котельники",
+    "region": "Московская область",
+    "population": 63728,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Котельниково",
+    "region": "Волгоградская область",
+    "population": 22016,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Котельнич",
+    "region": "Кировская область",
+    "population": 20144,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Котлас",
+    "region": "Архангельская область",
+    "population": 56093,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Котово",
+    "region": "Волгоградская область",
+    "population": 21028,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Котовск",
+    "region": "Тамбовская область",
+    "population": 26694,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кохма",
+    "region": "Ивановская область",
+    "population": 30940,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Красавино",
+    "region": "Вологодская область",
+    "population": 5601,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Красноармейск",
+    "region": "Московская область",
+    "population": 26492,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Красноармейск",
+    "region": "Саратовская область",
+    "population": 21350,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Красновишерск",
+    "region": "Пермский край",
+    "population": 14460,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Красногорск",
+    "region": "Московская область",
+    "population": 187634,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Краснодар",
+    "region": "Краснодарский край",
+    "population": 1099344,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Краснозаводск",
+    "region": "Московская область",
+    "population": 14639,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Краснознаменск",
+    "region": "Калининградская область",
+    "population": 3419,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Краснознаменск",
+    "region": "Московская область",
+    "population": 43868,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Краснокаменск",
+    "region": "Забайкальский край",
+    "population": 51137,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Краснокамск",
+    "region": "Пермский край",
+    "population": 48778,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Красноперекопск",
+    "region": "Крым",
+    "population": 25569,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Краснослободск",
+    "region": "Волгоградская область",
+    "population": 16545,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Краснослободск",
+    "region": "Мордовия",
+    "population": 8910,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Краснотурьинск",
+    "region": "Свердловская область",
+    "population": 55875,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Красноуральск",
+    "region": "Свердловская область",
+    "population": 21507,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Красноуфимск",
+    "region": "Свердловская область",
+    "population": 37301,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Красноярск",
+    "region": "Красноярский край",
+    "population": 1187771,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Красный Кут",
+    "region": "Саратовская область",
+    "population": 14296,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Красный Сулин",
+    "region": "Ростовская область",
+    "population": 35697,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Красный Холм",
+    "region": "Тверская область",
+    "population": 4998,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кремёнки",
+    "region": "Калужская область",
+    "population": 11745,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кропоткин",
+    "region": "Краснодарский край",
+    "population": 75858,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Крымск",
+    "region": "Краснодарский край",
+    "population": 54597,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кстово",
+    "region": "Нижегородская область",
+    "population": 63646,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кубинка",
+    "region": "Московская область",
+    "population": 23146,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кувандык",
+    "region": "Оренбургская область",
+    "population": 26596,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кувшиново",
+    "region": "Тверская область",
+    "population": 9262,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кудрово",
+    "region": "Ленинградская область",
+    "population": 60791,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кудымкар",
+    "region": "Пермский край",
+    "population": 28293,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кузнецк",
+    "region": "Пензенская область",
+    "population": 78390,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Куйбышев",
+    "region": "Новосибирская область",
+    "population": 41946,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кукмор",
+    "region": "Татарстан",
+    "population": 17886,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кулебаки",
+    "region": "Нижегородская область",
+    "population": 32184,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кумертау",
+    "region": "Башкортостан",
+    "population": 57949,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кунгур",
+    "region": "Пермский край",
+    "population": 62673,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Купино",
+    "region": "Новосибирская область",
+    "population": 15065,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Курган",
+    "region": "Курганская область",
+    "population": 310911,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Курганинск",
+    "region": "Краснодарский край",
+    "population": 47305,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Курильск",
+    "region": "Сахалинская область",
+    "population": 2530,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Курлово",
+    "region": "Владимирская область",
+    "population": 6309,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Куровское",
+    "region": "Московская область",
+    "population": 19857,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Курск",
+    "region": "Курская область",
+    "population": 440052,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Куртамыш",
+    "region": "Курганская область",
+    "population": 14806,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Курчалой",
+    "region": "Чечня",
+    "population": 23425,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Курчатов",
+    "region": "Курская область",
+    "population": 40318,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Куса",
+    "region": "Челябинская область",
+    "population": 17136,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кушва",
+    "region": "Свердловская область",
+    "population": 27306,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кызыл",
+    "region": "Тыва",
+    "population": 125241,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кыштым",
+    "region": "Челябинская область",
+    "population": 36045,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кяхта",
+    "region": "Бурятия",
+    "population": 17877,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Лабинск",
+    "region": "Краснодарский край",
+    "population": 57428,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Лабытнанги",
+    "region": "Ямало-Ненецкий АО",
+    "population": 25501,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Лагань",
+    "region": "Калмыкия",
+    "population": 13834,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ладушкин",
+    "region": "Калининградская область",
+    "population": 3666,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Лаишево",
+    "region": "Татарстан",
+    "population": 9076,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Лакинск",
+    "region": "Владимирская область",
+    "population": 12861,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Лангепас",
+    "region": "Ханты-Мансийский АО",
+    "population": 42701,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Лахденпохья",
+    "region": "Карелия",
+    "population": 5952,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Лебедянь",
+    "region": "Липецкая область",
+    "population": 20049,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Лениногорск",
+    "region": "Татарстан",
+    "population": 60993,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ленинск",
+    "region": "Волгоградская область",
+    "population": 13391,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ленинск-Кузнецкий",
+    "region": "Кемеровская область",
+    "population": 92244,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ленск",
+    "region": "Якутия",
+    "population": 21392,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Лермонтов",
+    "region": "Ставропольский край",
+    "population": 22444,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Лесной",
+    "region": "Свердловская область",
+    "population": 48261,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Лесозаводск",
+    "region": "Приморский край",
+    "population": 35433,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Лесосибирск",
+    "region": "Красноярский край",
+    "population": 55730,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ливны",
+    "region": "Орловская область",
+    "population": 43549,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ликино-Дулёво",
+    "region": "Московская область",
+    "population": 34191,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Липецк",
+    "region": "Липецкая область",
+    "population": 496403,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Липки",
+    "region": "Тульская область",
+    "population": 8325,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Лиски",
+    "region": "Воронежская область",
+    "population": 54147,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Лихославль",
+    "region": "Тверская область",
+    "population": 11017,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Лобня",
+    "region": "Московская область",
+    "population": 82764,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Лодейное Поле",
+    "region": "Ленинградская область",
+    "population": 18905,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Лосино-Петровский",
+    "region": "Московская область",
+    "population": 29000,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Луга",
+    "region": "Ленинградская область",
+    "population": 38407,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Луза",
+    "region": "Кировская область",
+    "population": 9122,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Лукоянов",
+    "region": "Нижегородская область",
+    "population": 12652,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Луховицы",
+    "region": "Московская область",
+    "population": 29889,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Лысково",
+    "region": "Нижегородская область",
+    "population": 21657,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Лысьва",
+    "region": "Пермский край",
+    "population": 53855,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Лыткарино",
+    "region": "Московская область",
+    "population": 65212,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Льгов",
+    "region": "Курская область",
+    "population": 17557,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Любань",
+    "region": "Ленинградская область",
+    "population": 4565,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Люберцы",
+    "region": "Московская область",
+    "population": 224195,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Любим",
+    "region": "Ярославская область",
+    "population": 5037,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Людиново",
+    "region": "Калужская область",
+    "population": 35874,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Лянтор",
+    "region": "Ханты-Мансийский АО",
+    "population": 40977,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Магадан",
+    "region": "Магаданская область",
+    "population": 90757,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Магас",
+    "region": "Ингушетия",
+    "population": 15271,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Магнитогорск",
+    "region": "Челябинская область",
+    "population": 410594,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Майкоп",
+    "region": "Адыгея",
+    "population": 143385,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Майский",
+    "region": "Кабардино-Балкария",
+    "population": 26632,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Макаров",
+    "region": "Сахалинская область",
+    "population": 5848,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Макарьев",
+    "region": "Костромская область",
+    "population": 5528,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Макушино",
+    "region": "Курганская область",
+    "population": 6827,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Малая Вишера",
+    "region": "Новгородская область",
+    "population": 9996,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Малгобек",
+    "region": "Ингушетия",
+    "population": 36480,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Малмыж",
+    "region": "Кировская область",
+    "population": 6931,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Малоархангельск",
+    "region": "Орловская область",
+    "population": 3609,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Малоярославец",
+    "region": "Калужская область",
+    "population": 41836,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Мамадыш",
+    "region": "Татарстан",
+    "population": 15726,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Мамоново",
+    "region": "Калининградская область",
+    "population": 8314,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Мантурово",
+    "region": "Костромская область",
+    "population": 13043,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Мариинск",
+    "region": "Кемеровская область",
+    "population": 40779,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Мариинский Посад",
+    "region": "Чувашия",
+    "population": 7851,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Маркс",
+    "region": "Саратовская область",
+    "population": 28749,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Махачкала",
+    "region": "Дагестан",
+    "population": 623254,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Мглин",
+    "region": "Брянская область",
+    "population": 6919,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Мегион",
+    "region": "Ханты-Мансийский АО",
+    "population": 52887,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Медвежьегорск",
+    "region": "Карелия",
+    "population": 11962,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Медногорск",
+    "region": "Оренбургская область",
+    "population": 23693,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Медынь",
+    "region": "Калужская область",
+    "population": 8200,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Межгорье",
+    "region": "Башкортостан",
+    "population": 15697,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Междуреченск",
+    "region": "Кемеровская область",
+    "population": 96174,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Мезень",
+    "region": "Архангельская область",
+    "population": 2874,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Меленки",
+    "region": "Владимирская область",
+    "population": 13407,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Мелеуз",
+    "region": "Башкортостан",
+    "population": 56505,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Менделеевск",
+    "region": "Татарстан",
+    "population": 22875,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Мензелинск",
+    "region": "Татарстан",
+    "population": 16008,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Мещовск",
+    "region": "Калужская область",
+    "population": 3810,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Миасс",
+    "region": "Челябинская область",
+    "population": 147995,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Микунь",
+    "region": "Коми",
+    "population": 8527,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Миллерово",
+    "region": "Ростовская область",
+    "population": 34841,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Минеральные Воды",
+    "region": "Ставропольский край",
+    "population": 70485,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Минусинск",
+    "region": "Красноярский край",
+    "population": 70089,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Миньяр",
+    "region": "Челябинская область",
+    "population": 8500,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Мирный",
+    "region": "Якутия",
+    "population": 34045,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Мирный",
+    "region": "Архангельская область",
+    "population": 27262,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Михайлов",
+    "region": "Рязанская область",
+    "population": 10303,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Михайловка",
+    "region": "Волгоградская область",
+    "population": 56031,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Михайловск",
+    "region": "Свердловская область",
+    "population": 9756,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Михайловск",
+    "region": "Ставропольский край",
+    "population": 114133,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Мичуринск",
+    "region": "Тамбовская область",
+    "population": 90451,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Могоча",
+    "region": "Забайкальский край",
+    "population": 12390,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Можайск",
+    "region": "Московская область",
+    "population": 33880,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Можга",
+    "region": "Удмуртия",
+    "population": 44345,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Моздок",
+    "region": "Северная Осетия",
+    "population": 36784,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Мончегорск",
+    "region": "Мурманская область",
+    "population": 39962,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Морозовск",
+    "region": "Ростовская область",
+    "population": 24258,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Моршанск",
+    "region": "Тамбовская область",
+    "population": 39023,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Мосальск",
+    "region": "Калужская область",
+    "population": 4234,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Москва",
+    "region": "Москва",
+    "population": 13010112,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Муравленко",
+    "region": "Ямало-Ненецкий АО",
+    "population": 29233,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Мураши",
+    "region": "Кировская область",
+    "population": 5700,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Мурино",
+    "region": "Ленинградская область",
+    "population": 89083,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Мурманск",
+    "region": "Мурманская область",
+    "population": 270384,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Муром",
+    "region": "Владимирская область",
+    "population": 107497,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Мценск",
+    "region": "Орловская область",
+    "population": 36960,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Мыски",
+    "region": "Кемеровская область",
+    "population": 40109,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Мытищи",
+    "region": "Московская область",
+    "population": 255429,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Мышкин",
+    "region": "Ярославская область",
+    "population": 5621,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Набережные Челны",
+    "region": "Татарстан",
+    "population": 548434,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Навашино",
+    "region": "Нижегородская область",
+    "population": 14664,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Наволоки",
+    "region": "Ивановская область",
+    "population": 8167,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Надым",
+    "region": "Ямало-Ненецкий АО",
+    "population": 45973,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Назарово",
+    "region": "Красноярский край",
+    "population": 45333,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Назрань",
+    "region": "Ингушетия",
+    "population": 122350,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Называевск",
+    "region": "Омская область",
+    "population": 10434,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Нальчик",
+    "region": "Кабардино-Балкария",
+    "population": 247054,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Нариманов",
+    "region": "Астраханская область",
+    "population": 11104,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Наро-Фоминск",
+    "region": "Московская область",
+    "population": 71121,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Нарткала",
+    "region": "Кабардино-Балкария",
+    "population": 33203,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Нарьян-Мар",
+    "region": "Ненецкий АО",
+    "population": 23399,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Наурская",
+    "region": "Чечня",
+    "population": 10840,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Находка",
+    "region": "Приморский край",
+    "population": 139931,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Невель",
+    "region": "Псковская область",
+    "population": 13980,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Невельск",
+    "region": "Сахалинская область",
+    "population": 10608,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Невинномысск",
+    "region": "Ставропольский край",
+    "population": 117562,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Невьянск",
+    "region": "Свердловская область",
+    "population": 22061,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Нелидово",
+    "region": "Тверская область",
+    "population": 18603,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Неман",
+    "region": "Калининградская область",
+    "population": 9255,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Нерехта",
+    "region": "Костромская область",
+    "population": 19977,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Нерчинск",
+    "region": "Забайкальский край",
+    "population": 15290,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Нерюнгри",
+    "region": "Якутия",
+    "population": 53409,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Нестеров",
+    "region": "Калининградская область",
+    "population": 3336,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Нефтегорск",
+    "region": "Самарская область",
+    "population": 18076,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Нефтекамск",
+    "region": "Башкортостан",
+    "population": 131942,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Нефтекумск",
+    "region": "Ставропольский край",
+    "population": 23137,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Нефтеюганск",
+    "region": "Ханты-Мансийский АО",
+    "population": 124732,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Нея",
+    "region": "Костромская область",
+    "population": 7816,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Нижневартовск",
+    "region": "Ханты-Мансийский АО",
+    "population": 283256,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Нижнекамск",
+    "region": "Татарстан",
+    "population": 241479,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Нижнеудинск",
+    "region": "Иркутская область",
+    "population": 29995,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Нижние Серги",
+    "region": "Свердловская область",
+    "population": 8009,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Нижний Ломов",
+    "region": "Пензенская область",
+    "population": 20421,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Нижний Новгород",
+    "region": "Нижегородская область",
+    "population": 1226076,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Нижний Тагил",
+    "region": "Свердловская область",
+    "population": 338966,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Нижняя Салда",
+    "region": "Свердловская область",
+    "population": 16505,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Нижняя Тура",
+    "region": "Свердловская область",
+    "population": 18392,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Николаевск",
+    "region": "Волгоградская область",
+    "population": 13460,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Николаевск-на-Амуре",
+    "region": "Хабаровский край",
+    "population": 18631,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Никольск",
+    "region": "Вологодская область",
+    "population": 7661,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Никольск",
+    "region": "Пензенская область",
+    "population": 19873,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Никольское",
+    "region": "Ленинградская область",
+    "population": 22355,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Новая Ладога",
+    "region": "Ленинградская область",
+    "population": 7432,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Новая Ляля",
+    "region": "Свердловская область",
+    "population": 10684,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Новоалександровск",
+    "region": "Ставропольский край",
+    "population": 26767,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Новоалтайск",
+    "region": "Алтайский край",
+    "population": 73049,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Новоаннинский",
+    "region": "Волгоградская область",
+    "population": 15351,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Нововоронеж",
+    "region": "Воронежская область",
+    "population": 30658,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Новодвинск",
+    "region": "Архангельская область",
+    "population": 33294,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Новозыбков",
+    "region": "Брянская область",
+    "population": 38680,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Новокубанск",
+    "region": "Краснодарский край",
+    "population": 34000,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Новокузнецк",
+    "region": "Кемеровская область",
+    "population": 537480,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Новокуйбышевск",
+    "region": "Самарская область",
+    "population": 98306,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Новомичуринск",
+    "region": "Рязанская область",
+    "population": 16900,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Новомосковск",
+    "region": "Тульская область",
+    "population": 119697,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Новопавловск",
+    "region": "Ставропольский край",
+    "population": 20781,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Новоржев",
+    "region": "Псковская область",
+    "population": 3222,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Новороссийск",
+    "region": "Краснодарский край",
+    "population": 262293,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Новосибирск",
+    "region": "Новосибирская область",
+    "population": 1633595,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Новосиль",
+    "region": "Орловская область",
+    "population": 2912,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Новосокольники",
+    "region": "Псковская область",
+    "population": 6895,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Новотроицк",
+    "region": "Оренбургская область",
+    "population": 75960,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Новоузенск",
+    "region": "Саратовская область",
+    "population": 15216,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Новоульяновск",
+    "region": "Ульяновская область",
+    "population": 13673,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Новоуральск",
+    "region": "Свердловская область",
+    "population": 78479,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Новохопёрск",
+    "region": "Воронежская область",
+    "population": 5948,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Новочебоксарск",
+    "region": "Чувашия",
+    "population": 120375,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Новочеркасск",
+    "region": "Ростовская область",
+    "population": 163674,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Новошахтинск",
+    "region": "Ростовская область",
+    "population": 103480,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Новый Оскол",
+    "region": "Белгородская область",
+    "population": 18359,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Новый Уренгой",
+    "region": "Ямало-Ненецкий АО",
+    "population": 107251,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ногинск",
+    "region": "Московская область",
+    "population": 103891,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Нолинск",
+    "region": "Кировская область",
+    "population": 8262,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Норильск",
+    "region": "Красноярский край",
+    "population": 174453,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ноябрьск",
+    "region": "Ямало-Ненецкий АО",
+    "population": 100188,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Нурлат",
+    "region": "Татарстан",
+    "population": 33990,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Нытва",
+    "region": "Пермский край",
+    "population": 16675,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Нюрба",
+    "region": "Якутия",
+    "population": 10138,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Нягань",
+    "region": "Ханты-Мансийский АО",
+    "population": 63034,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Нязепетровск",
+    "region": "Челябинская область",
+    "population": 10379,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Няндома",
+    "region": "Архангельская область",
+    "population": 18473,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Облучье",
+    "region": "Еврейская АО",
+    "population": 7959,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Обнинск",
+    "region": "Калужская область",
+    "population": 125376,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Обоянь",
+    "region": "Курская область",
+    "population": 11844,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Обь",
+    "region": "Новосибирская область",
+    "population": 30369,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Одинцово",
+    "region": "Московская область",
+    "population": 180530,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Озёрск",
+    "region": "Калининградская область",
+    "population": 4152,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Озёрск",
+    "region": "Челябинская область",
+    "population": 76896,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Озёры",
+    "region": "Московская область",
+    "population": 24359,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ойсхара",
+    "region": "Чечня",
+    "population": 19415,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Октябрьск",
+    "region": "Самарская область",
+    "population": 20703,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Октябрьский",
+    "region": "Башкортостан",
+    "population": 115557,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Окуловка",
+    "region": "Новгородская область",
+    "population": 9949,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Олёкминск",
+    "region": "Якутия",
+    "population": 8398,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Оленегорск",
+    "region": "Мурманская область",
+    "population": 21438,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Олонец",
+    "region": "Карелия",
+    "population": 7663,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Омск",
+    "region": "Омская область",
+    "population": 1125695,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Омутнинск",
+    "region": "Кировская область",
+    "population": 19629,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Онега",
+    "region": "Архангельская область",
+    "population": 16947,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Опочка",
+    "region": "Псковская область",
+    "population": 9928,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Орёл",
+    "region": "Орловская область",
+    "population": 303169,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Оренбург",
+    "region": "Оренбургская область",
+    "population": 543654,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Орехово-Зуево",
+    "region": "Московская область",
+    "population": 105745,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Орлов",
+    "region": "Кировская область",
+    "population": 5508,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Орск",
+    "region": "Оренбургская область",
+    "population": 189195,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Оса",
+    "region": "Пермский край",
+    "population": 19523,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Осинники",
+    "region": "Кемеровская область",
+    "population": 40367,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Осташков",
+    "region": "Тверская область",
+    "population": 16674,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Остров",
+    "region": "Псковская область",
+    "population": 20923,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Островной",
+    "region": "Мурманская область",
+    "population": 1487,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Острогожск",
+    "region": "Воронежская область",
+    "population": 31699,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Отрадное",
+    "region": "Ленинградская область",
+    "population": 25706,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Отрадный",
+    "region": "Самарская область",
+    "population": 46984,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Оха",
+    "region": "Сахалинская область",
+    "population": 20357,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Оханск",
+    "region": "Пермский край",
+    "population": 6430,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Очёр",
+    "region": "Пермский край",
+    "population": 14385,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Павлово",
+    "region": "Нижегородская область",
+    "population": 57116,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Павловск",
+    "region": "Воронежская область",
+    "population": 22384,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Павловский Посад",
+    "region": "Московская область",
+    "population": 65098,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Палласовка",
+    "region": "Волгоградская область",
+    "population": 14966,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Партизанск",
+    "region": "Приморский край",
+    "population": 33832,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Певек",
+    "region": "Чукотский АО",
+    "population": 4015,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Пенза",
+    "region": "Пензенская область",
+    "population": 501109,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Первомайск",
+    "region": "Нижегородская область",
+    "population": 13223,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Первоуральск",
+    "region": "Свердловская область",
+    "population": 114450,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Перевоз",
+    "region": "Нижегородская область",
+    "population": 8999,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Пересвет",
+    "region": "Московская область",
+    "population": 11752,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Переславль-Залесский",
+    "region": "Ярославская область",
+    "population": 37738,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Пермь",
+    "region": "Пермский край",
+    "population": 1034002,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Пестово",
+    "region": "Новгородская область",
+    "population": 14032,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Петров Вал",
+    "region": "Волгоградская область",
+    "population": 12526,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Петровск",
+    "region": "Саратовская область",
+    "population": 26319,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Петровск-Забайкальский",
+    "region": "Забайкальский край",
+    "population": 15015,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Петрозаводск",
+    "region": "Карелия",
+    "population": 234897,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Петропавловск-Камчатский",
+    "region": "Камчатский край",
+    "population": 164900,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Петухово",
+    "region": "Курганская область",
+    "population": 8502,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Петушки",
+    "region": "Владимирская область",
+    "population": 13317,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Печора",
+    "region": "Коми",
+    "population": 35254,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Печоры",
+    "region": "Псковская область",
+    "population": 10247,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Пикалёво",
+    "region": "Ленинградская область",
+    "population": 20388,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Пионерский",
+    "region": "Калининградская область",
+    "population": 12794,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Питкяранта",
+    "region": "Карелия",
+    "population": 8340,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Плавск",
+    "region": "Тульская область",
+    "population": 16893,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Пласт",
+    "region": "Челябинская область",
+    "population": 18379,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Плёс",
+    "region": "Ивановская область",
+    "population": 1896,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Поворино",
+    "region": "Воронежская область",
+    "population": 16417,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Подольск",
+    "region": "Московская область",
+    "population": 314934,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Подпорожье",
+    "region": "Ленинградская область",
+    "population": 16123,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Покачи",
+    "region": "Ханты-Мансийский АО",
+    "population": 16040,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Покров",
+    "region": "Владимирская область",
+    "population": 17747,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Покровск",
+    "region": "Якутия",
+    "population": 12021,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Полевской",
+    "region": "Свердловская область",
+    "population": 55182,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Полесск",
+    "region": "Калининградская область",
+    "population": 6926,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Полысаево",
+    "region": "Кемеровская область",
+    "population": 25631,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Полярные Зори",
+    "region": "Мурманская область",
+    "population": 14146,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Полярный",
+    "region": "Мурманская область",
+    "population": 12293,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Поронайск",
+    "region": "Сахалинская область",
+    "population": 16026,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Порхов",
+    "region": "Псковская область",
+    "population": 7309,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Похвистнево",
+    "region": "Самарская область",
+    "population": 27333,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Почеп",
+    "region": "Брянская область",
+    "population": 14991,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Починок",
+    "region": "Смоленская область",
+    "population": 7575,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Пошехонье",
+    "region": "Ярославская область",
+    "population": 5150,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Правдинск",
+    "region": "Калининградская область",
+    "population": 3986,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Приволжск",
+    "region": "Ивановская область",
+    "population": 14332,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Приморск",
+    "region": "Калининградская область",
+    "population": 1436,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Приморск",
+    "region": "Ленинградская область",
+    "population": 6537,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Приморско-Ахтарск",
+    "region": "Краснодарский край",
+    "population": 31087,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Приозерск",
+    "region": "Ленинградская область",
+    "population": 18777,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Прокопьевск",
+    "region": "Кемеровская область",
+    "population": 177819,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Пролетарск",
+    "region": "Ростовская область",
+    "population": 18983,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Протвино",
+    "region": "Московская область",
+    "population": 37735,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Прохладный",
+    "region": "Кабардино-Балкария",
+    "population": 59938,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Псков",
+    "region": "Псковская область",
+    "population": 193082,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Пугачёв",
+    "region": "Саратовская область",
+    "population": 40127,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Пудож",
+    "region": "Карелия",
+    "population": 7356,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Пустошка",
+    "region": "Псковская область",
+    "population": 4070,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Пучеж",
+    "region": "Ивановская область",
+    "population": 6879,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Пушкино",
+    "region": "Московская область",
+    "population": 110868,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Пущино",
+    "region": "Московская область",
+    "population": 19578,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Пыталово",
+    "region": "Псковская область",
+    "population": 5263,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Пыть-Ях",
+    "region": "Ханты-Мансийский АО",
+    "population": 40180,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Пятигорск",
+    "region": "Ставропольский край",
+    "population": 146473,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Радужный",
+    "region": "Владимирская область",
+    "population": 17569,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Радужный",
+    "region": "Ханты-Мансийский АО",
+    "population": 43577,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Райчихинск",
+    "region": "Амурская область",
+    "population": 15797,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Раменское",
+    "region": "Московская область",
+    "population": 114537,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Рассказово",
+    "region": "Тамбовская область",
+    "population": 47644,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ревда",
+    "region": "Свердловская область",
+    "population": 60200,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Реж",
+    "region": "Свердловская область",
+    "population": 36585,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Реутов",
+    "region": "Московская область",
+    "population": 113871,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ржев",
+    "region": "Тверская область",
+    "population": 55757,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Родники",
+    "region": "Ивановская область",
+    "population": 24101,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Рославль",
+    "region": "Смоленская область",
+    "population": 45416,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Россошь",
+    "region": "Воронежская область",
+    "population": 60879,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ростов Великий",
+    "region": "Ярославская область",
+    "population": 28122,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ростов-на-Дону",
+    "region": "Ростовская область",
+    "population": 1142162,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Рошаль",
+    "region": "Московская область",
+    "population": 21401,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ртищево",
+    "region": "Саратовская область",
+    "population": 37850,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Рубцовск",
+    "region": "Алтайский край",
+    "population": 126834,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Рудня",
+    "region": "Смоленская область",
+    "population": 8908,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Руза",
+    "region": "Московская область",
+    "population": 16014,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Рузаевка",
+    "region": "Мордовия",
+    "population": 42989,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Рыбинск",
+    "region": "Ярославская область",
+    "population": 177295,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Рыбное",
+    "region": "Рязанская область",
+    "population": 21069,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Рыльск",
+    "region": "Курская область",
+    "population": 15069,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ряжск",
+    "region": "Рязанская область",
+    "population": 20634,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Рязань",
+    "region": "Рязанская область",
+    "population": 528599,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Саки",
+    "region": "Крым",
+    "population": 24285,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Салават",
+    "region": "Башкортостан",
+    "population": 148575,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Салаир",
+    "region": "Кемеровская область",
+    "population": 7088,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Салехард",
+    "region": "Ямало-Ненецкий АО",
+    "population": 47910,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сальск",
+    "region": "Ростовская область",
+    "population": 57937,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Самара",
+    "region": "Самарская область",
+    "population": 1173299,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Санкт-Петербург",
+    "region": "Санкт-Петербург",
+    "population": 5601911,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Саранск",
+    "region": "Мордовия",
+    "population": 314871,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сарапул",
+    "region": "Удмуртия",
+    "population": 91115,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Саратов",
+    "region": "Саратовская область",
+    "population": 901361,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Саров",
+    "region": "Нижегородская область",
+    "population": 93357,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сасово",
+    "region": "Рязанская область",
+    "population": 21628,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сатка",
+    "region": "Челябинская область",
+    "population": 42597,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сафоново",
+    "region": "Смоленская область",
+    "population": 38403,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Саяногорск",
+    "region": "Хакасия",
+    "population": 44872,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Саянск",
+    "region": "Иркутская область",
+    "population": 35561,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Светлогорск",
+    "region": "Калининградская область",
+    "population": 16207,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Светлоград",
+    "region": "Ставропольский край",
+    "population": 35703,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Светлый",
+    "region": "Калининградская область",
+    "population": 21114,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Светогорск",
+    "region": "Ленинградская область",
+    "population": 13784,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Свирск",
+    "region": "Иркутская область",
+    "population": 15485,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Свободный",
+    "region": "Амурская область",
+    "population": 48517,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Себеж",
+    "region": "Псковская область",
+    "population": 6246,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Севастополь",
+    "region": "Севастополь",
+    "population": 547820,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Северо-Курильск",
+    "region": "Сахалинская область",
+    "population": 2374,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Северобайкальск",
+    "region": "Бурятия",
+    "population": 24233,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Северодвинск",
+    "region": "Архангельская область",
+    "population": 157213,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Североморск",
+    "region": "Мурманская область",
+    "population": 43327,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Североуральск",
+    "region": "Свердловская область",
+    "population": 24428,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Северск",
+    "region": "Томская область",
+    "population": 106648,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Севск",
+    "region": "Брянская область",
+    "population": 6732,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сегежа",
+    "region": "Карелия",
+    "population": 23543,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сельцо",
+    "region": "Брянская область",
+    "population": 15906,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Семёнов",
+    "region": "Нижегородская область",
+    "population": 25075,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Семикаракорск",
+    "region": "Ростовская область",
+    "population": 21719,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Семилуки",
+    "region": "Воронежская область",
+    "population": 27938,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сенгилей",
+    "region": "Ульяновская область",
+    "population": 6407,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Серафимович",
+    "region": "Волгоградская область",
+    "population": 8633,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сергач",
+    "region": "Нижегородская область",
+    "population": 20256,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сергиев Посад",
+    "region": "Московская область",
+    "population": 101756,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сердобск",
+    "region": "Пензенская область",
+    "population": 30220,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Серноводское",
+    "region": "Чечня",
+    "population": 12583,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Серов",
+    "region": "Свердловская область",
+    "population": 94211,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Серпухов",
+    "region": "Московская область",
+    "population": 133793,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сертолово",
+    "region": "Ленинградская область",
+    "population": 68241,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сибай",
+    "region": "Башкортостан",
+    "population": 56514,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сим",
+    "region": "Челябинская область",
+    "population": 12858,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Симферополь",
+    "region": "Крым",
+    "population": 340540,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сковородино",
+    "region": "Амурская область",
+    "population": 7057,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Скопин",
+    "region": "Рязанская область",
+    "population": 25238,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Славгород",
+    "region": "Алтайский край",
+    "population": 27900,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Славск",
+    "region": "Калининградская область",
+    "population": 4153,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Славянск-на-Кубани",
+    "region": "Краснодарский край",
+    "population": 62985,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сланцы",
+    "region": "Ленинградская область",
+    "population": 34628,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Слободской",
+    "region": "Кировская область",
+    "population": 29148,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Слюдянка",
+    "region": "Иркутская область",
+    "population": 18058,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Смоленск",
+    "region": "Смоленская область",
+    "population": 316570,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Снежинск",
+    "region": "Челябинская область",
+    "population": 50619,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Снежногорск",
+    "region": "Мурманская область",
+    "population": 9942,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Собинка",
+    "region": "Владимирская область",
+    "population": 17444,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Советск",
+    "region": "Калининградская область",
+    "population": 38910,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Советск",
+    "region": "Кировская область",
+    "population": 14626,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Советск",
+    "region": "Тульская область",
+    "population": 7889,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Советская Гавань",
+    "region": "Хабаровский край",
+    "population": 24231,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Советский",
+    "region": "Ханты-Мансийский АО",
+    "population": 31138,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сокол",
+    "region": "Вологодская область",
+    "population": 34742,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Солигалич",
+    "region": "Костромская область",
+    "population": 5534,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Соликамск",
+    "region": "Пермский край",
+    "population": 89473,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Солнечногорск",
+    "region": "Московская область",
+    "population": 48413,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Соль-Илецк",
+    "region": "Оренбургская область",
+    "population": 26149,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сольвычегодск",
+    "region": "Архангельская область",
+    "population": 1952,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сольцы",
+    "region": "Новгородская область",
+    "population": 8449,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сорочинск",
+    "region": "Оренбургская область",
+    "population": 28478,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сорск",
+    "region": "Хакасия",
+    "population": 10124,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сортавала",
+    "region": "Карелия",
+    "population": 14867,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сосенский",
+    "region": "Калужская область",
+    "population": 11413,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сосновка",
+    "region": "Кировская область",
+    "population": 8428,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сосновоборск",
+    "region": "Красноярский край",
+    "population": 40442,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сосновый Бор",
+    "region": "Ленинградская область",
+    "population": 65367,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сосногорск",
+    "region": "Коми",
+    "population": 22189,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сочи",
+    "region": "Краснодарский край",
+    "population": 466078,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Спас-Деменск",
+    "region": "Калужская область",
+    "population": 4569,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Спас-Клепики",
+    "region": "Рязанская область",
+    "population": 4743,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Спасск",
+    "region": "Пензенская область",
+    "population": 6936,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Спасск-Дальний",
+    "region": "Приморский край",
+    "population": 35732,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Спасск-Рязанский",
+    "region": "Рязанская область",
+    "population": 5796,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Среднеколымск",
+    "region": "Якутия",
+    "population": 3131,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Среднеуральск",
+    "region": "Свердловская область",
+    "population": 23344,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сретенск",
+    "region": "Забайкальский край",
+    "population": 6093,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ставрополь",
+    "region": "Ставропольский край",
+    "population": 547443,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Старая Купавна",
+    "region": "Московская область",
+    "population": 22898,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Старая Русса",
+    "region": "Новгородская область",
+    "population": 27487,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Старица",
+    "region": "Тверская область",
+    "population": 6938,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Стародуб",
+    "region": "Брянская область",
+    "population": 17687,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Старый Крым",
+    "region": "Крым",
+    "population": 10470,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Старый Оскол",
+    "region": "Белгородская область",
+    "population": 221676,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Стерлитамак",
+    "region": "Башкортостан",
+    "population": 277410,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Стрежевой",
+    "region": "Томская область",
+    "population": 39169,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Строитель",
+    "region": "Белгородская область",
+    "population": 23780,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Струнино",
+    "region": "Владимирская область",
+    "population": 11774,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ступино",
+    "region": "Московская область",
+    "population": 64412,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Суворов",
+    "region": "Тульская область",
+    "population": 17598,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Судак",
+    "region": "Крым",
+    "population": 17834,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Суджа",
+    "region": "Курская область",
+    "population": 5127,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Судогда",
+    "region": "Владимирская область",
+    "population": 10408,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Суздаль",
+    "region": "Владимирская область",
+    "population": 9286,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сунжа",
+    "region": "Ингушетия",
+    "population": 62078,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Суоярви",
+    "region": "Карелия",
+    "population": 7190,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сураж",
+    "region": "Брянская область",
+    "population": 11176,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сургут",
+    "region": "Ханты-Мансийский АО",
+    "population": 396443,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Суровикино",
+    "region": "Волгоградская область",
+    "population": 18227,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сурск",
+    "region": "Пензенская область",
+    "population": 6034,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сусуман",
+    "region": "Магаданская область",
+    "population": 4439,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сухиничи",
+    "region": "Калужская область",
+    "population": 14806,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сухой Лог",
+    "region": "Свердловская область",
+    "population": 32748,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сызрань",
+    "region": "Самарская область",
+    "population": 165725,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сыктывкар",
+    "region": "Коми",
+    "population": 220580,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сысерть",
+    "region": "Свердловская область",
+    "population": 20634,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сычёвка",
+    "region": "Смоленская область",
+    "population": 7544,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сясьстрой",
+    "region": "Ленинградская область",
+    "population": 12566,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Тавда",
+    "region": "Свердловская область",
+    "population": 32749,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Таганрог",
+    "region": "Ростовская область",
+    "population": 245120,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Тайга",
+    "region": "Кемеровская область",
+    "population": 22375,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Тайшет",
+    "region": "Иркутская область",
+    "population": 34491,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Талдом",
+    "region": "Московская область",
+    "population": 17317,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Талица",
+    "region": "Свердловская область",
+    "population": 14808,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Тамбов",
+    "region": "Тамбовская область",
+    "population": 261803,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Тара",
+    "region": "Омская область",
+    "population": 26878,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Тарко-Сале",
+    "region": "Ямало-Ненецкий АО",
+    "population": 19900,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Таруса",
+    "region": "Калужская область",
+    "population": 9918,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Татарск",
+    "region": "Новосибирская область",
+    "population": 23711,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Таштагол",
+    "region": "Кемеровская область",
+    "population": 21980,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Тверь",
+    "region": "Тверская область",
+    "population": 416219,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Теберда",
+    "region": "Карачаево-Черкесия",
+    "population": 9020,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Тейково",
+    "region": "Ивановская область",
+    "population": 31305,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Тельмана",
+    "region": "Ленинградская область",
+    "population": 23986,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Темников",
+    "region": "Мордовия",
+    "population": 6451,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Темрюк",
+    "region": "Краснодарский край",
+    "population": 41608,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Терек",
+    "region": "Кабардино-Балкария",
+    "population": 19948,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Тетюши",
+    "region": "Татарстан",
+    "population": 10535,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Тимашёвск",
+    "region": "Краснодарский край",
+    "population": 51858,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Тихвин",
+    "region": "Ленинградская область",
+    "population": 55415,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Тихорецк",
+    "region": "Краснодарский край",
+    "population": 55686,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Тобольск",
+    "region": "Тюменская область",
+    "population": 100352,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Тогучин",
+    "region": "Новосибирская область",
+    "population": 20766,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Тольятти",
+    "region": "Самарская область",
+    "population": 684709,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Томари",
+    "region": "Сахалинская область",
+    "population": 4313,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Томмот",
+    "region": "Якутия",
+    "population": 6440,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Томск",
+    "region": "Томская область",
+    "population": 556478,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Топки",
+    "region": "Кемеровская область",
+    "population": 27158,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Торжок",
+    "region": "Тверская область",
+    "population": 41116,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Торопец",
+    "region": "Тверская область",
+    "population": 11441,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Тосно",
+    "region": "Ленинградская область",
+    "population": 34066,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Тотьма",
+    "region": "Вологодская область",
+    "population": 8669,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Трёхгорный",
+    "region": "Челябинская область",
+    "population": 32463,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Троицк",
+    "region": "Челябинская область",
+    "population": 70301,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Трубчевск",
+    "region": "Брянская область",
+    "population": 13287,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Туапсе",
+    "region": "Краснодарский край",
+    "population": 61571,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Туймазы",
+    "region": "Башкортостан",
+    "population": 68349,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Тула",
+    "region": "Тульская область",
+    "population": 473622,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Тулун",
+    "region": "Иркутская область",
+    "population": 38440,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Туран",
+    "region": "Тыва",
+    "population": 5044,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Туринск",
+    "region": "Свердловская область",
+    "population": 16561,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Тутаев",
+    "region": "Ярославская область",
+    "population": 39643,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Тында",
+    "region": "Амурская область",
+    "population": 28625,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Тырныауз",
+    "region": "Кабардино-Балкария",
+    "population": 22056,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Тюкалинск",
+    "region": "Омская область",
+    "population": 9894,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Тюмень",
+    "region": "Тюменская область",
+    "population": 847488,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Уварово",
+    "region": "Тамбовская область",
+    "population": 23584,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Углегорск",
+    "region": "Сахалинская область",
+    "population": 8041,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Углич",
+    "region": "Ярославская область",
+    "population": 32719,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Удачный",
+    "region": "Якутия",
+    "population": 12930,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Удомля",
+    "region": "Тверская область",
+    "population": 25950,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ужур",
+    "region": "Красноярский край",
+    "population": 14134,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Узловая",
+    "region": "Тульская область",
+    "population": 49427,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Улан-Удэ",
+    "region": "Бурятия",
+    "population": 437565,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ульяновск",
+    "region": "Ульяновская область",
+    "population": 617352,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Унеча",
+    "region": "Брянская область",
+    "population": 24274,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Урай",
+    "region": "Ханты-Мансийский АО",
+    "population": 41315,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Урень",
+    "region": "Нижегородская область",
+    "population": 12450,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Уржум",
+    "region": "Кировская область",
+    "population": 8448,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Урус-Мартан",
+    "region": "Чечня",
+    "population": 63449,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Урюпинск",
+    "region": "Волгоградская область",
+    "population": 36669,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Усинск",
+    "region": "Коми",
+    "population": 32182,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Усмань",
+    "region": "Липецкая область",
+    "population": 19662,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Усолье-Сибирское",
+    "region": "Иркутская область",
+    "population": 74762,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Усолье",
+    "region": "Пермский край",
+    "population": 6619,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Уссурийск",
+    "region": "Приморский край",
+    "population": 180393,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Усть-Джегута",
+    "region": "Карачаево-Черкесия",
+    "population": 31137,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Усть-Илимск",
+    "region": "Иркутская область",
+    "population": 79570,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Усть-Катав",
+    "region": "Челябинская область",
+    "population": 21439,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Усть-Кут",
+    "region": "Иркутская область",
+    "population": 36918,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Усть-Лабинск",
+    "region": "Краснодарский край",
+    "population": 40158,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Устюжна",
+    "region": "Вологодская область",
+    "population": 7843,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Уфа",
+    "region": "Башкортостан",
+    "population": 1144809,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ухта",
+    "region": "Коми",
+    "population": 79899,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Учалы",
+    "region": "Башкортостан",
+    "population": 36175,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Уяр",
+    "region": "Красноярский край",
+    "population": 12036,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Фатеж",
+    "region": "Курская область",
+    "population": 4691,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Феодосия",
+    "region": "Крым",
+    "population": 66293,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Фокино",
+    "region": "Брянская область",
+    "population": 12538,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Фокино",
+    "region": "Приморский край",
+    "population": 19711,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Фролово",
+    "region": "Волгоградская область",
+    "population": 35661,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Фрязино",
+    "region": "Московская область",
+    "population": 60580,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Фурманов",
+    "region": "Ивановская область",
+    "population": 29715,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Хабаровск",
+    "region": "Хабаровский край",
+    "population": 617441,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Хадыженск",
+    "region": "Краснодарский край",
+    "population": 22094,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ханты-Мансийск",
+    "region": "Ханты-Мансийский АО",
+    "population": 107473,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Харабали",
+    "region": "Астраханская область",
+    "population": 18514,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Харовск",
+    "region": "Вологодская область",
+    "population": 8389,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Хасавюрт",
+    "region": "Дагестан",
+    "population": 155144,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Хвалынск",
+    "region": "Саратовская область",
+    "population": 12042,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Хилок",
+    "region": "Забайкальский край",
+    "population": 9948,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Химки",
+    "region": "Московская область",
+    "population": 257128,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Холм",
+    "region": "Новгородская область",
+    "population": 3214,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Холмск",
+    "region": "Сахалинская область",
+    "population": 25677,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Хотьково",
+    "region": "Московская область",
+    "population": 20466,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Цивильск",
+    "region": "Чувашия",
+    "population": 12762,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Цимлянск",
+    "region": "Ростовская область",
+    "population": 14731,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Циолковский",
+    "region": "Амурская область",
+    "population": 7194,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Чадан",
+    "region": "Тыва",
+    "population": 9732,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Чайковский",
+    "region": "Пермский край",
+    "population": 75837,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Чапаевск",
+    "region": "Самарская область",
+    "population": 70228,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Чаплыгин",
+    "region": "Липецкая область",
+    "population": 11579,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Чебаркуль",
+    "region": "Челябинская область",
+    "population": 44693,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Чебоксары",
+    "region": "Чувашия",
+    "population": 497807,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Чегем",
+    "region": "Кабардино-Балкария",
+    "population": 20736,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Чекалин",
+    "region": "Тульская область",
+    "population": 935,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Челябинск",
+    "region": "Челябинская область",
+    "population": 1189525,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Чердынь",
+    "region": "Пермский край",
+    "population": 4590,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Черемхово",
+    "region": "Иркутская область",
+    "population": 53958,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Черепаново",
+    "region": "Новосибирская область",
+    "population": 19900,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Череповец",
+    "region": "Вологодская область",
+    "population": 305185,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Черкесск",
+    "region": "Карачаево-Черкесия",
+    "population": 113226,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Чёрмоз",
+    "region": "Пермский край",
+    "population": 3044,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Черноголовка",
+    "region": "Московская область",
+    "population": 19530,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Черногорск",
+    "region": "Хакасия",
+    "population": 75745,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Чернушка",
+    "region": "Пермский край",
+    "population": 32991,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Черняховск",
+    "region": "Калининградская область",
+    "population": 36128,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Чехов",
+    "region": "Московская область",
+    "population": 89025,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Чистополь",
+    "region": "Татарстан",
+    "population": 58815,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Чита",
+    "region": "Забайкальский край",
+    "population": 334427,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Чкаловск",
+    "region": "Нижегородская область",
+    "population": 11535,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Чудово",
+    "region": "Новгородская область",
+    "population": 14302,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Чулым",
+    "region": "Новосибирская область",
+    "population": 11034,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Чусовой",
+    "region": "Пермский край",
+    "population": 45471,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Чухлома",
+    "region": "Костромская область",
+    "population": 4252,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Шагонар",
+    "region": "Тыва",
+    "population": 11772,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Шадринск",
+    "region": "Курганская область",
+    "population": 68609,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Шали",
+    "region": "Чечня",
+    "population": 55054,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Шарыпово",
+    "region": "Красноярский край",
+    "population": 33961,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Шарья",
+    "region": "Костромская область",
+    "population": 20439,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Шатура",
+    "region": "Московская область",
+    "population": 38230,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Шахты",
+    "region": "Ростовская область",
+    "population": 226452,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Шахунья",
+    "region": "Нижегородская область",
+    "population": 17626,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Шацк",
+    "region": "Рязанская область",
+    "population": 5927,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Шебекино",
+    "region": "Белгородская область",
+    "population": 39680,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Шелехов",
+    "region": "Иркутская область",
+    "population": 41998,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Шелковская",
+    "region": "Чечня",
+    "population": 12593,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Шенкурск",
+    "region": "Архангельская область",
+    "population": 4600,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Шилка",
+    "region": "Забайкальский край",
+    "population": 12046,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Шимановск",
+    "region": "Амурская область",
+    "population": 16488,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Шиханы",
+    "region": "Саратовская область",
+    "population": 5155,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Шлиссельбург",
+    "region": "Ленинградская область",
+    "population": 14131,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Шумерля",
+    "region": "Чувашия",
+    "population": 26873,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Шумиха",
+    "region": "Курганская область",
+    "population": 16264,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Шуя",
+    "region": "Ивановская область",
+    "population": 55225,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Щёкино",
+    "region": "Тульская область",
+    "population": 55109,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Щёлкино",
+    "region": "Крым",
+    "population": 10131,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Щёлково",
+    "region": "Московская область",
+    "population": 134211,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Щигры",
+    "region": "Курская область",
+    "population": 14927,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Щучье",
+    "region": "Курганская область",
+    "population": 8252,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Электрогорск",
+    "region": "Московская область",
+    "population": 29982,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Электросталь",
+    "region": "Московская область",
+    "population": 146403,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Электроугли",
+    "region": "Московская область",
+    "population": 17944,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Элиста",
+    "region": "Калмыкия",
+    "population": 102583,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Энгельс",
+    "region": "Саратовская область",
+    "population": 225428,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Эртиль",
+    "region": "Воронежская область",
+    "population": 10024,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Югорск",
+    "region": "Ханты-Мансийский АО",
+    "population": 38238,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Южа",
+    "region": "Ивановская область",
+    "population": 12957,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Южно-Сахалинск",
+    "region": "Сахалинская область",
+    "population": 181587,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Южно-Сухокумск",
+    "region": "Дагестан",
+    "population": 10503,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Южноуральск",
+    "region": "Челябинская область",
+    "population": 37478,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Юрга",
+    "region": "Кемеровская область",
+    "population": 79693,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Юрьев-Польский",
+    "region": "Владимирская область",
+    "population": 17276,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Юрьевец",
+    "region": "Ивановская область",
+    "population": 7899,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Юрюзань",
+    "region": "Челябинская область",
+    "population": 10284,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Юхнов",
+    "region": "Калужская область",
+    "population": 6610,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ядрин",
+    "region": "Чувашия",
+    "population": 7918,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Якутск",
+    "region": "Якутия",
+    "population": 355443,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ялта",
+    "region": "Крым",
+    "population": 74652,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ялуторовск",
+    "region": "Тюменская область",
+    "population": 38853,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Янаул",
+    "region": "Башкортостан",
+    "population": 25908,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Яранск",
+    "region": "Кировская область",
+    "population": 14284,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Яровое",
+    "region": "Алтайский край",
+    "population": 16424,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ярославль",
+    "region": "Ярославская область",
+    "population": 577279,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ярцево",
+    "region": "Смоленская область",
+    "population": 41452,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ясногорск",
+    "region": "Тульская область",
+    "population": 15269,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ясный",
+    "region": "Оренбургская область",
+    "population": 15471,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Яхрома",
+    "region": "Московская область",
+    "population": 14011,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Балаклава",
+    "region": "Севастополь",
+    "population": 35919,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Зеленогорск",
+    "region": "Санкт-Петербург",
+    "population": 15613,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Зеленоград",
+    "region": "Москва",
+    "population": 256775,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Инкерман",
+    "region": "Севастополь",
+    "population": 13858,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Колпино",
+    "region": "Санкт-Петербург",
+    "population": 142108,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Кронштадт",
+    "region": "Санкт-Петербург",
+    "population": 44399,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ломоносов",
+    "region": "Санкт-Петербург",
+    "population": 39147,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Московский",
+    "region": "Москва",
+    "population": 81309,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Павловск",
+    "region": "Санкт-Петербург",
+    "population": 17463,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Петергоф",
+    "region": "Санкт-Петербург",
+    "population": 80814,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Пушкин",
+    "region": "Санкт-Петербург",
+    "population": 107223,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Сестрорецк",
+    "region": "Санкт-Петербург",
+    "population": 45192,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Троицк",
+    "region": "Москва",
+    "population": 65043,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Щербинка",
+    "region": "Москва",
+    "population": 56531,
+    "lat": null,
+    "lon": null
+  }
+]

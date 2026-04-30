@@ -26,3 +26,6 @@ Thumbs.db
 
 # Build files
 *.min.*
+
+#opencode
+.opencode/
