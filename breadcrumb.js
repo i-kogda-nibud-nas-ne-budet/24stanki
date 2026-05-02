@@ -34,19 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
         'blog-remont-profilgebiv.html': 'Ремонт профилегибов',
         'blog-remont-valtsev.html': 'Ремонт вальцевых станков',
         'blog-remont-cpu-stoiki.html': 'Ремонт ЧПУ стойки',
-        'blog-remont-listogiba.html': 'Признаки поломки листогиба',
-        'remont-listogibov-moskva.html': 'Ремонт листогибов в Москве',
-        'remont-gilotin-moskva.html': 'Ремонт гильотин в Москве',
-        'remont-trubogibov-moskva.html': 'Ремонт трубогибов в Москве',
-        'remont-listogibov-spb.html': 'Ремонт листогибов в Санкт-Петербурге',
-        'remont-gilotin-spb.html': 'Ремонт гильотин в Санкт-Петербурге',
-        'remont-trubogibov-spb.html': 'Ремонт трубогибов в Санкт-Петербурге',
-        'remont-listogibov-ekaterinburg.html': 'Ремонт листогибов в Екатеринбурге',
-        'remont-gilotin-ekaterinburg.html': 'Ремонт гильотин в Екатеринбурге',
-        'remont-trubogibov-ekaterinburg.html': 'Ремонт трубогибов в Екатеринбурге',
-        'remont-listogibov-novosibirsk.html': 'Ремонт листогибов в Новосибирске',
-        'remont-gilotin-novosibirsk.html': 'Ремонт гильотин в Новосибирске',
-        'remont-trubogibov-novosibirsk.html': 'Ремонт трубогибов в Новосибирске'
+        'blog-remont-listogiba.html': 'Признаки поломки листогиба'
     };
 
     // Определяем родительские страницы
