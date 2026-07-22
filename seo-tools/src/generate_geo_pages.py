@@ -423,14 +423,29 @@ class GeoPagesGenerator:
             content
         )
 
-        # Замена цены в Schema.org
-        content = re.sub(
-            r'"priceRange": "[^"]+"',
-            f'"priceRange": "от {city_price:,} ₽"'.replace(',', ' '),
-            content
-        )
+# Замена цены в Schema.org
+content = re.sub(
+    r'"priceRange": "[^"]+"',
+    f'"priceRange": "от {city_price:,} ₽"'.replace(',', ' '),
+    content
+)
 
-        return content
+# Добавление уникального city-контента
+unique_content = f'''
+<section class="city-unique-content">
+<div class="container">
+<h2>Ремонт {service_info["name_genitive"]} в {city_name} и {city_region}</h2>
+<p><strong>{city_region}</strong> — важный промышленный регион России с развитым машиностроением, металлообрабатывающей и производственной отраслями. Здесь работают десятки предприятий, использующих {service_info["name_accusative"]} в своих производственных процессах.</p>
+<p>Наши специалисты имеют обширный опыт работы с оборудованием в {city_region}. Мы понимаем специфику местных производств и готовы предложить оптимальные решения для ремонта и обслуживания {service_info["name_genitive"]}.</p>
+<p>В <strong>{city_name}</strong> и по всей {city_region} мы обеспечиваем: срочный выезд в день обращения, диагностику на месте, гарантию 6 месяцев, работу с оригинальными запчастями и качественными аналогами.</p>
+<p>Крупные предприятия {city_region}, которые могут нуждаться в ремонте {service_info["name_genitive"]}: машиностроительные заводы, металлообрабатывающие производства, строительные компании, предприятия энергетического сектора.</p>
+</div>
+</section>
+'''
+
+content = content.replace('<!-- CITY_UNIQUE_CONTENT -->', unique_content)
+
+return content
 
     def generate_geo_page(
         self,
