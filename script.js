@@ -108,7 +108,23 @@ document.addEventListener('DOMContentLoaded', () => {
             card.style.opacity = '0';
             setTimeout(() => card.style.display = 'none', 300);
           }
-        });
+  /* === VIDEO SOUND TOGGLE === */
+  const soundBtn = document.getElementById('soundToggle');
+  const heroVideo = document.getElementById('heroVideo');
+  if (soundBtn && heroVideo) {
+    soundBtn.addEventListener('click', () => {
+      if (heroVideo.muted) {
+        heroVideo.muted = false;
+        heroVideo.volume = 0.5;
+        soundBtn.textContent = '🔊 Выключить звук';
+      } else {
+        heroVideo.muted = true;
+        soundBtn.textContent = '🔇 Включить звук';
+      }
+    });
+  }
+
+});
       });
     });
   }
