@@ -1,0 +1,465 @@
+﻿belaya-kalitva	в Белая Калитва
+belaya-kholunitsa	в Белая Холуница
+bolshoy-kamen	в Большой Камень
+dagestanskie-ogni	в Дагестанские Огни
+gavrilov-posad	в Гаврилов Посад
+gavrilov-yam	в Гаврилов-Ям
+gorno-altaysk	в Горно-Алтайск
+goryachiy-klyuch	в Горячий Ключ
+gus-khrustalnyy	в Гусь-Хрустальный
+kalach-na-donu	в Калач-на-Дону
+kamen-na-obi	в Камень-на-Оби
+kamensk-shakhtinskiy	в Каменск-Шахтинский
+kamensk-uralskiy	в Каменск-Уральский
+katav-ivanovsk	в Катав-Ивановск
+khanty-mansiysk	в Ханты-Мансийск
+kirovo-chepetsk	в Кирово-Чепецк
+komsomolsk-na-amure	в Комсомольск-на-Амуре
+krasnyy-kholm	в Красный Холм
+krasnyy-kut	в Красный Кут
+krasnyy-sulin	в Красный Сулин
+leninsk-kuznetskiy	в Ленинск-Кузнецкий
+likino-dulyovo	в Ликино-Дулёво
+lodeynoe-pole	в Лодейное Поле
+losino-petrovskiy	в Лосино-Петровский
+malaya-vishera	в Малая Вишера
+mariinskiy-posad	в Мариинский Посад
+mineralnye-vody	в Минеральные Воды
+naberezhnye-chelny	в Набережные Челны
+naro-fominsk	в Наро-Фоминск
+naryan-mar	в Нарьян-Мар
+nikolaevsk-na-amure	в Николаевск-на-Амуре
+nizhnie-sergi	в Нижние Серги
+nizhniy-lomov	в Нижний Ломов
+nizhniy-novgorod	в Нижний Новгород
+nizhniy-tagil	в Нижний Тагил
+nizhnyaya-salda	в Нижняя Салда
+nizhnyaya-tura	в Нижняя Тура
+novaya-ladoga	в Новая Ладога
+novaya-lyalya	в Новая Ляля
+novyy-oskol	в Новый Оскол
+novyy-urengoy	в Новый Уренгой
+orekhovo-zuevo	в Орехово-Зуево
+pavlovskiy-posad	в Павловский Посад
+pereslavl-zalesskiy	в Переславль-Залесский
+petropavlovsk-kamchatskiy	в Петропавловск-Камчатский
+petrov-val	в Петров Вал
+petrovsk-zabaykalskiy	в Петровск-Забайкальский
+polyarnye-zori	в Полярные Зори
+primorsko-akhtarsk	в Приморско-Ахтарск
+pyt-yakh	в Пыть-Ях
+rostov-na-donu	в Ростов-на-Дону
+rostov-velikiy	в Ростов Великий
+sankt-peterburg	в Санкт-Петербурге
+sergiev-posad	в Сергиев Посад
+severo-kurilsk	в Северо-Курильск
+slavyansk-na-kubani	в Славянск-на-Кубани
+sol-iletsk	в Соль-Илецк
+sosnovyy-bor	в Сосновый Бор
+sovetskaya-gavan	в Советская Гавань
+spas-demensk	в Спас-Деменск
+spas-klepiki	в Спас-Клепики
+spassk-dalniy	в Спасск-Дальний
+spassk-ryazanskiy	в Спасск-Рязанский
+staraya-kupavna	в Старая Купавна
+staraya-russa	в Старая Русса
+staryy-krym	в Старый Крым
+staryy-oskol	в Старый Оскол
+sukhoy-log	в Сухой Лог
+tarko-sale	в Тарко-Сале
+ulan-ude	в Улан-Удэ
+urus-martan	в Урус-Мартан
+usole-sibirskoe	в Усолье-Сибирское
+ust-dzheguta	в Усть-Джегута
+ust-ilimsk	в Усть-Илимск
+ust-katav	в Усть-Катав
+ust-kut	в Усть-Кут
+ust-labinsk	в Усть-Лабинск
+velikie-luki	в Великие Луки
+velikiy-novgorod	в Великий Новгород
+velikiy-ustyug	в Великий Устюг
+verkhniy-tagil	в Верхний Тагил
+verkhniy-ufaley	в Верхний Уфалей
+verkhnyaya-pyshma	в Верхняя Пышма
+verkhnyaya-salda	в Верхняя Салда
+verkhnyaya-tura	в Верхняя Тура
+vyatskie-polyany	в Вятские Поляны
+vyshniy-volochyok	в Вышний Волочёк
+yoshkar-ola	в Йошкар-Ола
+yurev-polskiy	в Юрьев-Польский
+yuzhno-sakhalinsk	в Южно-Сахалинск
+yuzhno-sukhokumsk	в Южно-Сухокумск
+zapadnaya-dvina	в Западная Двина
+zheleznogorsk-ilimskiy	в Железногорск-Илимский
+belaya-kalitva	Белая Калитва
+belaya-kholunitsa	Белая Холуница
+bolshoy-kamen	Большой Камень
+dagestanskie-ogni	Дагестанские Огни
+gavrilov-posad	Гаврилов Посад
+gavrilov-yam	Гаврилов-Ям
+gorno-altaysk	Горно-Алтайск
+goryachiy-klyuch	Горячий Ключ
+gus-khrustalnyy	Гусь-Хрустальный
+kalach-na-donu	Калач-на-Дону
+kamen-na-obi	Камень-на-Оби
+kamensk-shakhtinskiy	Каменск-Шахтинский
+kamensk-uralskiy	Каменск-Уральский
+katav-ivanovsk	Катав-Ивановск
+khanty-mansiysk	Ханты-Мансийск
+kirovo-chepetsk	Кирово-Чепецк
+komsomolsk-na-amure	Комсомольск-на-Амуре
+krasnyy-kholm	Красный Холм
+krasnyy-kut	Красный Кут
+krasnyy-sulin	Красный Сулин
+leninsk-kuznetskiy	Ленинск-Кузнецкий
+likino-dulyovo	Ликино-Дулёво
+lodeynoe-pole	Лодейное Поле
+losino-petrovskiy	Лосино-Петровский
+malaya-vishera	Малая Вишера
+mariinskiy-posad	Мариинский Посад
+mineralnye-vody	Минеральные Воды
+naberezhnye-chelny	Набережные Челны
+naro-fominsk	Наро-Фоминск
+naryan-mar	Нарьян-Мар
+nikolaevsk-na-amure	Николаевск-на-Амуре
+nizhnie-sergi	Нижние Серги
+nizhniy-lomov	Нижний Ломов
+nizhniy-novgorod	Нижний Новгород
+nizhniy-tagil	Нижний Тагил
+nizhnyaya-salda	Нижняя Салда
+nizhnyaya-tura	Нижняя Тура
+novaya-ladoga	Новая Ладога
+novaya-lyalya	Новая Ляля
+novyy-oskol	Новый Оскол
+novyy-urengoy	Новый Уренгой
+orekhovo-zuevo	Орехово-Зуево
+pavlovskiy-posad	Павловский Посад
+pereslavl-zalesskiy	Переславль-Залесский
+petropavlovsk-kamchatskiy	Петропавловск-Камчатский
+petrov-val	Петров Вал
+petrovsk-zabaykalskiy	Петровск-Забайкальский
+polyarnye-zori	Полярные Зори
+primorsko-akhtarsk	Приморско-Ахтарск
+pyt-yakh	Пыть-Ях
+rostov-na-donu	Ростов-на-Дону
+rostov-velikiy	Ростов Великий
+sankt-peterburg	Санкт-Петербурге
+sergiev-posad	Сергиев Посад
+severo-kurilsk	Северо-Курильск
+slavyansk-na-kubani	Славянск-на-Кубани
+sol-iletsk	Соль-Илецк
+sosnovyy-bor	Сосновый Бор
+sovetskaya-gavan	Советская Гавань
+spas-demensk	Спас-Деменск
+spas-klepiki	Спас-Клепики
+spassk-dalniy	Спасск-Дальний
+spassk-ryazanskiy	Спасск-Рязанский
+staraya-kupavna	Старая Купавна
+staraya-russa	Старая Русса
+staryy-krym	Старый Крым
+staryy-oskol	Старый Оскол
+sukhoy-log	Сухой Лог
+tarko-sale	Тарко-Сале
+ulan-ude	Улан-Удэ
+urus-martan	Урус-Мартан
+usole-sibirskoe	Усолье-Сибирское
+ust-dzheguta	Усть-Джегута
+ust-ilimsk	Усть-Илимск
+ust-katav	Усть-Катав
+ust-kut	Усть-Кут
+ust-labinsk	Усть-Лабинск
+velikie-luki	Великие Луки
+velikiy-novgorod	Великий Новгород
+velikiy-ustyug	Великий Устюг
+verkhniy-tagil	Верхний Тагил
+verkhniy-ufaley	Верхний Уфалей
+verkhnyaya-pyshma	Верхняя Пышма
+verkhnyaya-salda	Верхняя Салда
+verkhnyaya-tura	Верхняя Тура
+vyatskie-polyany	Вятские Поляны
+vyshniy-volochyok	Вышний Волочёк
+yoshkar-ola	Йошкар-Ола
+yurev-polskiy	Юрьев-Польский
+yuzhno-sakhalinsk	Южно-Сахалинск
+yuzhno-sukhokumsk	Южно-Сухокумск
+zapadnaya-dvina	Западная Двина
+zheleznogorsk-ilimskiy	Железногорск-Илимский
+belaya-kalitva	в Белая Калитва
+belaya-kholunitsa	в Белая Холуница
+bolshoy-kamen	в Большой Камень
+dagestanskie-ogni	в Дагестанские Огни
+gavrilov-posad	в Гаврилов Посад
+gavrilov-yam	в Гаврилов-Ям
+gorno-altaysk	в Горно-Алтайск
+goryachiy-klyuch	в Горячий Ключ
+gus-khrustalnyy	в Гусь-Хрустальный
+kalach-na-donu	в Калач-на-Дону
+kamen-na-obi	в Камень-на-Оби
+kamensk-shakhtinskiy	в Каменск-Шахтинский
+kamensk-uralskiy	в Каменск-Уральский
+katav-ivanovsk	в Катав-Ивановск
+khanty-mansiysk	в Ханты-Мансийск
+kirovo-chepetsk	в Кирово-Чепецк
+komsomolsk-na-amure	в Комсомольск-на-Амуре
+krasnyy-kholm	в Красный Холм
+krasnyy-kut	в Красный Кут
+krasnyy-sulin	в Красный Сулин
+leninsk-kuznetskiy	в Ленинск-Кузнецкий
+likino-dulyovo	в Ликино-Дулёво
+lodeynoe-pole	в Лодейное Поле
+losino-petrovskiy	в Лосино-Петровский
+malaya-vishera	в Малая Вишера
+mariinskiy-posad	в Мариинский Посад
+mineralnye-vody	в Минеральные Воды
+naberezhnye-chelny	в Набережные Челны
+naro-fominsk	в Наро-Фоминск
+naryan-mar	в Нарьян-Мар
+nikolaevsk-na-amure	в Николаевск-на-Амуре
+nizhnie-sergi	в Нижние Серги
+nizhniy-lomov	в Нижний Ломов
+nizhniy-novgorod	в Нижний Новгород
+nizhniy-tagil	в Нижний Тагил
+nizhnyaya-salda	в Нижняя Салда
+nizhnyaya-tura	в Нижняя Тура
+novaya-ladoga	в Новая Ладога
+novaya-lyalya	в Новая Ляля
+novyy-oskol	в Новый Оскол
+novyy-urengoy	в Новый Уренгой
+orekhovo-zuevo	в Орехово-Зуево
+pavlovskiy-posad	в Павловский Посад
+pereslavl-zalesskiy	в Переславль-Залесский
+petropavlovsk-kamchatskiy	в Петропавловск-Камчатский
+petrov-val	в Петров Вал
+petrovsk-zabaykalskiy	в Петровск-Забайкальский
+polyarnye-zori	в Полярные Зори
+primorsko-akhtarsk	в Приморско-Ахтарск
+pyt-yakh	в Пыть-Ях
+rostov-na-donu	в Ростов-на-Дону
+rostov-velikiy	в Ростов Великий
+sankt-peterburg	в Санкт-Петербурге
+sergiev-posad	в Сергиев Посад
+severo-kurilsk	в Северо-Курильск
+slavyansk-na-kubani	в Славянск-на-Кубани
+sol-iletsk	в Соль-Илецк
+sosnovyy-bor	в Сосновый Бор
+sovetskaya-gavan	в Советская Гавань
+spas-demensk	в Спас-Деменск
+spas-klepiki	в Спас-Клепики
+spassk-dalniy	в Спасск-Дальний
+spassk-ryazanskiy	в Спасск-Рязанский
+staraya-kupavna	в Старая Купавна
+staraya-russa	в Старая Русса
+staryy-krym	в Старый Крым
+staryy-oskol	в Старый Оскол
+sukhoy-log	в Сухой Лог
+tarko-sale	в Тарко-Сале
+ulan-ude	в Улан-Удэ
+urus-martan	в Урус-Мартан
+usole-sibirskoe	в Усолье-Сибирское
+ust-dzheguta	в Усть-Джегута
+ust-ilimsk	в Усть-Илимск
+ust-katav	в Усть-Катав
+ust-kut	в Усть-Кут
+ust-labinsk	в Усть-Лабинск
+velikie-luki	в Великие Луки
+velikiy-novgorod	в Великий Новгород
+velikiy-ustyug	в Великий Устюг
+verkhniy-tagil	в Верхний Тагил
+verkhniy-ufaley	в Верхний Уфалей
+verkhnyaya-pyshma	в Верхняя Пышма
+verkhnyaya-salda	в Верхняя Салда
+verkhnyaya-tura	в Верхняя Тура
+vyatskie-polyany	в Вятские Поляны
+vyshniy-volochyok	в Вышний Волочёк
+yoshkar-ola	в Йошкар-Ола
+yurev-polskiy	в Юрьев-Польский
+yuzhno-sakhalinsk	в Южно-Сахалинск
+yuzhno-sukhokumsk	в Южно-Сухокумск
+zapadnaya-dvina	в Западная Двина
+zheleznogorsk-ilimskiy	в Железногорск-Илимский
+belaya-kalitva	в Белая Калитва
+belaya-kholunitsa	в Белая Холуница
+bolshoy-kamen	в Большой Камень
+dagestanskie-ogni	в Дагестанские Огни
+gavrilov-posad	в Гаврилов Посад
+gavrilov-yam	в Гаврилов-Ям
+gorno-altaysk	в Горно-Алтайск
+goryachiy-klyuch	в Горячий Ключ
+gus-khrustalnyy	в Гусь-Хрустальный
+kalach-na-donu	в Калач-на-Дону
+kamen-na-obi	в Камень-на-Оби
+kamensk-shakhtinskiy	в Каменск-Шахтинский
+kamensk-uralskiy	в Каменск-Уральский
+katav-ivanovsk	в Катав-Ивановск
+khanty-mansiysk	в Ханты-Мансийск
+kirovo-chepetsk	в Кирово-Чепецк
+komsomolsk-na-amure	в Комсомольск-на-Амуре
+krasnyy-kholm	в Красный Холм
+krasnyy-kut	в Красный Кут
+krasnyy-sulin	в Красный Сулин
+leninsk-kuznetskiy	в Ленинск-Кузнецкий
+likino-dulyovo	в Ликино-Дулёво
+lodeynoe-pole	в Лодейное Поле
+losino-petrovskiy	в Лосино-Петровский
+malaya-vishera	в Малая Вишера
+mariinskiy-posad	в Мариинский Посад
+mineralnye-vody	в Минеральные Воды
+naberezhnye-chelny	в Набережные Челны
+naro-fominsk	в Наро-Фоминск
+naryan-mar	в Нарьян-Мар
+nikolaevsk-na-amure	в Николаевск-на-Амуре
+nizhnie-sergi	в Нижние Серги
+nizhniy-lomov	в Нижний Ломов
+nizhniy-novgorod	в Нижний Новгород
+nizhniy-tagil	в Нижний Тагил
+nizhnyaya-salda	в Нижняя Салда
+nizhnyaya-tura	в Нижняя Тура
+novaya-ladoga	в Новая Ладога
+novaya-lyalya	в Новая Ляля
+novyy-oskol	в Новый Оскол
+novyy-urengoy	в Новый Уренгой
+orekhovo-zuevo	в Орехово-Зуево
+pavlovskiy-posad	в Павловский Посад
+pereslavl-zalesskiy	в Переславль-Залесский
+petropavlovsk-kamchatskiy	в Петропавловск-Камчатский
+petrov-val	в Петров Вал
+petrovsk-zabaykalskiy	в Петровск-Забайкальский
+polyarnye-zori	в Полярные Зори
+primorsko-akhtarsk	в Приморско-Ахтарск
+pyt-yakh	в Пыть-Ях
+rostov-na-donu	в Ростов-на-Дону
+rostov-velikiy	в Ростов Великий
+sankt-peterburg	в Санкт-Петербурге
+sergiev-posad	в Сергиев Посад
+severo-kurilsk	в Северо-Курильск
+slavyansk-na-kubani	в Славянск-на-Кубани
+sol-iletsk	в Соль-Илецк
+sosnovyy-bor	в Сосновый Бор
+sovetskaya-gavan	в Советская Гавань
+spas-demensk	в Спас-Деменск
+spas-klepiki	в Спас-Клепики
+spassk-dalniy	в Спасск-Дальний
+spassk-ryazanskiy	в Спасск-Рязанский
+staraya-kupavna	в Старая Купавна
+staraya-russa	в Старая Русса
+staryy-krym	в Старый Крым
+staryy-oskol	в Старый Оскол
+sukhoy-log	в Сухой Лог
+tarko-sale	в Тарко-Сале
+ulan-ude	в Улан-Удэ
+urus-martan	в Урус-Мартан
+usole-sibirskoe	в Усолье-Сибирское
+ust-dzheguta	в Усть-Джегута
+ust-ilimsk	в Усть-Илимск
+ust-katav	в Усть-Катав
+ust-kut	в Усть-Кут
+ust-labinsk	в Усть-Лабинск
+velikie-luki	в Великие Луки
+velikiy-novgorod	в Великий Новгород
+velikiy-ustyug	в Великий Устюг
+verkhniy-tagil	в Верхний Тагил
+verkhniy-ufaley	в Верхний Уфалей
+verkhnyaya-pyshma	в Верхняя Пышма
+verkhnyaya-salda	в Верхняя Салда
+verkhnyaya-tura	в Верхняя Тура
+vyatskie-polyany	в Вятские Поляны
+vyshniy-volochyok	в Вышний Волочёк
+yoshkar-ola	в Йошкар-Ола
+yurev-polskiy	в Юрьев-Польский
+yuzhno-sakhalinsk	в Южно-Сахалинск
+yuzhno-sukhokumsk	в Южно-Сухокумск
+zapadnaya-dvina	в Западная Двина
+zheleznogorsk-ilimskiy	в Железногорск-Илимский
+belaya-kalitva	в Белая Калитва
+belaya-kholunitsa	в Белая Холуница
+bolshoy-kamen	в Большой Камень
+dagestanskie-ogni	в Дагестанские Огни
+gavrilov-posad	в Гаврилов Посад
+gavrilov-yam	в Гаврилов-Ям
+gorno-altaysk	в Горно-Алтайск
+goryachiy-klyuch	в Горячий Ключ
+gus-khrustalnyy	в Гусь-Хрустальный
+kalach-na-donu	в Калач-на-Дону
+kamen-na-obi	в Камень-на-Оби
+kamensk-shakhtinskiy	в Каменск-Шахтинский
+kamensk-uralskiy	в Каменск-Уральский
+katav-ivanovsk	в Катав-Ивановск
+khanty-mansiysk	в Ханты-Мансийск
+kirovo-chepetsk	в Кирово-Чепецк
+komsomolsk-na-amure	в Комсомольск-на-Амуре
+krasnyy-kholm	в Красный Холм
+krasnyy-kut	в Красный Кут
+krasnyy-sulin	в Красный Сулин
+leninsk-kuznetskiy	в Ленинск-Кузнецкий
+likino-dulyovo	в Ликино-Дулёво
+lodeynoe-pole	в Лодейное Поле
+losino-petrovskiy	в Лосино-Петровский
+malaya-vishera	в Малая Вишера
+mariinskiy-posad	в Мариинский Посад
+mineralnye-vody	в Минеральные Воды
+naberezhnye-chelny	в Набережные Челны
+naro-fominsk	в Наро-Фоминск
+naryan-mar	в Нарьян-Мар
+nikolaevsk-na-amure	в Николаевск-на-Амуре
+nizhnie-sergi	в Нижние Серги
+nizhniy-lomov	в Нижний Ломов
+nizhniy-novgorod	в Нижний Новгород
+nizhniy-tagil	в Нижний Тагил
+nizhnyaya-salda	в Нижняя Салда
+nizhnyaya-tura	в Нижняя Тура
+novaya-ladoga	в Новая Ладога
+novaya-lyalya	в Новая Ляля
+novyy-oskol	в Новый Оскол
+novyy-urengoy	в Новый Уренгой
+orekhovo-zuevo	в Орехово-Зуево
+pavlovskiy-posad	в Павловский Посад
+pereslavl-zalesskiy	в Переславль-Залесский
+petropavlovsk-kamchatskiy	в Петропавловск-Камчатский
+petrov-val	в Петров Вал
+petrovsk-zabaykalskiy	в Петровск-Забайкальский
+polyarnye-zori	в Полярные Зори
+primorsko-akhtarsk	в Приморско-Ахтарск
+pyt-yakh	в Пыть-Ях
+rostov-na-donu	в Ростов-на-Дону
+rostov-velikiy	в Ростов Великий
+sankt-peterburg	в Санкт-Петербурге
+sergiev-posad	в Сергиев Посад
+severo-kurilsk	в Северо-Курильск
+slavyansk-na-kubani	в Славянск-на-Кубани
+sol-iletsk	в Соль-Илецк
+sosnovyy-bor	в Сосновый Бор
+sovetskaya-gavan	в Советская Гавань
+spas-demensk	в Спас-Деменск
+spas-klepiki	в Спас-Клепики
+spassk-dalniy	в Спасск-Дальний
+spassk-ryazanskiy	в Спасск-Рязанский
+staraya-kupavna	в Старая Купавна
+staraya-russa	в Старая Русса
+staryy-krym	в Старый Крым
+staryy-oskol	в Старый Оскол
+sukhoy-log	в Сухой Лог
+tarko-sale	в Тарко-Сале
+ulan-ude	в Улан-Удэ
+urus-martan	в Урус-Мартан
+usole-sibirskoe	в Усолье-Сибирское
+ust-dzheguta	в Усть-Джегута
+ust-ilimsk	в Усть-Илимск
+ust-katav	в Усть-Катав
+ust-kut	в Усть-Кут
+ust-labinsk	в Усть-Лабинск
+velikie-luki	в Великие Луки
+velikiy-novgorod	в Великий Новгород
+velikiy-ustyug	в Великий Устюг
+verkhniy-tagil	в Верхний Тагил
+verkhniy-ufaley	в Верхний Уфалей
+verkhnyaya-pyshma	в Верхняя Пышма
+verkhnyaya-salda	в Верхняя Салда
+verkhnyaya-tura	в Верхняя Тура
+vyatskie-polyany	в Вятские Поляны
+vyshniy-volochyok	в Вышний Волочёк
+yoshkar-ola	в Йошкар-Ола
+yurev-polskiy	в Юрьев-Польский
+yuzhno-sakhalinsk	в Южно-Сахалинск
+yuzhno-sukhokumsk	в Южно-Сухокумск
+zapadnaya-dvina	в Западная Двина
+zheleznogorsk-ilimskiy	в Железногорск-Илимский

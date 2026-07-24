@@ -1,0 +1,465 @@
+﻿belaya-kalitva|в Белая Калитва
+belaya-kholunitsa|в Белая Холуница
+bolshoy-kamen|в Большой Камень
+dagestanskie-ogni|в Дагестанские Огни
+gavrilov-posad|в Гаврилов Посад
+gavrilov-yam|в Гаврилов
+gorno-altaysk|в Горно
+goryachiy-klyuch|в Горячий Ключ
+gus-khrustalnyy|в Гусь
+kalach-na-donu|в Калач
+kamen-na-obi|в Камень
+kamensk-shakhtinskiy|в Каменск
+kamensk-uralskiy|в Каменск
+katav-ivanovsk|в Катав
+khanty-mansiysk|в Ханты
+kirovo-chepetsk|в Кирово
+komsomolsk-na-amure|в Комсомольск
+krasnyy-kholm|в Красный Холм
+krasnyy-kut|в Красный Кут
+krasnyy-sulin|в Красный Сулин
+leninsk-kuznetskiy|в Ленинск
+likino-dulyovo|в Ликино
+lodeynoe-pole|в Лодейное Поле
+losino-petrovskiy|в Лосино
+malaya-vishera|в Малая Вишера
+mariinskiy-posad|в Мариинский Посад
+mineralnye-vody|в Минеральные Воды
+naberezhnye-chelny|в Набережные Челны
+naro-fominsk|в Наро
+naryan-mar|в Нарьян
+nikolaevsk-na-amure|в Николаевск
+nizhnie-sergi|в Нижние Серги
+nizhniy-lomov|в Нижний Ломов
+nizhniy-novgorod|в Нижний Новгород
+nizhniy-tagil|в Нижний Тагил
+nizhnyaya-salda|в Нижняя Салда
+nizhnyaya-tura|в Нижняя Тура
+novaya-ladoga|в Новая Ладога
+novaya-lyalya|в Новая Ляля
+novyy-oskol|в Новый Оскол
+novyy-urengoy|в Новый Уренгой
+orekhovo-zuevo|в Орехово
+pavlovskiy-posad|в Павловский Посад
+pereslavl-zalesskiy|в Переславль
+petropavlovsk-kamchatskiy|в Петропавловск
+petrov-val|в Петров Вал
+petrovsk-zabaykalskiy|в Петровск
+polyarnye-zori|в Полярные Зори
+primorsko-akhtarsk|в Приморско
+pyt-yakh|в Пыть
+rostov-na-donu|в Ростов
+rostov-velikiy|в Ростов Великий
+sankt-peterburg|в Санкт
+sergiev-posad|в Сергиев Посад
+severo-kurilsk|в Северо
+slavyansk-na-kubani|в Славянск
+sol-iletsk|в Соль
+sosnovyy-bor|в Сосновый Бор
+sovetskaya-gavan|в Советская Гавань
+spas-demensk|в Спас
+spas-klepiki|в Спас
+spassk-dalniy|в Спасск
+spassk-ryazanskiy|в Спасск
+staraya-kupavna|в Старая Купавна
+staraya-russa|в Старая Русса
+staryy-krym|в Старый Крым
+staryy-oskol|в Старый Оскол
+sukhoy-log|в Сухой Лог
+tarko-sale|в Тарко
+ulan-ude|в Улан
+urus-martan|в Урус
+usole-sibirskoe|в Усолье
+ust-dzheguta|в Усть
+ust-ilimsk|в Усть
+ust-katav|в Усть
+ust-kut|в Усть
+ust-labinsk|в Усть
+velikie-luki|в Великие Луки
+velikiy-novgorod|в Великий Новгород
+velikiy-ustyug|в Великий Устюг
+verkhniy-tagil|в Верхний Тагил
+verkhniy-ufaley|в Верхний Уфалей
+verkhnyaya-pyshma|в Верхняя Пышма
+verkhnyaya-salda|в Верхняя Салда
+verkhnyaya-tura|в Верхняя Тура
+vyatskie-polyany|в Вятские Поляны
+vyshniy-volochyok|в Вышний Волочёк
+yoshkar-ola|в Йошкар
+yurev-polskiy|в Юрьев
+yuzhno-sakhalinsk|в Южно
+yuzhno-sukhokumsk|в Южно
+zapadnaya-dvina|в Западная Двина
+zheleznogorsk-ilimskiy|в Железногорск
+belaya-kalitva|Белая Калитва
+belaya-kholunitsa|Белая Холуница
+bolshoy-kamen|Большой Камень
+dagestanskie-ogni|Дагестанские Огни
+gavrilov-posad|Гаврилов Посад
+gavrilov-yam|Гаврилов
+gorno-altaysk|Горно
+goryachiy-klyuch|Горячий Ключ
+gus-khrustalnyy|Гусь
+kalach-na-donu|Калач
+kamen-na-obi|Камень
+kamensk-shakhtinskiy|Каменск
+kamensk-uralskiy|Каменск
+katav-ivanovsk|Катав
+khanty-mansiysk|Ханты
+kirovo-chepetsk|Кирово
+komsomolsk-na-amure|Комсомольск
+krasnyy-kholm|Красный Холм
+krasnyy-kut|Красный Кут
+krasnyy-sulin|Красный Сулин
+leninsk-kuznetskiy|Ленинск
+likino-dulyovo|Ликино
+lodeynoe-pole|Лодейное Поле
+losino-petrovskiy|Лосино
+malaya-vishera|Малая Вишера
+mariinskiy-posad|Мариинский Посад
+mineralnye-vody|Минеральные Воды
+naberezhnye-chelny|Набережные Челны
+naro-fominsk|Наро
+naryan-mar|Нарьян
+nikolaevsk-na-amure|Николаевск
+nizhnie-sergi|Нижние Серги
+nizhniy-lomov|Нижний Ломов
+nizhniy-novgorod|Нижний Новгород
+nizhniy-tagil|Нижний Тагил
+nizhnyaya-salda|Нижняя Салда
+nizhnyaya-tura|Нижняя Тура
+novaya-ladoga|Новая Ладога
+novaya-lyalya|Новая Ляля
+novyy-oskol|Новый Оскол
+novyy-urengoy|Новый Уренгой
+orekhovo-zuevo|Орехово
+pavlovskiy-posad|Павловский Посад
+pereslavl-zalesskiy|Переславль
+petropavlovsk-kamchatskiy|Петропавловск
+petrov-val|Петров Вал
+petrovsk-zabaykalskiy|Петровск
+polyarnye-zori|Полярные Зори
+primorsko-akhtarsk|Приморско
+pyt-yakh|Пыть
+rostov-na-donu|Ростов
+rostov-velikiy|Ростов Великий
+sankt-peterburg|Санкт
+sergiev-posad|Сергиев Посад
+severo-kurilsk|Северо
+slavyansk-na-kubani|Славянск
+sol-iletsk|Соль
+sosnovyy-bor|Сосновый Бор
+sovetskaya-gavan|Советская Гавань
+spas-demensk|Спас
+spas-klepiki|Спас
+spassk-dalniy|Спасск
+spassk-ryazanskiy|Спасск
+staraya-kupavna|Старая Купавна
+staraya-russa|Старая Русса
+staryy-krym|Старый Крым
+staryy-oskol|Старый Оскол
+sukhoy-log|Сухой Лог
+tarko-sale|Тарко
+ulan-ude|Улан
+urus-martan|Урус
+usole-sibirskoe|Усолье
+ust-dzheguta|Усть
+ust-ilimsk|Усть
+ust-katav|Усть
+ust-kut|Усть
+ust-labinsk|Усть
+velikie-luki|Великие Луки
+velikiy-novgorod|Великий Новгород
+velikiy-ustyug|Великий Устюг
+verkhniy-tagil|Верхний Тагил
+verkhniy-ufaley|Верхний Уфалей
+verkhnyaya-pyshma|Верхняя Пышма
+verkhnyaya-salda|Верхняя Салда
+verkhnyaya-tura|Верхняя Тура
+vyatskie-polyany|Вятские Поляны
+vyshniy-volochyok|Вышний Волочёк
+yoshkar-ola|Йошкар
+yurev-polskiy|Юрьев
+yuzhno-sakhalinsk|Южно
+yuzhno-sukhokumsk|Южно
+zapadnaya-dvina|Западная Двина
+zheleznogorsk-ilimskiy|Железногорск
+belaya-kalitva|в Белая Калитва
+belaya-kholunitsa|в Белая Холуница
+bolshoy-kamen|в Большой Камень
+dagestanskie-ogni|в Дагестанские Огни
+gavrilov-posad|в Гаврилов Посад
+gavrilov-yam|в Гаврилов
+gorno-altaysk|в Горно
+goryachiy-klyuch|в Горячий Ключ
+gus-khrustalnyy|в Гусь
+kalach-na-donu|в Калач
+kamen-na-obi|в Камень
+kamensk-shakhtinskiy|в Каменск
+kamensk-uralskiy|в Каменск
+katav-ivanovsk|в Катав
+khanty-mansiysk|в Ханты
+kirovo-chepetsk|в Кирово
+komsomolsk-na-amure|в Комсомольск
+krasnyy-kholm|в Красный Холм
+krasnyy-kut|в Красный Кут
+krasnyy-sulin|в Красный Сулин
+leninsk-kuznetskiy|в Ленинск
+likino-dulyovo|в Ликино
+lodeynoe-pole|в Лодейное Поле
+losino-petrovskiy|в Лосино
+malaya-vishera|в Малая Вишера
+mariinskiy-posad|в Мариинский Посад
+mineralnye-vody|в Минеральные Воды
+naberezhnye-chelny|в Набережные Челны
+naro-fominsk|в Наро
+naryan-mar|в Нарьян
+nikolaevsk-na-amure|в Николаевск
+nizhnie-sergi|в Нижние Серги
+nizhniy-lomov|в Нижний Ломов
+nizhniy-novgorod|в Нижний Новгород
+nizhniy-tagil|в Нижний Тагил
+nizhnyaya-salda|в Нижняя Салда
+nizhnyaya-tura|в Нижняя Тура
+novaya-ladoga|в Новая Ладога
+novaya-lyalya|в Новая Ляля
+novyy-oskol|в Новый Оскол
+novyy-urengoy|в Новый Уренгой
+orekhovo-zuevo|в Орехово
+pavlovskiy-posad|в Павловский Посад
+pereslavl-zalesskiy|в Переславль
+petropavlovsk-kamchatskiy|в Петропавловск
+petrov-val|в Петров Вал
+petrovsk-zabaykalskiy|в Петровск
+polyarnye-zori|в Полярные Зори
+primorsko-akhtarsk|в Приморско
+pyt-yakh|в Пыть
+rostov-na-donu|в Ростов
+rostov-velikiy|в Ростов Великий
+sankt-peterburg|в Санкт
+sergiev-posad|в Сергиев Посад
+severo-kurilsk|в Северо
+slavyansk-na-kubani|в Славянск
+sol-iletsk|в Соль
+sosnovyy-bor|в Сосновый Бор
+sovetskaya-gavan|в Советская Гавань
+spas-demensk|в Спас
+spas-klepiki|в Спас
+spassk-dalniy|в Спасск
+spassk-ryazanskiy|в Спасск
+staraya-kupavna|в Старая Купавна
+staraya-russa|в Старая Русса
+staryy-krym|в Старый Крым
+staryy-oskol|в Старый Оскол
+sukhoy-log|в Сухой Лог
+tarko-sale|в Тарко
+ulan-ude|в Улан
+urus-martan|в Урус
+usole-sibirskoe|в Усолье
+ust-dzheguta|в Усть
+ust-ilimsk|в Усть
+ust-katav|в Усть
+ust-kut|в Усть
+ust-labinsk|в Усть
+velikie-luki|в Великие Луки
+velikiy-novgorod|в Великий Новгород
+velikiy-ustyug|в Великий Устюг
+verkhniy-tagil|в Верхний Тагил
+verkhniy-ufaley|в Верхний Уфалей
+verkhnyaya-pyshma|в Верхняя Пышма
+verkhnyaya-salda|в Верхняя Салда
+verkhnyaya-tura|в Верхняя Тура
+vyatskie-polyany|в Вятские Поляны
+vyshniy-volochyok|в Вышний Волочёк
+yoshkar-ola|в Йошкар
+yurev-polskiy|в Юрьев
+yuzhno-sakhalinsk|в Южно
+yuzhno-sukhokumsk|в Южно
+zapadnaya-dvina|в Западная Двина
+zheleznogorsk-ilimskiy|в Железногорск
+belaya-kalitva|в Белая Калитва
+belaya-kholunitsa|в Белая Холуница
+bolshoy-kamen|в Большой Камень
+dagestanskie-ogni|в Дагестанские Огни
+gavrilov-posad|в Гаврилов Посад
+gavrilov-yam|в Гаврилов
+gorno-altaysk|в Горно
+goryachiy-klyuch|в Горячий Ключ
+gus-khrustalnyy|в Гусь
+kalach-na-donu|в Калач
+kamen-na-obi|в Камень
+kamensk-shakhtinskiy|в Каменск
+kamensk-uralskiy|в Каменск
+katav-ivanovsk|в Катав
+khanty-mansiysk|в Ханты
+kirovo-chepetsk|в Кирово
+komsomolsk-na-amure|в Комсомольск
+krasnyy-kholm|в Красный Холм
+krasnyy-kut|в Красный Кут
+krasnyy-sulin|в Красный Сулин
+leninsk-kuznetskiy|в Ленинск
+likino-dulyovo|в Ликино
+lodeynoe-pole|в Лодейное Поле
+losino-petrovskiy|в Лосино
+malaya-vishera|в Малая Вишера
+mariinskiy-posad|в Мариинский Посад
+mineralnye-vody|в Минеральные Воды
+naberezhnye-chelny|в Набережные Челны
+naro-fominsk|в Наро
+naryan-mar|в Нарьян
+nikolaevsk-na-amure|в Николаевск
+nizhnie-sergi|в Нижние Серги
+nizhniy-lomov|в Нижний Ломов
+nizhniy-novgorod|в Нижний Новгород
+nizhniy-tagil|в Нижний Тагил
+nizhnyaya-salda|в Нижняя Салда
+nizhnyaya-tura|в Нижняя Тура
+novaya-ladoga|в Новая Ладога
+novaya-lyalya|в Новая Ляля
+novyy-oskol|в Новый Оскол
+novyy-urengoy|в Новый Уренгой
+orekhovo-zuevo|в Орехово
+pavlovskiy-posad|в Павловский Посад
+pereslavl-zalesskiy|в Переславль
+petropavlovsk-kamchatskiy|в Петропавловск
+petrov-val|в Петров Вал
+petrovsk-zabaykalskiy|в Петровск
+polyarnye-zori|в Полярные Зори
+primorsko-akhtarsk|в Приморско
+pyt-yakh|в Пыть
+rostov-na-donu|в Ростов
+rostov-velikiy|в Ростов Великий
+sankt-peterburg|в Санкт
+sergiev-posad|в Сергиев Посад
+severo-kurilsk|в Северо
+slavyansk-na-kubani|в Славянск
+sol-iletsk|в Соль
+sosnovyy-bor|в Сосновый Бор
+sovetskaya-gavan|в Советская Гавань
+spas-demensk|в Спас
+spas-klepiki|в Спас
+spassk-dalniy|в Спасск
+spassk-ryazanskiy|в Спасск
+staraya-kupavna|в Старая Купавна
+staraya-russa|в Старая Русса
+staryy-krym|в Старый Крым
+staryy-oskol|в Старый Оскол
+sukhoy-log|в Сухой Лог
+tarko-sale|в Тарко
+ulan-ude|в Улан
+urus-martan|в Урус
+usole-sibirskoe|в Усолье
+ust-dzheguta|в Усть
+ust-ilimsk|в Усть
+ust-katav|в Усть
+ust-kut|в Усть
+ust-labinsk|в Усть
+velikie-luki|в Великие Луки
+velikiy-novgorod|в Великий Новгород
+velikiy-ustyug|в Великий Устюг
+verkhniy-tagil|в Верхний Тагил
+verkhniy-ufaley|в Верхний Уфалей
+verkhnyaya-pyshma|в Верхняя Пышма
+verkhnyaya-salda|в Верхняя Салда
+verkhnyaya-tura|в Верхняя Тура
+vyatskie-polyany|в Вятские Поляны
+vyshniy-volochyok|в Вышний Волочёк
+yoshkar-ola|в Йошкар
+yurev-polskiy|в Юрьев
+yuzhno-sakhalinsk|в Южно
+yuzhno-sukhokumsk|в Южно
+zapadnaya-dvina|в Западная Двина
+zheleznogorsk-ilimskiy|в Железногорск
+belaya-kalitva|в Белая Калитва
+belaya-kholunitsa|в Белая Холуница
+bolshoy-kamen|в Большой Камень
+dagestanskie-ogni|в Дагестанские Огни
+gavrilov-posad|в Гаврилов Посад
+gavrilov-yam|в Гаврилов
+gorno-altaysk|в Горно
+goryachiy-klyuch|в Горячий Ключ
+gus-khrustalnyy|в Гусь
+kalach-na-donu|в Калач
+kamen-na-obi|в Камень
+kamensk-shakhtinskiy|в Каменск
+kamensk-uralskiy|в Каменск
+katav-ivanovsk|в Катав
+khanty-mansiysk|в Ханты
+kirovo-chepetsk|в Кирово
+komsomolsk-na-amure|в Комсомольск
+krasnyy-kholm|в Красный Холм
+krasnyy-kut|в Красный Кут
+krasnyy-sulin|в Красный Сулин
+leninsk-kuznetskiy|в Ленинск
+likino-dulyovo|в Ликино
+lodeynoe-pole|в Лодейное Поле
+losino-petrovskiy|в Лосино
+malaya-vishera|в Малая Вишера
+mariinskiy-posad|в Мариинский Посад
+mineralnye-vody|в Минеральные Воды
+naberezhnye-chelny|в Набережные Челны
+naro-fominsk|в Наро
+naryan-mar|в Нарьян
+nikolaevsk-na-amure|в Николаевск
+nizhnie-sergi|в Нижние Серги
+nizhniy-lomov|в Нижний Ломов
+nizhniy-novgorod|в Нижний Новгород
+nizhniy-tagil|в Нижний Тагил
+nizhnyaya-salda|в Нижняя Салда
+nizhnyaya-tura|в Нижняя Тура
+novaya-ladoga|в Новая Ладога
+novaya-lyalya|в Новая Ляля
+novyy-oskol|в Новый Оскол
+novyy-urengoy|в Новый Уренгой
+orekhovo-zuevo|в Орехово
+pavlovskiy-posad|в Павловский Посад
+pereslavl-zalesskiy|в Переславль
+petropavlovsk-kamchatskiy|в Петропавловск
+petrov-val|в Петров Вал
+petrovsk-zabaykalskiy|в Петровск
+polyarnye-zori|в Полярные Зори
+primorsko-akhtarsk|в Приморско
+pyt-yakh|в Пыть
+rostov-na-donu|в Ростов
+rostov-velikiy|в Ростов Великий
+sankt-peterburg|в Санкт
+sergiev-posad|в Сергиев Посад
+severo-kurilsk|в Северо
+slavyansk-na-kubani|в Славянск
+sol-iletsk|в Соль
+sosnovyy-bor|в Сосновый Бор
+sovetskaya-gavan|в Советская Гавань
+spas-demensk|в Спас
+spas-klepiki|в Спас
+spassk-dalniy|в Спасск
+spassk-ryazanskiy|в Спасск
+staraya-kupavna|в Старая Купавна
+staraya-russa|в Старая Русса
+staryy-krym|в Старый Крым
+staryy-oskol|в Старый Оскол
+sukhoy-log|в Сухой Лог
+tarko-sale|в Тарко
+ulan-ude|в Улан
+urus-martan|в Урус
+usole-sibirskoe|в Усолье
+ust-dzheguta|в Усть
+ust-ilimsk|в Усть
+ust-katav|в Усть
+ust-kut|в Усть
+ust-labinsk|в Усть
+velikie-luki|в Великие Луки
+velikiy-novgorod|в Великий Новгород
+velikiy-ustyug|в Великий Устюг
+verkhniy-tagil|в Верхний Тагил
+verkhniy-ufaley|в Верхний Уфалей
+verkhnyaya-pyshma|в Верхняя Пышма
+verkhnyaya-salda|в Верхняя Салда
+verkhnyaya-tura|в Верхняя Тура
+vyatskie-polyany|в Вятские Поляны
+vyshniy-volochyok|в Вышний Волочёк
+yoshkar-ola|в Йошкар
+yurev-polskiy|в Юрьев
+yuzhno-sakhalinsk|в Южно
+yuzhno-sukhokumsk|в Южно
+zapadnaya-dvina|в Западная Двина
+zheleznogorsk-ilimskiy|в Железногорск

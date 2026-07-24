@@ -29,14 +29,19 @@ logger = logging.getLogger(__name__)
 class GeoPagesGenerator:
     """Генератор geo-страниц"""
 
-    def __init__(self, base_dir: str = "../"):
+    def __init__(self, base_dir: str = None):
         """
         Инициализация генератора
 
         Args:
-            base_dir: Базовая директория проекта
+            base_dir: Базовая директория проекта (по умолчанию - родительская папка src/)
         """
-        self.base_dir = Path(base_dir).resolve()
+        if base_dir is None:
+            # Определяем базовую директорию относительно расположения скрипта
+            script_dir = Path(__file__).parent
+            self.base_dir = script_dir.parent
+        else:
+            self.base_dir = Path(base_dir).resolve()
         self.cities_file = self.base_dir / "data" / "cities.json"
         self.output_dir = self.base_dir.parent
         self.sitemap_file = self.output_dir / "sitemap.xml"
@@ -122,8 +127,8 @@ class GeoPagesGenerator:
         try:
             with open(self.cities_file, 'r', encoding='utf-8') as f:
                 cities = json.load(f)
-            logger.info(f"Загружено {len(cities)} городов")
-            return cities
+                logger.info(f"Загружено {len(cities)} городов")
+                return cities
         except Exception as e:
             logger.error(f"Ошибка загрузки городов: {e}")
             return []
@@ -174,11 +179,11 @@ class GeoPagesGenerator:
         # Простая реализация - в реальном проекте нужно использовать pymorphy2
         forms = {
             "nominative": city_name,
-            "genitive": city_name,  # города
-            "dative": city_name,  # городу
-            "accusative": city_name,  # город
-            "instrumental": city_name,  # городом
-            "prepositional": city_name  # городе
+            "genitive": city_name,
+            "dative": city_name,
+            "accusative": city_name,
+            "instrumental": city_name,
+            "prepositional": city_name
         }
 
         # Особые случаи для крупных городов
@@ -250,8 +255,8 @@ class GeoPagesGenerator:
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
                 content = f.read()
-            logger.info(f"Прочитана базовая страница: {base_file}")
-            return content
+                logger.info(f"Прочитана базовая страница: {base_file}")
+                return content
         except Exception as e:
             logger.error(f"Ошибка чтения базовой страницы {base_file}: {e}")
             return ""
@@ -308,7 +313,7 @@ class GeoPagesGenerator:
             r'Москвы',
             city_forms["genitive"],
             content
- )
+        )
 
         # Замена цены
         content = re.sub(
@@ -423,15 +428,15 @@ class GeoPagesGenerator:
             content
         )
 
-# Замена цены в Schema.org
-content = re.sub(
-    r'"priceRange": "[^"]+"',
-    f'"priceRange": "от {city_price:,} ₽"'.replace(',', ' '),
-    content
-)
+        # Замена цены в Schema.org
+        content = re.sub(
+            r'"priceRange": "[^"]+"',
+            f'"priceRange": "от {city_price:,} ₽"'.replace(',', ' '),
+            content
+        )
 
-# Добавление уникального city-контента
-unique_content = f'''
+        # Добавление уникального city-контента
+        unique_content = f'''
 <section class="city-unique-content">
 <div class="container">
 <h2>Ремонт {service_info["name_genitive"]} в {city_name} и {city_region}</h2>
@@ -443,9 +448,9 @@ unique_content = f'''
 </section>
 '''
 
-content = content.replace('<!-- CITY_UNIQUE_CONTENT -->', unique_content)
+        content = content.replace('<!-- CITY_UNIQUE_CONTENT -->', unique_content)
 
-return content
+        return content
 
     def generate_geo_page(
         self,
@@ -531,12 +536,12 @@ return content
                 if any(service_type in html_file.name for service_type in self.service_types.keys()):
                     # Это geo-страница
                     url = f"https://24stanki.ru/{html_file.name}"
-                    sitemap_entries.append(f"""  <url>
-    <loc>{url}</loc>
-    <lastmod>{current_date}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>""")
+                    sitemap_entries.append(f""" <url>
+ <loc>{url}</loc>
+ <lastmod>{current_date}</lastmod>
+ <changefreq>monthly</changefreq>
+ <priority>0.8</priority>
+ </url>""")
 
             # Обновление sitemap
             urlset_start = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
@@ -564,6 +569,9 @@ return content
         try:
             robots_content = """User-agent: *
 Allow: /
+Disallow: /seo-tools/
+Disallow: /images/
+
 Sitemap: https://24stanki.ru/sitemap.xml
 """
 
