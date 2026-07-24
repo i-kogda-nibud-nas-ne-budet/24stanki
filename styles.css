@@ -62,13 +62,7 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); font-weight: 700; lin
 .section-accent { background: linear-gradient(135deg, var(--c-primary), var(--c-accent)); }
 .text-center { text-align: center; }
 .text-accent { color: var(--c-primary); }
-.text-gradient {
-  background: linear-gradient(135deg, #ff6b35, #ffa500, #ffcc00);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  filter: drop-shadow(0 0 8px rgba(255, 107, 53, 0.5));
-}
+
 .mb-1 { margin-bottom: 0.5rem; }
 .mb-2 { margin-bottom: 1rem; }
 .mb-3 { margin-bottom: 1.5rem; }
