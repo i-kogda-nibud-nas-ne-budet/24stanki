@@ -1,157 +1,116 @@
-document.addEventListener('DOMContentLoaded', function() {
-// Управление видео
-    const video = document.querySelector('.hero-video');
-    const playPauseBtn = document.getElementById('playPauseBtn');
-    const controlIcon = playPauseBtn ? playPauseBtn.querySelector('.control-icon') : null;
-    
-    if (video && playPauseBtn && controlIcon) {
-        playPauseBtn.addEventListener('click', function() {
-            if (video.muted) {
-                video.muted = false;
-                controlIcon.textContent = '🔊';
-            } else {
-                video.muted = true;
-                controlIcon.textContent = '🔇';
-            }
-        });
-    }
+/* ============================================
+   24STANKI.RU — Main Script 2026
+   Scroll animations, counters, nav, hamburger
+   ============================================ */
 
-    // Гамбургер-меню
-    const hamburger = document.querySelector('.hamburger');
-    const navUl = document.querySelector('nav ul');
-    const dropdowns = document.querySelectorAll('.dropdown');
-    
-    if (hamburger && navUl) {
-        hamburger.addEventListener('click', function() {
-            hamburger.classList.toggle('active');
-            navUl.classList.toggle('active');
-            
-            // Обновляем aria-expanded для доступности
-            const isExpanded = hamburger.classList.contains('active');
-            hamburger.setAttribute('aria-expanded', isExpanded);
-        });
-        
-        // Закрытие меню при клике на ссылку
-        navUl.querySelectorAll('a').forEach(link => {
-            link.addEventListener('click', () => {
-                if (window.innerWidth <= 768) {
-                    hamburger.classList.remove('active');
-                    navUl.classList.remove('active');
-                    hamburger.setAttribute('aria-expanded', 'false');
-                }
-            });
-        });
-    }
-    
-    // Dropdown на мобильных
-    dropdowns.forEach(dropdown => {
-        const dropbtn = dropdown.querySelector('.dropbtn');
-        if (dropdown && window.innerWidth <= 768) {
-            dropbtn.addEventListener('click', function(e) {
-                e.preventDefault();
-                dropdown.classList.toggle('active');
-            });
-        }
+document.addEventListener('DOMContentLoaded', () => {
+
+  /* === SCROLL REVEAL (Intersection Observer) === */
+  const revealObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        revealObserver.unobserve(entry.target);
+      }
     });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
 
-    // Эффект навигации при скролле
-    const nav = document.querySelector('nav');
-    if (nav) {
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 50) {
-                nav.classList.add('scrolled');
-            } else {
-                nav.classList.remove('scrolled');
-            }
-        });
-    }
+  document.querySelectorAll('.reveal, .reveal-left, .reveal-right, .reveal-scale, .stagger').forEach(el => {
+    revealObserver.observe(el);
+  });
 
-    // Плавная прокрутка для навигационных ссылок
-    document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            const targetId = this.getAttribute('href');
-            if (targetId && targetId !== '#' && targetId.startsWith('#')) {
-                const target = document.querySelector(targetId);
-                if (target) {
-                    e.preventDefault();
-                    // Учитываем высоту навигации
-                    const navHeight = nav ? nav.offsetHeight : 0;
-                    const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - navHeight;
-                    
-                    window.scrollTo({
-                        top: targetPosition,
-                        behavior: 'smooth'
-                    });
-                }
-            }
-        });
+  /* === ANIMATED COUNTERS === */
+  function animateCounter(el, target, duration = 2000) {
+    const start = performance.now();
+    const suffix = el.dataset.suffix || '+';
+    const update = (now) => {
+      const progress = Math.min((now - start) / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      const current = Math.floor(eased * target);
+      el.textContent = current.toLocaleString('ru-RU') + (progress >= 1 ? suffix : '');
+      if (progress < 1) requestAnimationFrame(update);
+    };
+    requestAnimationFrame(update);
+  }
+
+  const counterObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const target = parseInt(entry.target.dataset.target, 10);
+        if (target) animateCounter(entry.target, target);
+        counterObserver.unobserve(entry.target);
+      }
     });
+  }, { threshold: 0.5 });
 
-    // Карусель
-    const carousel = document.querySelector('.carousel');
-    if (carousel) {
-        const slides = carousel.querySelectorAll('.slide');
-        let currentSlide = 0;
+  document.querySelectorAll('[data-target]').forEach(el => {
+    counterObserver.observe(el);
+  });
 
-        // Функция для показа слайда
-        function showSlide(index) {
-            // Убираем класс active у всех слайдов
-            slides.forEach(slide => slide.classList.remove('active'));
-            
-            // Добавляем класс active к нужному слайду
-            if (slides[index]) {
-                slides[index].classList.add('active');
-            }
-        }
+  /* === STICKY NAV === */
+  const nav = document.querySelector('.nav');
+  if (nav) {
+    let lastScroll = 0;
+    window.addEventListener('scroll', () => {
+      const currentScroll = window.scrollY;
+      if (currentScroll > 60) {
+        nav.classList.add('scrolled');
+      } else {
+        nav.classList.remove('scrolled');
+      }
+      lastScroll = currentScroll;
+    }, { passive: true });
+  }
 
-        // Показываем первый слайд
-        if (slides.length > 0) {
-            showSlide(currentSlide);
-        }
-
-        // Автоматическая смена слайдов каждые 5 секунд
-        setInterval(() => {
-            currentSlide = (currentSlide + 1) % slides.length;
-            showSlide(currentSlide);
-        }, 5000);
-    }
-
-    // FAQ функциональность
-    const faqContainers = document.querySelectorAll('.faq-container');
-    
-    faqContainers.forEach(container => {
-        const faqItems = container.querySelectorAll('.faq-item');
-        
-        faqItems.forEach(item => {
-            const question = item.querySelector('.faq-question');
-            const icon = question ? question.querySelector('.faq-icon') : null;
-            
-            // Убедимся, что все FAQ изначально свернуты
-            item.classList.remove('active');
-            if (icon) {
-                icon.textContent = '+';
-            }
-            
-            if (question) {
-                question.addEventListener('click', () => {
-                    // Закрываем все остальные элементы в том же контейнере
-                    faqItems.forEach(otherItem => {
-                        if (otherItem !== item && otherItem.classList.contains('active')) {
-                            otherItem.classList.remove('active');
-                            const otherIcon = otherItem.querySelector('.faq-icon');
-                            if (otherIcon) {
-                                otherIcon.textContent = '+';
-                            }
-                        }
-                    });
-                    
-                    // Переключаем текущий элемент
-                    item.classList.toggle('active');
-                    if (icon) {
-                        icon.textContent = item.classList.contains('active') ? '−' : '+';
-                    }
-                });
-            }
-        });
+  /* === HAMBURGER MENU === */
+  const hamburger = document.querySelector('.hamburger');
+  const mobileMenu = document.querySelector('.nav-mobile');
+  if (hamburger && mobileMenu) {
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      mobileMenu.classList.toggle('active');
+      document.body.style.overflow = mobileMenu.classList.contains('active') ? 'hidden' : '';
     });
+    mobileMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        mobileMenu.classList.remove('active');
+        document.body.style.overflow = '';
+      });
+    });
+  }
+
+  /* === SMOOTH SCROLL for anchor links === */
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', (e) => {
+      const target = document.querySelector(anchor.getAttribute('href'));
+      if (target) {
+        e.preventDefault();
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
+  });
+
+  /* === PORTFOLIO FILTER === */
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const portfolioCards = document.querySelectorAll('.portfolio-card');
+  if (filterBtns.length && portfolioCards.length) {
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.dataset.filter;
+        portfolioCards.forEach(card => {
+          if (filter === 'all' || card.dataset.category === filter) {
+            card.style.display = '';
+            setTimeout(() => card.style.opacity = '1', 50);
+          } else {
+            card.style.opacity = '0';
+            setTimeout(() => card.style.display = 'none', 300);
+          }
+        });
+      });
+    });
+  }
+
 });
