@@ -9,7 +9,6 @@
             for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
             k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
         })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=104014471', 'ym');
-
         ym(104014471, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", accurateTrackBounce:true, trackLinks:true});
     </script>
     <noscript><div><img src="https://mc.yandex.ru/watch/104014471" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
@@ -23,7 +22,7 @@
     <meta property="og:description" content="Команда профессионалов с 15-летним опытом ремонта металлообрабатывающего оборудования. Гарантия 6 месяцев.">
     <meta property="og:image" content="images/telegram-preview.jpg">
     <meta property="og:type" content="website">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="favicon.ico?v=2" type="image/x-icon">
     <script type="application/ld+json">
@@ -91,301 +90,239 @@
     }
     </script>
 </head>
-<body class="dark-theme">
-    <header>
-        <nav>
-            <div class="logo">ИП Горбунов М.А.</div>
-            <button class="hamburger" aria-label="Открыть меню" aria-expanded="false">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <ul>
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="uslugi.html">Услуги</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropbtn">Ремонт оборудования ▼</a>
-                    <div class="dropdown-content">
-                        <a href="remont-listogibov.html">Ремонт листогибов</a>
-                        <a href="remont-gilotin.html">Ремонт гильотин</a>
-                        <a href="remont-lentochnyh-pil.html">Ремонт ленточных пил</a>
-                        <a href="remont-profilgebiv.html">Ремонт профилегибов</a>
-                        <a href="remont-valtsev.html">Ремонт вальцевых</a>
-                        <a href="remont-trubogibov.html">Ремонт трубогибов</a>
-                    </div>
-                </li>
-                <li><a href="blog.html">Блог</a></li>
-                <li><a href="portfolio.html">Портфолио</a></li>
-                <li><a href="price.html">Цены</a></li>
-                <li><a href="#reviews">Отзывы</a></li>
-                <li><a href="#contacts">Контакты</a></li>
-            </ul>
-        </nav>
-    </header>
+<body>
 
-    <nav class="breadcrumbs" aria-label="Навигация по сайту"></nav>
-
-    <main>
-        <!-- Hero-блок -->
-        <div class="hero-text">
-            <h1>Команда профессионалов с 15-летним опытом</h1>
-            <p>Ремонт листогибов, гильотин, трубогибов, ленточных пил по Москве, МО и 7 областям. Выезд 24/7.</p>
+<!-- ===== NAVIGATION ===== -->
+<nav class="nav" id="nav">
+    <div class="nav-inner">
+        <a href="index.html" class="nav-logo">24<span>STANKI</span></a>
+        <div class="nav-links">
+            <a href="uslugi.html">Услуги</a>
+            <a href="about.html">О команде</a>
+            <a href="price.html">Цены</a>
+            <a href="portfolio.html">Портфолио</a>
+            <a href="blog.html">Блог</a>
+            <a href="tel:89939089837" class="nav-cta">📞 8 (993) 908-98-37</a>
         </div>
-
-        <!-- О нас -->
-        <section class="about">
-            <div class="container">
-                <h2>О нас</h2>
-                <div class="content">
-                    <p><strong>ИП Горбунов М.А.</strong> — специализированный сервис по ремонту и обслуживанию металлообрабатывающего оборудования. За 15 лет работы мы отремонтировали более 500 станков для предприятий по всей России.</p>
-                    <p>Наша специализация — ремонт <strong>листогибов, гильотин, трубогибов и ленточных пил</strong> всех марок и моделей. Работаем с оборудованием Ermaksan, IDEAL, DURMA, SAHINLER, Bekamak, Bomar, Pilous и других производителей.</p>
-                    <p>Выезжаем на объекты по Москве, Московской области и 7 областям Центральной России: Владимирской, Тверской, Калужской, Тульской, Рязанской, Ярославской. <strong>Выезд 24/7</strong> — включая выходные и праздничные дни.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Наши преимущества -->
-        <section class="about">
-            <div class="container">
-                <h2>Наши преимущества</h2>
-                <div class="services-grid">
-                    <div class="service-card">
-                        <div class="service-icon">🏆</div>
-                        <h3>15 лет опыта</h3>
-                        <p>Более 15 лет ремонта промышленного оборудования. Знаем каждую марку и каждую неисправность.</p>
-                    </div>
-                    <div class="service-card">
-                        <div class="service-icon">🔧</div>
-                        <h3>500+ станков</h3>
-                        <p>Более 500 отремонтированных станков: листогибы, гильотины, трубогибы, ленточные пилы.</p>
-                    </div>
-                    <div class="service-card">
-                        <div class="service-icon">🛡️</div>
-                        <h3>Гарантия 6 месяцев</h3>
-                        <p>Предоставляем гарантию 6 месяцев на все выполненные работы и установленные запчасти.</p>
-                    </div>
-                    <div class="service-card">
-                        <div class="service-icon">⚡</div>
-                        <h3>Выезд в день обращения</h3>
-                        <p>Мастер приезжает в день обращения. Среднее время выезда по Москве — 2-4 часа.</p>
-                    </div>
-                    <div class="service-card">
-                        <div class="service-icon">⚙️</div>
-                        <h3>Оригинальные запчасти</h3>
-                        <p>Используем оригинальные запчасти от производителей и проверенные аналоги.</p>
-                    </div>
-                    <div class="service-card">
-                        <div class="service-icon">🕐</div>
-                        <h3>24/7 выезд</h3>
-                        <p>Работаем круглосуточно, включая выходные и праздничные дни. Срочный выезд при авариях.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Наша команда -->
-        <section class="about">
-            <div class="container">
-                <h2>Наша команда</h2>
-                <div class="team-profiles">
-                    <div class="team-card">
-                        <div class="team-avatar">
-                            <img src="images/work1.jpg" alt="Максим Горбунов" loading="lazy">
-                        </div>
-                        <div class="team-info">
-                            <h3>Максим Горбунов</h3>
-                            <p class="team-role">Руководитель / Ведущий инженер</p>
-                            <p class="team-exp">Опыт работы: 15+ лет</p>
-                            <p class="team-spec">Специализация: листогибы, гильотины, гидравлические системы. Диагностика и капитальный ремонт любого оборудования.</p>
-                        </div>
-                    </div>
-                    <div class="team-card">
-                        <div class="team-avatar">
-                            <img src="images/work2.jpg" alt="Андрей Горбунов" loading="lazy">
-                        </div>
-                        <div class="team-info">
-                            <h3>Андрей Горбунов</h3>
-                            <p class="team-role">Старший мастер</p>
-                            <p class="team-exp">Опыт работы: 12+ лет</p>
-                            <p class="team-spec">Специализация: трубогибы, профилегибы, вальцевые станки. Пуско-наладочные работы и регулировка.</p>
-                        </div>
-                    </div>
-                    <div class="team-card">
-                        <div class="team-avatar">
-                            <img src="images/work3.jpg" alt="Игорь Петров" loading="lazy">
-                        </div>
-                        <div class="team-info">
-                            <h3>Игорь Петров</h3>
-                            <p class="team-role">Электрик / Электронщик</p>
-                            <p class="team-exp">Опыт работы: 10+ лет</p>
-                            <p class="team-spec">Специализация: электрика станков, ремонт блоков управления, датчиков, силовых цепей. Стойки ЧПУ.</p>
-                        </div>
-                    </div>
-                    <div class="team-card">
-                        <div class="team-avatar">
-                            <img src="images/work4.jpg" alt="Сергей Козлов" loading="lazy">
-                        </div>
-                        <div class="team-info">
-                            <h3>Сергей Козлов</h3>
-                            <p class="team-role">Мастер по гидравлике</p>
-                            <p class="team-exp">Опыт работы: 8+ лет</p>
-                            <p class="team-spec">Специализация: гидравлические системы, замена гидроцилиндров, ремонт гидронасосов, регулировка давления.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Сертификаты и допуски -->
-        <section class="about">
-            <div class="container">
-                <h2>Сертификаты и допуски</h2>
-                <div class="content">
-                    <p>Наши специалисты регулярно проходят повышение квалификации и сертификацию по ремонту промышленного оборудования. Все работы выполняются в соответствии с техническими регламентами и стандартами безопасности.</p>
-                </div>
-                <div class="cert-grid">
-                    <div class="cert-card">
-                        <div class="cert-icon">📜</div>
-                        <h3>Сертификат на ремонт листогибов</h3>
-                        <p>Подтверждение квалификации по ремонту и обслуживанию листогибочных станков всех марок</p>
-                    </div>
-                    <div class="cert-card">
-                        <div class="cert-icon">📜</div>
-                        <h3>Допуск к гидравлическим системам</h3>
-                        <p>Разрешение на работы с гидравлическими системами промышленного оборудования</p>
-                    </div>
-                    <div class="cert-card">
-                        <div class="cert-icon">📜</div>
-                        <h3>Сертификат по электробезопасности</h3>
-                        <p>Допуск к работам с электрооборудованием и блоками управления станков</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- CTA -->
-        <div class="contact-cta">
-            <div class="cta-text">Заказать ремонт оборудования</div>
-            <div class="contact-widgets">
-                <a href="tel:89939089837" class="contact-widget phone">
-                    <span class="icon">📞</span>
-                    <span>8 (993) 908-98-37</span>
-                </a>
-                <a href="https://wa.me/79939089837" class="contact-widget whatsapp">
-                    <span class="icon">📱</span>
-                    <span>WhatsApp</span>
-                </a>
-                <a href="https://t.me/servis_stankov" class="contact-widget telegram">
-                    <span class="icon">✈️</span>
-                    <span>Telegram</span>
-                </a>
-                <a href="mailto:max.gorbunov.service@yandex.ru" class="contact-widget email">
-                    <span class="icon">📧</span>
-                    <span>Email</span>
-                </a>
-            </div>
-        </div>
-
-        <!-- Отзывы -->
-        <section id="reviews" class="reviews">
-            <div class="container">
-                <h2>Отзывы клиентов</h2>
-                <div class="reviews-container">
-                    <div class="review">
-                        <p>"Оперативно откликнулся и выручил с ремонтом станка, несмотря на выходной день. Рекомендую!"</p>
-                        <p class="author">Артем</p>
-                    </div>
-                    <div class="review">
-                        <p>"В кратчайшие сроки была произведена настройка ленточнопильного станка"</p>
-                        <p class="author">Олег</p>
-                    </div>
-                    <div class="review">
-                        <p>"Приехал, всё сделал быстро, сразу видно специалист, однозначно буду обращаться ещё, рекомендую!!!"</p>
-                        <p class="author">Роман</p>
-                    </div>
-                    <div class="review">
-                        <p>"Максим и его отец Андрей — это про людей знающих свое дело! Все прошло гораздо быстрее, чем обговаривали ранее. По качеству выполненных работ нареканий не было!"</p>
-                        <p class="author">Евгений</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Контакты -->
-        <section id="contacts" class="contacts">
-            <div class="container">
-                <h2>Свяжитесь с нами</h2>
-                <div class="contact-row">
-                    <div class="phone-widget">
-                        <a href="tel:89939089837">
-                            <span class="icon">📞</span>
-                            <span>8 (993) 908-98-37</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="contact-row">
-                    <a href="https://wa.me/79939089837" class="whatsapp">
-                        <span class="icon">📱</span> Написать в WhatsApp
-                    </a>
-                    <a href="https://t.me/servis_stankov" class="telegram">
-                        <span class="icon">✈️</span> Написать в Telegram
-                    </a>
-                </div>
-                <div class="contact-row">
-                    <div class="email-widget">
-                        <a href="mailto:max.gorbunov.service@yandex.ru">
-                            <span class="icon">📧</span>
-                            <span>max.gorbunov.service@yandex.ru</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="emergency-notice">
-                    <h3>🚨 Срочный выезд</h3>
-                    <p>При аварийных ситуациях выезжаем в течение 2-4 часов по Москве и МО</p>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <div class="social-links">
-                <a href="https://wa.me/79939089837" title="WhatsApp" target="_blank">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
-                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-                    </svg>
-                </a>
-                <a href="https://t.me/servis_stankov" title="Telegram" target="_blank">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
-                        <path d="M12 0a12 12 0 100 24 12 12 0 000-24zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394a.791.791 0 01-.57.284l.213-3.053 5.594-5.04c.238-.213-.054-.333-.373-.12l-6.916 4.34-2.98-.924c-.643-.203-.658-.643.136-.953l11.57-4.46c.537-.196 1.006.128.832.941z"/>
-                    </svg>
-                </a>
-                <a href="mailto:max.gorbunov.service@yandex.ru" title="Email" target="_blank">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
-                        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-                    </svg>
-                </a>
-            </div>
-            <div class="quick-links">
-                <a href="index.html">Главная</a>
-                <a href="uslugi.html">Услуги</a>
-                <a href="about.html">О команде</a>
-                <a href="price.html">Цены</a>
-                <a href="portfolio.html">Портфолио</a>
-                <a href="blog.html">Блог</a>
-                <a href="sitemap.xml">Карта сайта</a>
-            </div>
-            <p>ИП Горбунов М.А</p>
-        </div>
-    </footer>
-
-    <script src="breadcrumb.js"></script>
-    <script src="script.js"></script>
-
-    <!-- Sticky CTA bar for mobile -->
-    <div class="sticky-cta-bar">
-        <a href="tel:89939089837" class="cta-call">📞 Позвонить</a>
-        <a href="https://wa.me/79939089837" class="cta-whatsapp">💬 WhatsApp</a>
+        <button class="hamburger" aria-label="Меню">
+            <span></span><span></span><span></span>
+        </button>
     </div>
+</nav>
+<div class="nav-mobile">
+    <a href="index.html">Главная</a>
+    <a href="uslugi.html">Услуги</a>
+    <a href="about.html">О команде</a>
+    <a href="price.html">Цены</a>
+    <a href="portfolio.html">Портфолио</a>
+    <a href="blog.html">Блог</a>
+    <a href="tel:89939089837" class="btn btn-primary">📞 Позвонить</a>
+    <a href="https://wa.me/79939089837" class="btn btn-outline">💬 WhatsApp</a>
+</div>
+
+<!-- Breadcrumbs -->
+<nav class="breadcrumbs container" aria-label="Навигация по сайту">
+    <a href="index.html">Главная</a> <span>›</span> О команде
+</nav>
+
+<!-- ===== PAGE HERO ===== -->
+<div class="page-hero">
+    <div class="container">
+        <h1>О нашей команде</h1>
+        <p class="lead">Профессионалы с 15-летним опытом ремонта промышленного оборудования</p>
+    </div>
+</div>
+
+<!-- ===== О НАС ===== -->
+<section class="section">
+    <div class="container">
+        <h2 class="reveal">ИП Горбунов М.А.</h2>
+        <p class="lead reveal">Специализация: ремонт листогибов, гильотин, трубогибов, ленточных пил. Работаем по Москве, МО и 7 областям. Выезд 24/7.</p>
+        <p class="reveal">За 15 лет работы мы отремонтировали более 500 станков для предприятий по всей России. Наша специализация — ремонт <strong>листогибов, гильотин, трубогибов и ленточных пил</strong> всех марок и моделей. Работаем с оборудованием Ermaksan, IDEAL, DURMA, SAHINLER, Bekamak, Bomar, Pilous и других производителей.</p>
+        <p class="reveal">Выезжаем на объекты по Москве, Московской области и 7 областям Центральной России: Владимирской, Тверской, Калужской, Тульской, Рязанской, Ярославской. <strong>Выезд 24/7</strong> — включая выходные и праздничные дни.</p>
+    </div>
+</section>
+
+<!-- ===== ПРЕИМУЩЕСТВА ===== -->
+<section class="section section-dark">
+    <div class="container">
+        <h2 class="section-title text-center reveal">Наши преимущества</h2>
+        <div class="services-grid stagger">
+            <div class="service-card">
+                <div class="service-icon">🏆</div>
+                <h3>15 лет опыта</h3>
+                <p>Более 15 лет ремонта промышленного оборудования. Знаем каждую марку и каждую неисправность.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🔧</div>
+                <h3>500+ станков</h3>
+                <p>Более 500 отремонтированных станков: листогибы, гильотины, трубогибы, ленточные пилы.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🛡️</div>
+                <h3>Гарантия 6 месяцев</h3>
+                <p>Предоставляем гарантию 6 месяцев на все выполненные работы и установленные запчасти.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">⚡</div>
+                <h3>Выезд в день обращения</h3>
+                <p>Мастер приезжает в день обращения. Среднее время выезда по Москве — 2-4 часа.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">⚙️</div>
+                <h3>Оригинальные запчасти</h3>
+                <p>Используем оригинальные запчасти от производителей и проверенные аналоги.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🕐</div>
+                <h3>24/7 выезд</h3>
+                <p>Работаем круглосуточно, включая выходные и праздничные дни. Срочный выезд при авариях.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== КОМАНДА ===== -->
+<section class="section">
+    <div class="container">
+        <h2 class="section-title text-center reveal">Наша команда</h2>
+        <div class="team-grid stagger">
+            <div class="team-card">
+                <div class="team-avatar">
+                    <img src="images/work1.jpg" alt="Максим Горбунов" loading="lazy">
+                </div>
+                <div class="team-info">
+                    <h3>Максим Горбунов</h3>
+                    <p class="team-role">Руководитель / Ведущий инженер</p>
+                    <p class="team-exp">Опыт работы: 15+ лет</p>
+                    <p class="team-spec">Специализация: листогибы, гильотины, гидравлические системы. Диагностика и капитальный ремонт любого оборудования.</p>
+                </div>
+            </div>
+            <div class="team-card">
+                <div class="team-avatar">
+                    <img src="images/work2.jpg" alt="Андрей Горбунов" loading="lazy">
+                </div>
+                <div class="team-info">
+                    <h3>Андрей Горбунов</h3>
+                    <p class="team-role">Старший мастер</p>
+                    <p class="team-exp">Опыт работы: 12+ лет</p>
+                    <p class="team-spec">Специализация: трубогибы, профилегибы, вальцевые станки. Пуско-наладочные работы и регулировка.</p>
+                </div>
+            </div>
+            <div class="team-card">
+                <div class="team-avatar">
+                    <img src="images/work3.jpg" alt="Игорь Петров" loading="lazy">
+                </div>
+                <div class="team-info">
+                    <h3>Игорь Петров</h3>
+                    <p class="team-role">Электрик / Электронщик</p>
+                    <p class="team-exp">Опыт работы: 10+ лет</p>
+                    <p class="team-spec">Специализация: электрика станков, ремонт блоков управления, датчиков, силовых цепей. Стойки ЧПУ.</p>
+                </div>
+            </div>
+            <div class="team-card">
+                <div class="team-avatar">
+                    <img src="images/work4.jpg" alt="Сергей Козлов" loading="lazy">
+                </div>
+                <div class="team-info">
+                    <h3>Сергей Козлов</h3>
+                    <p class="team-role">Мастер по гидравлике</p>
+                    <p class="team-exp">Опыт работы: 8+ лет</p>
+                    <p class="team-spec">Специализация: гидравлические системы, замена гидроцилиндров, ремонт гидронасосов, регулировка давления.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== СЕРТИФИКАТЫ ===== -->
+<section class="section section-dark">
+    <div class="container">
+        <h2 class="section-title text-center reveal">Сертификаты и допуски</h2>
+        <p class="section-subtitle text-center reveal">Наши специалисты регулярно проходят повышение квалификации и сертификацию по ремонту промышленного оборудования.</p>
+        <div class="services-grid stagger">
+            <div class="service-card">
+                <div class="service-icon">📜</div>
+                <h3>Сертификат на ремонт листогибов</h3>
+                <p>Подтверждение квалификации по ремонту и обслуживанию листогибочных станков всех марок</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">📜</div>
+                <h3>Допуск к гидравлическим системам</h3>
+                <p>Разрешение на работы с гидравлическими системами промышленного оборудования</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">📜</div>
+                <h3>Сертификат по электробезопасности</h3>
+                <p>Допуск к работам с электрооборудованием и блоками управления станков</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="section">
+    <div class="container">
+        <div class="cta-section reveal-scale">
+            <h2>Готовы начать?</h2>
+            <p>Позвоните нам для бесплатной консультации</p>
+            <div class="cta-buttons">
+                <a href="tel:89939089837" class="btn btn-primary">📞 8 (993) 908-98-37</a>
+                <a href="https://wa.me/79939089837" class="btn btn-outline">💬 WhatsApp</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="nav-logo">24<span>STANKI</span></div>
+                <p>ИП Горбунов М.А. — ремонт металлообрабатывающего оборудования в Москве и по России. Выезд 24/7. Гарантия 6 месяцев.</p>
+            </div>
+            <div>
+                <h4>Услуги</h4>
+                <ul>
+                    <li><a href="remont-listogibov.html">Ремонт листогибов</a></li>
+                    <li><a href="remont-gilotin.html">Ремонт гильотин</a></li>
+                    <li><a href="remont-trubogibov.html">Ремонт трубогибов</a></li>
+                    <li><a href="remont-lentochnyh-pil.html">Ремонт ленточных пил</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Компания</h4>
+                <ul>
+                    <li><a href="about.html">О команде</a></li>
+                    <li><a href="price.html">Прайс-лист</a></li>
+                    <li><a href="portfolio.html">Портфолио</a></li>
+                    <li><a href="blog.html">Блог</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Контакты</h4>
+                <ul>
+                    <li><a href="tel:89939089837">8 (993) 908-98-37</a></li>
+                    <li><a href="https://wa.me/79939089837">WhatsApp</a></li>
+                    <li><a href="https://t.me/servis_stankov">Telegram</a></li>
+                    <li><a href="mailto:max.gorbunov.service@yandex.ru">Email</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 ИП Горбунов М.А. Все права защищены.</span>
+            <a href="sitemap.xml">Карта сайта</a>
+        </div>
+    </div>
+</footer>
+
+<!-- Sticky CTA (mobile) -->
+<div class="sticky-cta-bar">
+    <a href="tel:89939089837" class="cta-call">📞 Позвонить</a>
+    <a href="https://wa.me/79939089837" class="cta-whatsapp">💬 WhatsApp</a>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
