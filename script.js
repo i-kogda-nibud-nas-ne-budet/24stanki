@@ -108,6 +108,11 @@ document.addEventListener('DOMContentLoaded', () => {
             card.style.opacity = '0';
             setTimeout(() => card.style.display = 'none', 300);
           }
+        });
+      });
+    });
+  }
+
   /* === VIDEO SOUND TOGGLE === */
   const soundBtn = document.getElementById('soundToggle');
   const heroVideo = document.getElementById('heroVideo');
@@ -121,11 +126,6 @@ document.addEventListener('DOMContentLoaded', () => {
         heroVideo.muted = true;
         soundBtn.textContent = '🔇 Включить звук';
       }
-    });
-  }
-
-});
-      });
     });
   }
 
