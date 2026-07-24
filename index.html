@@ -54,6 +54,8 @@
     </script>
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="preload" href="stanki_optimized.webm" as="video" type="video/webm">
+    <link rel="preload" href="stanki_optimized.mp4" as="video" type="video/mp4">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="favicon.ico?v=2" type="image/x-icon">
 </head>
@@ -91,8 +93,8 @@
 <section class="hero">
     <div class="hero-bg">
         <video id="heroVideo" autoplay muted loop playsinline style="width:100%;height:100%;object-fit:cover;filter:brightness(0.3)">
-            <source src="stanki_compressed.webm" type="video/webm">
-            <source src="stanki_compressed.mp4" type="video/mp4">
+            <source src="stanki_optimized.webm" type="video/webm">
+            <source src="stanki_optimized.mp4" type="video/mp4">
         </video>
         <div class="hero-overlay"></div>
         <button id="soundToggle" class="sound-btn" aria-label="Включить звук">🔇 Включить звук</button>
