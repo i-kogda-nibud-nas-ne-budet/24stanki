@@ -5,6 +5,7 @@ Checks:
     LATIN_SLUG    - latin city slug inside JSON-LD "name"           (error)
     DOUBLED_WORD  - same word repeated twice in a row               (error)
     CASE_NOM      - nominative city form after preposition          (error)
+    PT_WARNING    - motion word + nominative pluralia-tantum city   (warning)
     REGION_MO     - mentions of Moscow region                       (info)
     WARRANTY      - warranty-on-works mentions                      (info)
 
@@ -32,14 +33,29 @@ SERVICES = (
 )
 
 ERROR_TYPES = ("YEAR_2025", "LATIN_SLUG", "DOUBLED_WORD", "CASE_NOM")
+WARN_TYPES = ("PT_WARNING",)
 INFO_TYPES = ("REGION_MO", "WARRANTY")
-ALL_TYPES = ERROR_TYPES + INFO_TYPES
+ALL_TYPES = ERROR_TYPES + WARN_TYPES + INFO_TYPES
+
+# Cities whose nominative form looks plural; «в Химки» after a motion word
+# («Выезд мастера в Химки») is grammatically valid -> warning, not error.
+PLURALIA_TANTUM = {
+    "Мытищи", "Химки", "Люберцы", "Озёры", "Луховицы", "Вязники", "Петушки",
+    "Меленки", "Сухиничи", "Котельники", "Бронницы", "Кимры",
+}
 
 TITLE_RE = re.compile(r"<title[^>]*>(.*?)</title>", re.S | re.I)
 LATIN_NAME_RE = re.compile(r'"name":\s*"[^"]*\b(?:в|in) [a-z][a-z-]{2,}')
-DOUBLED_RE = re.compile(r"\b([А-ЯЁа-яё]+)\b(?:\s+и\s+|\s+)\1\b")
+DOUBLED_RE = re.compile(r"\b([А-ЯЁа-яё]+)\b(?:\s+и\s+|\s+)\1\b", re.IGNORECASE)
 WARRANTY_RE = re.compile(
     r"гарантия[^.<]{0,40}(?:месяц|год)|гарантия\s+\d|до\s*12\s*месяцев", re.I
+)
+# Motion verbs/nouns before which a pluralia-tantum accusative is grammatical.
+MOTION_RE = re.compile(
+    r"\b(?:выезд\w*|приезд\w*|поездк\w*|выезжаем|выезжает|выедем|приезжаем|"
+    r"приедет|приедем|ездим|ездит|едем|поедем|отправля\w*|достави\w*|"
+    r"добраться|прибытие|прибуде\w*)\b",
+    re.I,
 )
 GEO_FILE_RE = re.compile(
     r"remont-(" + "|".join(sorted(SERVICES, key=len, reverse=True)) + r")-([a-z0-9-]+)\.html"
@@ -178,9 +194,19 @@ def case_nom_patterns(names: dict[str, str]) -> list[tuple[str, re.Pattern[str]]
         if nom in seen or not nom:
             continue
         seen.add(nom)
-        pattern = re.compile(r"(?<![\w-])(?:в|по|из|от)\s+" + re.escape(nom) + r"(?![\w-])", re.I)
+        pattern = re.compile(
+            r"(?<![\w-])(в|по|из|от)\s+" + re.escape(nom) + r"(?![\w-])", re.I
+        )
         out.append((nom, pattern))
     return sorted(out)
+
+
+def is_pt_motion(text: str, prep: str, pos: int) -> bool:
+    """True when «в» + pluralia-tantum city follows a motion word nearby."""
+    if prep.lower() != "в":
+        return False
+    before = text[max(0, pos - 80):pos]
+    return bool(MOTION_RE.search(before))
 
 
 def check_file(path: Path, city: str, nom_patterns: list[tuple[str, re.Pattern[str]]]) -> list[Finding]:
@@ -202,10 +228,13 @@ def check_file(path: Path, city: str, nom_patterns: list[tuple[str, re.Pattern[s
         found.append(Finding("DOUBLED_WORD", context(text, word_match.start(), word_match.end())))
 
     for nom, pattern in nom_patterns:
-        nom_match = pattern.search(text)
-        if nom_match:
-            found.append(Finding("CASE_NOM", context(text, nom_match.start(), nom_match.end())))
-            break
+        for nom_match in pattern.finditer(text):
+            ftype = (
+                "PT_WARNING"
+                if nom in PLURALIA_TANTUM and is_pt_motion(text, nom_match.group(1), nom_match.start())
+                else "CASE_NOM"
+            )
+            found.append(Finding(ftype, context(text, nom_match.start(), nom_match.end())))
 
     mo_pos = min(
         (text.find(sub) for sub in ("Московской области", "и МО", "по МО") if sub in text),
@@ -254,10 +283,16 @@ def main() -> int:
 
     print(f"Geo pages checked: {len(geo_files)}")
     print(f"Files with errors: {files_with_errors}")
-    print("\n{:<14} {:>7}  {}".format("TYPE", "COUNT", "CLASS"))
+    print("\n{:<14} {:>10} {:>7}  {}".format("TYPE", "HITS", "FILES", "CLASS"))
     for ftype in shown_types:
-        cls = "ERROR" if ftype in ERROR_TYPES else "INFO"
-        print("{:<14} {:>7}  {}".format(ftype, len(per_type[ftype]), cls))
+        hits = per_type[ftype]
+        cls = (
+            "ERROR"
+            if ftype in ERROR_TYPES
+            else ("WARNING" if ftype in WARN_TYPES else "INFO")
+        )
+        n_files = len({fname for fname, _ in hits})
+        print("{:<14} {:>10} {:>7}  {}".format(ftype, len(hits), n_files, cls))
 
     report_lines = [
         "GEO PAGES VALIDATION REPORT",
@@ -268,8 +303,13 @@ def main() -> int:
     ]
     for ftype in shown_types:
         hits = per_type[ftype]
-        cls = "ERROR" if ftype in ERROR_TYPES else "INFO"
-        report_lines.append(f"{ftype} ({cls}): {len(hits)}")
+        cls = (
+            "ERROR"
+            if ftype in ERROR_TYPES
+            else ("WARNING" if ftype in WARN_TYPES else "INFO")
+        )
+        n_files = len({fname for fname, _ in hits})
+        report_lines.append(f"{ftype} ({cls}): {len(hits)} hits / {n_files} files")
         for fname, frag in hits[:10]:
             print(f"  [{ftype}] {fname}: {frag}")
         for fname, frag in hits:
