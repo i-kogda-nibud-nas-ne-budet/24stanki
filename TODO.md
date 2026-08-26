@@ -1,262 +1,157 @@
-# TODO — Улучшение основных страниц 24stanki.ru
+# TODO — Аудит текста, структуры и стилей 24stanki.ru
 
 > **Дата:** 25.08.2026
 > **Статус:** На согласовании
-> **Фокус:** 38 основных страниц (core + сервисные + статьи + блог)
-> **Geo-страницы:** откладываются
 
 ---
 
-## Текущее состояние основных страниц
+## Найденные проблемы
 
-| Группа | Файлов | Слов | Проблемы |
-|--------|--------|------|----------|
-| Core (index, uslugi, about, price, portfolio, blog) | 6 | 266-540 | Мало контента, нет canonical у大部分 |
-| Сервисные (remont-*.html) | 8 | 2094-2811 | Часть без OG, часть без canonical |
-| Статьи (sravnenie, kakoj, top-10) | 4 | 309-510 | **Критически мало слов**, нет canonical |
-| Блог (blog-*.html) | 20 | 427-1289 | Мало контента, нет canonical, часть без OG |
+### 🔴 Critical: Текст
+
+| # | Файл | Проблема | Текст | Исправление |
+|---|------|----------|-------|-------------|
+| 1 | index.html | Английское слово | "Срочный выезд possible 24/7" | → "Срочный выезд 24/7" |
+| 2 | about.html | Опечатка | "диагостическое" | → "диагностическое" |
+| 3 | price.html | Английское слово | "для popular марок" | → "для популярных марок" |
+| 4 | price.html | Английское слово | "для European станков" | → "для европейских станков" |
+| 5 | uslugi.html | Грамматика | "Минимализируем" | → "Минимизируем" |
+| 6 | blog-remont-cpu-stoiki.html | Опечатка бренда | "Cebelec" (17 раз) | → "Cybelec" |
+| 7 | blog-remont-chpu-stoyki-delem-instrukciya.html | Неверная страна | "Cebelec (Германия)" | → "Cybelec (Швейцария)" |
+
+### 🔴 Critical: Структура контента
+
+| # | Файл | Проблема |
+|---|------|----------|
+| 8 | sravnenie-listogibov-i-gilotin.html | **Неверный контент!** Title/H1/body = "Какой станок выбрать" вместо "Сравнение листогибов и гильотин" |
+| 9 | sravnenie-trubogibov-i-profilgebiv.html | **Неверный контент!** Title/H1/body = "Какой станок выбрать" вместо "Сравнение трубогибов и профилегибов" |
+| 10 | blog-remont-chpu-stoyki-delem-instrukciya.html | Дублирующиеся абзацы (2 блока) |
+
+### 🟡 High: CSS — отсутствующие классы (~30)
+
+Основная проблема: **innerHTML-страницы используют CSS-классы, которых нет в styles.css**
+
+| Группа классов | Где используются | Что стилизовать |
+|----------------|------------------|-----------------|
+| `blog-card-*` (image, content, category, title, excerpt, meta, link) | blog.html, blog-*.html | Карточки блога |
+| `service-price` | sravnenie, remont-*.html | Цены в карточках |
+| `contact-row`, `phone-widget`, `email-widget` | footer всех inner-страниц | Контакты в футере |
+| `social-links`, `quick-links` | footer всех inner-страниц | Ссылки в футере |
+| `emergency-notice` | remont-*.html, sravnenie | Банер аварийного ремонта |
+| `dropbtn`, `icon`, `whatsapp`, `telegram`, `email` | навигация, contact-cta | Иконки и кнопки |
+| `faq-question`, `faq-answer`, `faq-icon` | remont-*.html | Аккордеон FAQ |
+| `footer-info` | sravnenie | Информация в футере |
+
+### 🟡 High: Структура HTML
+
+| # | Проблема | Файлы |
+|---|----------|-------|
+| 11 | Две разные системы навигации | index.html (fixed nav) vs inner pages (header nav) |
+| 12 | Отсутствует hamburger на sravnenie | sravnenie-*.html |
+| 13 | Битая ссылка | blog.html → blog-remont-gibochnyh-stankov.html (404) |
+| 14 | Дублирующий Service schema | uslugi.html (2 одинаковых блока) |
+| 15 | Несогласованный FAQ markup | index: `<details>`, inner: `<div class="faq-item">` |
+| 16 | Несогласованные шрифты | index: Montserrat 600-800, inner: Montserrat 700 + Roboto Condensed (не используется) |
 
 ---
 
-## Этап 1: Техническая база (canonical + OG + robots + sitemap)
+## План исправлений
 
-**Приоритет:** 🔴 Critical
-**Ожидаемое время:** 2-3 часа
+### Этап 1: Исправление текста (Critical)
+
+**Время:** 30 мин
 **Ответственный:** @coder
 
-### Задачи
+1. Исправить 7 текстовых ошибок (English слова, опечатки, грамматика)
+2. Исправить "Cebelec" → "Cybelec" во всех файлах
+3. Удалить дублирующиеся абзацы в blog-remont-chpu-stoyki-delem-instrukciya.html
 
-#### 1.1 Canonical теги на ВСЕ основные страницы
-- Добавить `<link rel="canonical" href="https://24stanki.ru/{filename}">` в 38 основных страниц
-- Пропустить файлы, где уже есть
+**Критерии:** 0 English слов в русском тексте, 0 опечаток
 
-**Критерии:** 100% основных страниц имеют canonical
+### Этап 2: Исправление контента статей (Critical)
 
-#### 1.2 OG теги на ВСЕ основные страницы
-- Добавить `og:title`, `og:description`, `og:url`, `og:image`, `og:locale`
-- Пропустить файлы, где уже есть
+**Время:** 2-3 часа
+**Ответственный:** @coder
 
-**Критерии:** 100% основных страниц имеют OG теги
+1. Восстановить правильный контент в sravnenie-listogibov-i-gilotin.html (сравнение листогибов и гильотин)
+2. Восстановить правильный контент в sravnenie-trubogibov-i-profilgebiv.html (сравнение трубогибов и профилегибов)
+3. Убедиться, что title/H1/meta совпадают с содержимым
 
-#### 1.3 Исправить падеж "в Московская область"
-- 576 файлов → "в Московской области"
+**Критерии:** Каждая статья содержит уникальный контент, соответствующий title
 
-**Критерии:** 0 вхождений "в Московская область"
+### Этап 3: CSS для отсутствующих классов (High)
 
-#### 1.4 Исправить sitemap.xml
-- Добавить все 1625 URL (кроме preview, google, yandex)
-- Валидный XML
+**Время:** 3-4 часа
+**Ответственный:** @frontend-developer
 
-**Критерии:** sitemap содержит все URL, валиден
+1. Добавить стили для `blog-card-*` (карточки блога)
+2. Добавить стили для `service-price`, `emergency-notice`
+3. Добавить стили для footer: `social-links`, `quick-links`, `footer-info`
+4. Добавить стили для contact-cta: `contact-row`, `phone-widget`, `email-widget`
+5. Добавить стили для FAQ: `faq-question`, `faq-answer`, `faq-icon`
+6. Добавить стили для навигации: `dropbtn`, `icon`, `whatsapp`, `telegram`, `email`
+7. Добавить hamburger на sravnenie-*.html
 
-#### 1.5 Robots.txt
-- Добавить `Disallow: /preview.html`
-- Проверить `Disallow: /images/`
+**Критерии:** Все CSS-классы, используемые в HTML, имеют определение в styles.css
 
-**Критерии:** robots.txt валиден, preview заблокирован
+### Этап 4: Согласование структуры (High)
 
-#### 1.6 Breadcrumb.js
-- Подключить на ВСЕ основные страницы
+**Время:** 2-3 часа
+**Ответственный:** @frontend-developer
 
-**Критерии:** 100% основных страниц подключают breadcrumb.js
+1. Привести навигацию inner-страниц к виду index.html (fixed nav с .nav-inner)
+2. Или: оставить текущую навигацию, но сделать её консистентной
+3. Убрать дублирующий Service schema из uslugi.html
+4. Исправить битую ссылку в blog.html
+5. Согласовать FAQ markup (выбрать один формат)
+6. Убрать Roboto Condensed из font-loading (не используется)
 
----
+**Критерии:** Единый паттерн навигации на всех страницах, 0 битых ссылок
 
-## Этап 2: Улучшение статей (sravnenie, kakoj, top-10)
+### Этап 5: Финальная проверка
 
-**Приоритет:** 🔴 Critical
-**Ожидаемое время:** 4-6 часов
-**Ответственный:** @content-writer
-
-### Проблема
-4 статьи имеют **309-510 слов** — это критически мало для SEO. Нужно минимум 2000+ слов.
-
-### Страницы для доработки
-
-| Файл | Текущие слова | Цель | Что добавить |
-|------|---------------|------|--------------|
-| sravnenie-listogibov-i-gilotin.html | 322 | 2000+ | Таблица сравнения, когда что выбирать, бренды, кейсы, FAQ |
-| sravnenie-trubogibov-i-profilgebiv.html | 309 | 2000+ | Аналогично |
-| kakoj-stanok-vybrat-dlya-proizvodstva.html | 411 | 2000+ | Алгоритм выбора, таблица по типам производств, калькулятор |
-| top-10-luchshih-markov-stankov-2025.html | 510 | 2000+ | Подробный обзор каждой марки, плюсы/минусы, цены |
-
-### Требования к контенту
-- Уникальный текст (не копировать с других страниц)
-- Структура: H1 → H2 → H3 с подзаголовками
-- Таблицы сравнения
-- Конкретные цифры (цены, сроки, характеристики)
-- Call-to-action в конце
-- Schema.org Article разметка
-
-### Критерии приёмки
-- [ ] Каждая статья ≥ 2000 слов
-- [ ] Уникальный контент (не дублирует другие страницы)
-- [ ] Структурированный текст (H1-H3, таблицы, списки)
-- [ ] Есть CTA в конце
-- [ ] Нет китайских иероглифов
-- [ ] Нет опечаток
-
----
-
-## Этап 3: Улучшение блог-статей
-
-**Приоритет:** 🟡 High
-**Ожидаемое время:** 6-10 часов
-**Ответственный:** @content-writer
-
-### Проблема
-20 блог-статей имеют **427-1289 слов** — нужно минимум 2000+.
-
-### Страницы для доработки
-
-| Файл | Слов | Приоритет |
-|------|------|-----------|
-| blog-remont-listogiba.html | 427 | High |
-| blog-obsluzhivanie-listogibov.html | 618 | High |
-| blog-remont-profilgebiv.html | 637 | High |
-| blog-remont-gilotin.html | 694 | Medium |
-| blog-remont-valtsev.html | 692 | Medium |
-| blog-kapitalnyi-remont-pressa.html | 691 | Medium |
-| blog-zapchasti-listogibov.html | 737 | Medium |
-| blog-remont-trubogibov.html | 735 | Medium |
-| blog-remont-lentochnyh-pil.html | 817 | Medium |
-| blog-obsluzhivanie-lentochnoy-pily-chek-list.html | 1012 | Medium |
-| blog-remont-gilotiny-cena-realnie-primeri.html | 932 | Medium |
-| blog-zapchasti-dlya-listogibov-original-ili-analogi.html | 927 | Medium |
-| blog-remont-gidravliki-stankov.html | 837 | Low |
-| blog-remont-listogibov-chpu.html | 795 | Low |
-| blog-tekhnicheskoe-obsluzhivanie-chpu.html | 787 | Low |
-| blog-remont-cpu-stoiki.html | 1289 | Low |
-| blog-remont-chpu-stoyki-delem-instrukciya.html | 1085 | Low |
-| blog-kak-opredelit-chto-listogibu-nuzhen-remont.html | 1262 | Low |
-| blog-avariynyy-remont-oborudovaniya.html | 765 | Low |
-| blog-kapitalnyi-remont-stankov.html | 777 | Low |
-
-### Требования к контенту
-- Уникальный текст (не копировать с других страниц)
-- Структура: H1 → H2 → H3
-- Конкретные примеры из практики
-- Цены и сроки (реальные)
-- FAQ в конце
-- CTA
-- BlogPosting Schema.org
-
-### Критерии приёмки
-- [ ] Каждая статья ≥ 2000 слов
-- [ ] Уникальный контент
-- [ ] Структурированный текст
-- [ ] Есть CTA
-- [ ] BlogPosting Schema.org
-- [ ] Нет китайских иероглифов
-- [ ] Нет опечаток
-
----
-
-## Этап 4: Улучшение core-страниц
-
-**Приоритет:** 🟠 Medium
-**Ожидаемое время:** 2-3 часа
-**Ответственный:** @content-writer
-
-### Страницы
-
-| Файл | Слов | Что улучшить |
-|------|------|--------------|
-| index.html | 510 | Усилить оффер, добавить больше USP |
-| uslugi.html | 343 | Расширить описание услуг |
-| about.html | 396 | Добавить историю, команду, кейсы |
-| price.html | 266 | Добавить больше деталей по ценам |
-| portfolio.html | 320 | Добавить описания проектов |
-| blog.html | 540 | Оставить как есть (listing page) |
-
-### Критерии приёмки
-- [ ] Каждая core-страница ≥ 500 слов (blog.html может быть listing)
-- [ ] Уникальный контент
-- [ ] Есть CTA
-- [ ] Нет ошибок
-
----
-
-## Этап 5: Улучшение сервисных страниц
-
-**Приоритет:** 🟠 Medium
-**Ожидаемое время:** 2-3 часа
-**Ответственный:** @content-writer
-
-### Страницы (уже хороший объём 2000-2800 слов)
-
-| Файл | Слов | Что улучшить |
-|------|------|--------------|
-| remont-listogibov.html | 2094 | Проверить уникальность, усилить CTA |
-| remont-gilotin.html | 2811 | Добавить OG теги |
-| remont-lentochnyh-pil.html | 2468 | OK |
-| remont-profilgebiv.html | 2361 | Добавить OG теги |
-| remont-valtsev.html | 2382 | Добавить OG теги |
-| remont-trubogibov.html | 2581 | Добавить OG теги |
-| remont-armaturogiba.html | 2095 | OK |
-| remont-ruchnogo-trubogiba.html | 2625 | OK |
-
-### Критерии приёмки
-- [ ] Все сервисные страницы имеют OG теги
-- [ ] Все сервисные страницы имеют canonical
-- [ ] Контент уникален (не дублирует блог)
-- [ ] Есть CTA
-
----
-
-## Этап 6: Финальная проверка
-
-**Приоритет:** 🟡 High
-**Ожидаемое время:** 2 часа
+**Время:** 1 час
 **Ответственный:** @tester
 
-### Действия
-1. Проверить все 38 основных страниц:
-   - canonical ✅
-   - OG теги ✅
-   - breadcrumb.js ✅
-   - H1 уникален ✅
-   - Нет китайских иероглифов ✅
-   - Нет опечаток ✅
-   - Слов ≥ 2000 (статьи/блог), ≥ 500 (core) ✅
-2. sitemap валиден
-3. robots.txt валиден
-4. Открыть 10 страниц в браузере → визуально ок
-
-### Критерии приёмки
-- [ ] Все 38 страниц проходят проверку
-- [ ] sitemap: все URL
-- [ ] Нет визуальных багов
+1. Проверить все исправления
+2. Визуально открыть 10 страниц
+3. Проверить mobile навигацию
+4. Проверить FAQ аккордеон
 
 ---
 
-## Порядок выполнения
+## Автоматические инструменты для CI
 
+| Инструмент | Язык | Что проверяет | Установка |
+|------------|------|---------------|-----------|
+| **vnu** | Java | Валидация HTML/CSS (W3C) | `npm install vnu-jar` |
+| **linkchecker** | Python | Битые ссылки | `pip install linkchecker` |
+| **pyspellchecker** | Python | Правописание (русский) | `pip install pyspellchecker` |
+| **language-tool-python** | Python | Грамматика (русский) | `pip install language-tool-python` |
+| **lighthouse** | Node.js | SEO, производительность, a11y | `npm install -g lighthouse` |
+| **pa11y** | Node.js | Доступность (WCAG) | `npm install -g pa11y` |
+
+**Рекомендуемый стек для CI:**
 ```
-Этап 1 (Техника: canonical/OG/sitemap/robots/breadcrumb) 
-    → Этап 2 (Статьи: 4 страницы, 2000+ слов) 
-    → Этап 3 (Блог: 20 статей, 2000+ слов) 
-    → Этап 4 (Core: 6 страниц) 
-    → Этап 5 (Сервисные: 8 страниц) 
-    → Этап 6 (Проверка)
+vnu (HTML/CSS) + linkchecker (ссылки) + pyspellchecker (правописание) + lighthouse (SEO/perf)
 ```
 
 ---
 
 ## Итого
 
-| Этап | Время | Приоритет | Страниц |
-|------|-------|-----------|---------|
-| 1. Техника (canonical, OG, sitemap, robots, breadcrumb) | 2-3 ч | 🔴 Critical | 38 + 1587 |
-| 2. Статьи (2000+ слов) | 4-6 ч | 🔴 Critical | 4 |
-| 3. Блог (2000+ слов) | 6-10 ч | 🟡 High | 20 |
-| 4. Core-страницы | 2-3 ч | 🟠 Medium | 6 |
-| 5. Сервисные страницы | 2-3 ч | 🟠 Medium | 8 |
-| 6. Финальная проверка | 2 ч | 🟡 High | 38 |
-| **ИТОГО** | **18-27 ч** | | **38** |
+| Этап | Время | Приоритет |
+|------|-------|-----------|
+| 1. Текст | 30 мин | 🔴 Critical |
+| 2. Контент статей | 2-3 ч | 🔴 Critical |
+| 3. CSS классы | 3-4 ч | 🟡 High |
+| 4. Структура | 2-3 ч | 🟡 High |
+| 5. Проверка | 1 ч | 🟡 High |
+| **ИТОГО** | **9-12 ч** | |
 
 ---
 
 ## Вопрос
 
-Согласовано? Начинаю с Этапа 1 (техническая база)?
+1. **Навигация:** Заменять inner-страницы на fixed nav из index.html (больше работы, но единообразно) или оставить текущую и просто стилизовать?
+2. **Инструменты:** Установить linkchecker + pyspellchecker в seo-tools для автоматических проверок?
