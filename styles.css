@@ -995,6 +995,11 @@ p { color: var(--c-text-muted); }
   color: var(--c-accent);
   font-weight: 500;
 }
+.price-cell {
+  font-weight: 700;
+  color: var(--c-primary);
+  white-space: nowrap;
+}
 
 .team-grid {
   display: grid;
