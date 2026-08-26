@@ -1032,6 +1032,7 @@ p { color: var(--c-text-muted); }
   background: var(--c-bg-card);
   border-radius: var(--radius-md);
   overflow: hidden;
+  border: 1px solid var(--c-border);
 }
 .price-table th,
 .price-table td {
@@ -1040,15 +1041,23 @@ p { color: var(--c-text-muted); }
   border-bottom: 1px solid var(--c-border);
 }
 .price-table th {
-  background: var(--c-bg-elevated);
+  background: linear-gradient(135deg, var(--c-primary), #c00707);
   font-family: var(--font-heading);
-  font-weight: 600;
+  font-weight: 700;
   font-size: 0.85rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: var(--c-text-muted);
+  color: var(--c-white);
+  border-bottom: 2px solid var(--c-primary);
 }
-.price-table tbody tr:hover { background: rgba(246,9,9,0.05); }
+.price-table tbody tr:nth-child(even) {
+  background: rgba(255,255,255,0.03);
+}
+.price-table tbody tr:hover { background: rgba(246,9,9,0.08); }
+.price-table td:last-child,
+.price-table th:last-child {
+  text-align: right;
+}
 
 /* === GEO PAGE CITY CONTENT === */
 .city-unique-content {

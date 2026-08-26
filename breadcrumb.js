@@ -12,6 +12,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const pageNames = {
         'index.html': 'Главная',
         'uslugi.html': 'Услуги',
+        'price.html': 'Цены',
+        'portfolio.html': 'Портфолио',
         'blog.html': 'Блог',
         'remont-listogibov.html': 'Ремонт листогибов',
         'remont-gilotin.html': 'Ремонт гильотин',
