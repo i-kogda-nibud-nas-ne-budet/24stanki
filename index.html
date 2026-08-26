@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ru">
 <head>
     <script type="text/javascript">
@@ -69,7 +69,6 @@
         <a href="index.html" class="nav-logo">24<span>STANKI</span></a>
         <div class="nav-links">
             <a href="uslugi.html">Услуги</a>
-            <a href="about.html">О команде</a>
             <a href="price.html">Цены</a>
             <a href="portfolio.html">Портфолио</a>
             <a href="blog.html">Блог</a>
@@ -83,7 +82,6 @@
 <div class="nav-mobile">
     <a href="index.html">Главная</a>
     <a href="uslugi.html">Услуги</a>
-    <a href="about.html">О команде</a>
     <a href="price.html">Цены</a>
     <a href="portfolio.html">Портфолио</a>
     <a href="blog.html">Блог</a>
@@ -238,11 +236,15 @@
         <h2 class="section-title text-center reveal">Цифры, которые говорят сами за себя</h2>
         <div class="stats-row reveal">
             <div class="stat-item">
-                <div class="stat-number">500+</div>
+                <div class="stat-number" data-target="500" data-suffix="+">0+</div>
                 <div class="stat-label">Отремонтированных станков за 15 лет</div>
             </div>
             <div class="stat-item">
-                <div class="stat-number">98%</div>
+                <div class="stat-number" data-target="300" data-suffix="+">0+</div>
+                <div class="stat-label">Единиц оборудования отремонтировано</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-target="98" data-suffix="%">0%</div>
                 <div class="stat-label">Клиентов обращаются повторно</div>
             </div>
             <div class="stat-item">
@@ -250,7 +252,7 @@
                 <div class="stat-label">Принимаем заявки без выходных</div>
             </div>
             <div class="stat-item">
-                <div class="stat-number">7 обл.</div>
+                <div class="stat-number" data-target="7" data-suffix=" обл.">0 обл.</div>
                 <div class="stat-label">Выезжаем по Центральной России</div>
             </div>
         </div>
@@ -294,50 +296,56 @@
         <p class="section-subtitle text-center reveal">Реальные примеры из практики</p>
         <div class="portfolio-grid stagger">
             <div class="portfolio-card" data-category="listogib">
-                <div class="portfolio-img"><img src="images/work1.jpg" alt="Ремонт листогиба" width="400" height="220" loading="lazy"></div>
+                <div class="portfolio-img"><img src="images/work1.jpg" alt="Ремонт листогиба Ermaksan — мастер заменяет гидроцилиндр и настраивает ЧПУ контроллер Delem" width="400" height="220" loading="lazy"></div>
                 <div class="portfolio-info">
                     <h3>Ремонт листогиба Ermaksan</h3>
                     <p>Замена гидроцилиндра, настройка ЧПУ</p>
+                    <figcaption class="portfolio-caption">Клиент: ООО Металл-Пром, Москва | Оборудование: Ermaksan EGB-3016 | Работа: замена гидроцилиндра, калибровка, настройка Delem DA-66T | Срок: 2 дня | Результат: точность гиба ±0.1мм</figcaption>
                     <div class="portfolio-meta"><span>⏱ 2 дня</span><span>📍 Москва</span></div>
                 </div>
             </div>
             <div class="portfolio-card" data-category="gilotina">
-                <div class="portfolio-img"><img src="images/work2.jpg" alt="Ремонт гильотины" width="400" height="220" loading="lazy"></div>
+                <div class="portfolio-img"><img src="images/work2.jpg" alt="Ремонт гильотины Sahinler — замена режущих ножей и регулировка зазора между ножами" width="400" height="220" loading="lazy"></div>
                 <div class="portfolio-info">
                     <h3>Ремонт гильотины Sahinler</h3>
                     <p>Замена ножей, регулировка зазоров</p>
+                    <figcaption class="portfolio-caption">Клиент: ИП Петров, Подольск | Оборудование: Sahinler HLS-6x3200 | Работа: заточка ножей, регулировка зазора 0.1мм, настройка заднего упора | Срок: 1 день | Результат: чистый рез без заусенцев</figcaption>
                     <div class="portfolio-meta"><span>⏱ 1 день</span><span>📍 Подольск</span></div>
                 </div>
             </div>
             <div class="portfolio-card" data-category="trubogib">
-                <div class="portfolio-img"><img src="images/work3.jpg" alt="Ремонт трубогиба" width="400" height="220" loading="lazy"></div>
+                <div class="portfolio-img"><img src="images/work3.jpg" alt="Капитальный ремонт трубогиба — восстановление гидравлической системы и электрического привода" width="400" height="220" loading="lazy"></div>
                 <div class="portfolio-info">
                     <h3>Капремонт трубогиба</h3>
                     <p>Восстановление гидравлики и электрики</p>
+                    <figcaption class="portfolio-caption">Клиент: ООО ТрубоМонтаж, Балашиха | Оборудование: трубогиб гидравлический | Работа: капремонт гидростанции, замена насоса, ремонт электропривода | Срок: 5 дней | Результат: полное восстановление рабочего состояния</figcaption>
                     <div class="portfolio-meta"><span>⏱ 5 дней</span><span>📍 Балашиха</span></div>
                 </div>
             </div>
             <div class="portfolio-card" data-category="listogib">
-                <div class="portfolio-img"><img src="images/work4.jpg" alt="Ремонт листогиба ЧПУ" width="400" height="220" loading="lazy"></div>
+                <div class="portfolio-img"><img src="images/work4.jpg" alt="Ремонт листогиба ЧПУ Delem — диагностика и ремонт стойки управления, замена датчиков положения" width="400" height="220" loading="lazy"></div>
                 <div class="portfolio-info">
                     <h3>Ремонт листогиба с ЧПУ Delem</h3>
                     <p>Ремонт стойки, замена датчиков</p>
+                    <figcaption class="portfolio-caption">Клиент: Завод Металлоконструкций, Химки | Оборудование: листогиб ЧПУ с контроллером Delem DA-69T | Работа: ремонт стойки, замена 3 датчиков, прошивка ПО | Срок: 3 дня | Результат: полная функциональность ЧПУ</figcaption>
                     <div class="portfolio-meta"><span>⏱ 3 дня</span><span>📍 Химки</span></div>
                 </div>
             </div>
             <div class="portfolio-card" data-category="lentochnaya">
-                <div class="portfolio-img"><img src="images/work5.jpg" alt="Ремонт ленточной пилы" width="400" height="220" loading="lazy"></div>
+                <div class="portfolio-img"><img src="images/work5.jpg" alt="Обслуживание ленточной пилы — натяжение полотна, смазка направляющих, замена полотна" width="400" height="220" loading="lazy"></div>
                 <div class="portfolio-info">
                     <h3>Обслуживание ленточной пилы</h3>
                     <p>Натяжение, смазка, замена полотна</p>
+                    <figcaption class="portfolio-caption">Клиент: МеталлоБаза, Мытищи | Оборудование: ленточная пила по металлу | Работа: замена полотна, натяжение, смазка, проверка гидравлики | Срок: 4 часа | Результат: ровный рез, стабильная работа</figcaption>
                     <div class="portfolio-meta"><span>⏱ 4 часа</span><span>📍 Мытищи</span></div>
                 </div>
             </div>
             <div class="portfolio-card" data-category="profilgeib">
-                <div class="portfolio-img"><img src="images/work6.jpg" alt="Ремонт профилегиба" width="400" height="220" loading="lazy"></div>
+                <div class="portfolio-img"><img src="images/work6.jpg" alt="Ремонт профилегиба — настройка валков, замена подшипников, регулировка соосности" width="400" height="220" loading="lazy"></div>
                 <div class="portfolio-info">
                     <h3>Ремонт профилегиба</h3>
                     <p>Настройка валков, замена подшипников</p>
+                    <figcaption class="portfolio-caption">Клиент: ПрофНаладка, Красногорск | Оборудование: профилегиб прокатный | Работа: замена 4 подшипников, шлифовка валков, регулировка соосности | Срок: 2 дня | Результат: ровный профиль без перекосов</figcaption>
                     <div class="portfolio-meta"><span>⏱ 2 дня</span><span>📍 Красногорск</span></div>
                 </div>
             </div>
@@ -432,7 +440,6 @@
             <div>
                 <h4>Компания</h4>
                 <ul>
-                    <li><a href="about.html">О команде</a></li>
                     <li><a href="price.html">Прайс-лист</a></li>
                     <li><a href="portfolio.html">Портфолио</a></li>
                     <li><a href="blog.html">Блог</a></li>
