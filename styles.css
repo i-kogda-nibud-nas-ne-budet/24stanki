@@ -1443,17 +1443,27 @@ header ul li a:hover { color: var(--c-white); }
   color: var(--c-primary);
 }
 .hero-text {
-  padding: 3rem var(--gap);
+  padding: 5rem var(--gap) 3rem;
   max-width: var(--container);
   margin: 0 auto;
+  background: linear-gradient(135deg, rgba(246,9,9,0.12) 0%, rgba(10,10,10,1) 40%, rgba(227,158,8,0.08) 100%);
+  border-bottom: 1px solid var(--c-border);
+  text-align: center;
 }
 .hero-text h1 {
-  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
   margin-bottom: 1rem;
 }
 .hero-text p {
   color: var(--c-text-muted);
   max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.05rem;
+}
+/* Remove extra padding from section wrapping hero-text */
+.hero-text:first-child,
+section:has(.hero-text) {
+  padding-top: 0;
 }
 .about, .services, .process, .contacts {
   padding: 3rem 0;
