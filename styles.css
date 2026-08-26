@@ -1463,6 +1463,15 @@ header ul li a:hover { color: var(--c-white); }
   line-height: 1.7;
   margin-bottom: 1.5rem;
 }
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+}
+.features-list-item {
+  padding: 0.5rem 0;
+  line-height: 1.6;
+}
 .contact-cta {
   max-width: 800px;
   margin: 2rem auto;
