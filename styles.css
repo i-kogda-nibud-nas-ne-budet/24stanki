@@ -1070,6 +1070,89 @@ p { color: var(--c-text-muted); }
 }
 .city-unique-content h2 { margin-bottom: 1rem; }
 
+/* === RUSSIA TRAVEL SECTION === */
+.russia-travel {
+  padding: 4rem 0;
+  background: linear-gradient(135deg, rgba(246,9,9,0.05) 0%, rgba(10,10,10,1) 100%);
+  border-top: 1px solid var(--c-border);
+}
+.russia-travel h2 {
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+  margin-bottom: 1rem;
+}
+.russia-travel h3 {
+  color: var(--c-primary);
+  margin: 1.5rem 0 0.5rem;
+}
+.russia-travel p {
+  color: var(--c-text-muted);
+  line-height: 1.7;
+  margin-bottom: 0.8rem;
+}
+.travel-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+.travel-info h3 {
+  font-size: 1.1rem;
+  color: var(--c-white);
+  margin-top: 1.5rem;
+}
+.travel-info ul {
+  list-style: none;
+  padding: 0;
+}
+.travel-info li {
+  padding: 0.3rem 0;
+  color: var(--c-text-muted);
+  font-size: 0.9rem;
+}
+.travel-info li::before {
+  content: '•';
+  color: var(--c-primary);
+  margin-right: 0.5rem;
+}
+.travel-map {
+  background: var(--c-bg-card);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-md);
+  padding: 1.5rem;
+}
+.map-placeholder {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.city-group h4 {
+  font-size: 0.9rem;
+  color: var(--c-primary);
+  margin-bottom: 0.3rem;
+}
+.city-group p {
+  font-size: 0.8rem;
+  color: var(--c-text-muted);
+}
+.travel-advantages {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+.travel-advantages li {
+  background: var(--c-bg-card);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-sm);
+  padding: 0.8rem 1rem;
+  font-size: 0.85rem;
+}
+.price-highlight {
+  color: var(--c-primary);
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
 /* ========== COMPAT: old geo page classes ========== */
 .logo {
   font-family: var(--font-heading);
