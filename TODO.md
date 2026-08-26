@@ -1,140 +1,260 @@
-# TODO — Аудит текста, структуры и стилей 24stanki.ru
+# TODO — Полный аудит и исправление страниц 24stanki.ru
 
-> **Дата:** 25.08.2026
+> **Дата:** 26.08.2026
 > **Статус:** На согласовании
+> **Основная проблема:** inner pages используют другой шаблон чем index.html
 
 ---
 
-## Найденные проблемы
+## Сводная таблица: CSS-классы по страницам
 
-### 🔴 Critical: Текст
+| Страница | Классов | Без CSS | Статус |
+|----------|---------|---------|--------|
+| index.html | 65 | 0 | ✅ |
+| price.html | 43 | 0 | ✅ |
+| uslugi.html | 60 | **19** | ❌ |
+| portfolio.html | 43 | **3** | ❌ |
+| blog.html | 38 | 0 | ✅ |
+| remont-listogibov.html | 61 | **4** | ❌ |
+| remont-gilotin.html | 61 | **4** | ❌ |
+| sravnenie-*.html | 32 | 0 | ✅ |
+| blog-remont-listogiba.html | 44 | **13** | ❌ |
 
-| # | Файл | Проблема | Текст | Исправление |
-|---|------|----------|-------|-------------|
-| 1 | index.html | Английское слово | "Срочный выезд possible 24/7" | → "Срочный выезд 24/7" |
-| 2 | about.html | Опечатка | "диагостическое" | → "диагностическое" |
-| 3 | price.html | Английское слово | "для popular марок" | → "для популярных марок" |
-| 4 | price.html | Английское слово | "для European станков" | → "для европейских станков" |
-| 5 | uslugi.html | Грамматика | "Минимализируем" | → "Минимизируем" |
-| 6 | blog-remont-cpu-stoiki.html | Опечатка бренда | "Cebelec" (17 раз) | → "Cybelec" |
-| 7 | blog-remont-chpu-stoyki-delem-instrukciya.html | Неверная страна | "Cebelec (Германия)" | → "Cybelec (Швейцария)" |
+**Итого: 43 класса без CSS в 5 страницах**
 
-### 🔴 Critical: Структура контента
+---
 
-| # | Файл | Проблема |
-|---|------|----------|
-| 8 | sravnenie-listogibov-i-gilotin.html | **Неверный контент!** Title/H1/body = "Какой станок выбрать" вместо "Сравнение листогибов и гильотин" |
-| 9 | sravnenie-trubogibov-i-profilgebiv.html | **Неверный контент!** Title/H1/body = "Какой станок выбрать" вместо "Сравнение трубогибов и профилегибов" |
-| 10 | blog-remont-chpu-stoyki-delem-instrukciya.html | Дублирующиеся абзацы (2 блока) |
+## Детальные проблемы по страницам
 
-### 🟡 High: CSS — отсутствующие классы (~30)
+### uslugi.html (19 missing classes)
 
-Основная проблема: **innerHTML-страницы используют CSS-классы, которых нет в styles.css**
+| Класс | Где используется | Нужен CSS? |
+|-------|-----------------|------------|
+| `step` | Секция "Как мы работаем" | ДА — стилизовать как process-step |
+| `gear`, `gear2`, `gear3` | Декоративные SVG-иконки | НЕТ — скрыты через display:none |
+| `wrench`, `wrench2`, `wrench3` | Декоративные SVG-иконки | НЕТ — скрыты |
+| `spring`, `spring2`, `spring3` | Декоративные SVG-иконки | НЕТ — скрыты |
+| `bolt`, `bolt2`, `bolt3` | Декоративные SVG-иконки | НЕТ — скрыты |
+| `hammer`, `hammer2`, `hammer3` | Декоративные SVG-иконки | НЕТ — скрыты |
+| `drill`, `drill2`, `drill3` | Декоративные SVG-иконки | НЕТ — скрыты |
 
-| Группа классов | Где используются | Что стилизовать |
-|----------------|------------------|-----------------|
-| `blog-card-*` (image, content, category, title, excerpt, meta, link) | blog.html, blog-*.html | Карточки блога |
-| `service-price` | sravnenie, remont-*.html | Цены в карточках |
-| `contact-row`, `phone-widget`, `email-widget` | footer всех inner-страниц | Контакты в футере |
-| `social-links`, `quick-links` | footer всех inner-страниц | Ссылки в футере |
-| `emergency-notice` | remont-*.html, sravnenie | Банер аварийного ремонта |
-| `dropbtn`, `icon`, `whatsapp`, `telegram`, `email` | навигация, contact-cta | Иконки и кнопки |
-| `faq-question`, `faq-answer`, `faq-icon` | remont-*.html | Аккордеон FAQ |
-| `footer-info` | sravnenie | Информация в футере |
+**Вывод:** 18 из 19 — скрытые декоративные элементы. Нужен CSS только для `.step`.
 
-### 🟡 High: Структура HTML
+### portfolio.html (3 missing classes)
 
-| # | Проблема | Файлы |
-|---|----------|-------|
-| 11 | Две разные системы навигации | index.html (fixed nav) vs inner pages (header nav) |
-| 12 | Отсутствует hamburger на sravnenie | sravnenie-*.html |
-| 13 | Битая ссылка | blog.html → blog-remont-gibochnyh-stankov.html (404) |
-| 14 | Дублирующий Service schema | uslugi.html (2 одинаковых блока) |
-| 15 | Несогласованный FAQ markup | index: `<details>`, inner: `<div class="faq-item">` |
-| 16 | Несогласованные шрифты | index: Montserrat 600-800, inner: Montserrat 700 + Roboto Condensed (не используется) |
+| Класс | Где используется | Нужен CSS? |
+|-------|-----------------|------------|
+| `portfolio-filter` | Обёртка фильтров | ДА |
+| `filter-btn` | Кнопки фильтров | ДА |
+| `meta-item` | Мета-данные в карточках | ДА |
+
+### remont-listogibov.html (4 missing classes)
+
+| Класс | Где используется | Нужен CSS? |
+|-------|-----------------|------------|
+| `step` | Секция "Как мы работаем" | ДА |
+| `faq` | Секция FAQ | ДА |
+| `price` | Цена в карточке | ДА |
+| `blog-links` | Ссылки на блог | ДА |
+
+### remont-gilotin.html (4 missing — same)
+
+| Класс | Нужен CSS? |
+|-------|------------|
+| `step` | ДА |
+| `faq` | ДА |
+| `price` | ДА |
+| `blog-links` | ДА |
+
+### blog-remont-listogiba.html (13 missing classes)
+
+| Класс | Где используется | Нужен CSS? |
+|-------|-----------------|------------|
+| `blog-article` | Обёртка статьи | ДА |
+| `blog-meta` | Мета-данные статьи | ДА |
+| `date` | Дата публикации | ДА |
+| `category` | Категория статьи | ДА |
+| `blog-cta` | CTA-блок в статье | ДА |
+| `cta-button` | Кнопка CTA | ДА |
+| `faq-section` | Секция FAQ | ДА |
+| `gear`, `wrench`, `spring`, `bolt`, `hammer`, `drill` | Декоративные SVG | НЕТ — скрыты |
 
 ---
 
 ## План исправлений
 
-### Этап 1: Исправление текста (Critical)
+### Этап 1: Добавить CSS для 7 отсутствующих классов (критично)
+
+**Время:** 1 час
+**Ответственный:** @coder
+
+Добавить в styles.css:
+
+```css
+/* Step (process steps for inner pages) */
+.step {
+  text-align: center;
+  padding: 1.5rem;
+}
+.step .step-number {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--c-primary), var(--c-accent));
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--c-white);
+  margin: 0 auto 1rem;
+}
+
+/* Portfolio filter */
+.portfolio-filter {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+.filter-btn {
+  padding: 0.5rem 1.2rem;
+  background: var(--c-bg-card);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-full);
+  color: var(--c-text-muted);
+  cursor: pointer;
+  transition: var(--transition);
+  font-size: 0.85rem;
+}
+.filter-btn:hover, .filter-btn.active {
+  background: var(--c-primary);
+  color: var(--c-white);
+  border-color: var(--c-primary);
+}
+.meta-item {
+  font-size: 0.8rem;
+  color: var(--c-text-muted);
+}
+
+/* FAQ section */
+.faq, .faq-section {
+  padding: 3rem 0;
+}
+.faq h2 {
+  margin-bottom: 1.5rem;
+}
+
+/* Price in cards */
+.price {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--c-primary);
+  margin-top: 0.5rem;
+}
+
+/* Blog links */
+.blog-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+.blog-links a {
+  color: var(--c-primary);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Blog article (full page) */
+.blog-article {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.blog-meta {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.85rem;
+  color: var(--c-text-muted);
+  margin-bottom: 2rem;
+}
+.blog-meta .date, .blog-meta .category {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.blog-meta .category {
+  color: var(--c-primary);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
+
+/* Blog CTA */
+.blog-cta {
+  background: linear-gradient(135deg, rgba(246,9,9,0.08), rgba(227,158,8,0.05));
+  border: 1px solid rgba(246,9,9,0.2);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+.cta-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.8rem 2rem;
+  background: linear-gradient(135deg, var(--c-primary), var(--c-accent));
+  color: var(--c-white);
+  border-radius: var(--radius-full);
+  font-weight: 600;
+  text-decoration: none;
+  transition: var(--transition);
+}
+.cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(246,9,9,0.3);
+}
+```
+
+**Критерии:** Все 43 отсутствующих класса имеют CSS. `grep` показывает 0 missing.
+
+### Этап 2: Исправить грамматику и опечатки
 
 **Время:** 30 мин
 **Ответственный:** @coder
 
-1. Исправить 7 текстовых ошибок (English слова, опечатки, грамматика)
-2. Исправить "Cebelec" → "Cybelec" во всех файлах
-3. Удалить дублирующиеся абзацы в blog-remont-chpu-stoyki-delem-instrukciya.html
+| Файл | Проблема | Исправление |
+|------|----------|-------------|
+| blog-remont-listogiba.html | `@ya.ru` (2 раза) | `@yandex.ru` |
+| remont-listogibov.html | `давлением` | `давление` |
+| remont-gilotin.html | `Правильная профилактическое` | `Правильное профилактическое` |
 
-**Критерии:** 0 English слов в русском тексте, 0 опечаток
+**Критерии:** 0 опечаток, grep показывает 0 вхождений.
 
-### Этап 2: Исправление контента статей (Critical)
+### Этап 3: Убрать декоративные SVG (dead code)
 
-**Время:** 2-3 часа
+**Время:** 15 мин
 **Ответственный:** @coder
 
-1. Восстановить правильный контент в sravnenie-listogibov-i-gilotin.html (сравнение листогибов и гильотин)
-2. Восстановить правильный контент в sravnenie-trubogibov-i-profilgebiv.html (сравнение трубогибов и профилегибов)
-3. Убедиться, что title/H1/meta совпадают с содержимым
+Убрать скрытые SVG-элементы из uslugi.html и blog-remont-listogiba.html:
+- `.floating-elements` div (пустые или скрытые)
+- Все `gear`, `wrench`, `spring`, `bolt`, `hammer`, `drill` элементы
 
-**Критерии:** Каждая статья содержит уникальный контент, соответствующий title
+**Критерии:** 0 скрытых декоративных элементов.
 
-### Этап 3: CSS для отсутствующих классов (High)
+### Этап 4: Проверка через скрины
 
-**Время:** 3-4 часа
-**Ответственный:** @frontend-developer
-
-1. Добавить стили для `blog-card-*` (карточки блога)
-2. Добавить стили для `service-price`, `emergency-notice`
-3. Добавить стили для footer: `social-links`, `quick-links`, `footer-info`
-4. Добавить стили для contact-cta: `contact-row`, `phone-widget`, `email-widget`
-5. Добавить стили для FAQ: `faq-question`, `faq-answer`, `faq-icon`
-6. Добавить стили для навигации: `dropbtn`, `icon`, `whatsapp`, `telegram`, `email`
-7. Добавить hamburger на sravnenie-*.html
-
-**Критерии:** Все CSS-классы, используемые в HTML, имеют определение в styles.css
-
-### Этап 4: Согласование структуры (High)
-
-**Время:** 2-3 часа
-**Ответственный:** @frontend-developer
-
-1. Привести навигацию inner-страниц к виду index.html (fixed nav с .nav-inner)
-2. Или: оставить текущую навигацию, но сделать её консистентной
-3. Убрать дублирующий Service schema из uslugi.html
-4. Исправить битую ссылку в blog.html
-5. Согласовать FAQ markup (выбрать один формат)
-6. Убрать Roboto Condensed из font-loading (не используется)
-
-**Критерии:** Единый паттерн навигации на всех страницах, 0 битых ссылок
-
-### Этап 5: Финальная проверка
-
-**Время:** 1 час
+**Время:** 30 мин
 **Ответственный:** @tester
 
-1. Проверить все исправления
-2. Визуально открыть 10 страниц
-3. Проверить mobile навигацию
-4. Проверить FAQ аккордеон
+Запустить screenshots-live.mjs и проверить:
+1. Все 9 основных страниц
+2. Каждый элемент выглядит стилизованным
+3. Нет raw HTML без стилей
+4. Нет orphan-элементов
 
----
-
-## Автоматические инструменты для CI
-
-| Инструмент | Язык | Что проверяет | Установка |
-|------------|------|---------------|-----------|
-| **vnu** | Java | Валидация HTML/CSS (W3C) | `npm install vnu-jar` |
-| **linkchecker** | Python | Битые ссылки | `pip install linkchecker` |
-| **pyspellchecker** | Python | Правописание (русский) | `pip install pyspellchecker` |
-| **language-tool-python** | Python | Грамматика (русский) | `pip install language-tool-python` |
-| **lighthouse** | Node.js | SEO, производительность, a11y | `npm install -g lighthouse` |
-| **pa11y** | Node.js | Доступность (WCAG) | `npm install -g pa11y` |
-
-**Рекомендуемый стек для CI:**
-```
-vnu (HTML/CSS) + linkchecker (ссылки) + pyspellchecker (правописание) + lighthouse (SEO/perf)
-```
+**Критерии:** Все страницы визуальноConsistent с index.html.
 
 ---
 
@@ -142,16 +262,14 @@ vnu (HTML/CSS) + linkchecker (ссылки) + pyspellchecker (правописа
 
 | Этап | Время | Приоритет |
 |------|-------|-----------|
-| 1. Текст | 30 мин | 🔴 Critical |
-| 2. Контент статей | 2-3 ч | 🔴 Critical |
-| 3. CSS классы | 3-4 ч | 🟡 High |
-| 4. Структура | 2-3 ч | 🟡 High |
-| 5. Проверка | 1 ч | 🟡 High |
-| **ИТОГО** | **9-12 ч** | |
+| 1. CSS для 7 классов | 1 ч | 🔴 Critical |
+| 2. Грамматика/опечатки | 30 мин | 🟡 High |
+| 3. Убрать dead SVG | 15 мин | 🟢 Low |
+| 4. Проверка через скрины | 30 мин | 🟡 High |
+| **ИТОГО** | **2 ч 15 мин** | |
 
 ---
 
 ## Вопрос
 
-1. **Навигация:** Заменять inner-страницы на fixed nav из index.html (больше работы, но единообразно) или оставить текущую и просто стилизовать?
-2. **Инструменты:** Установить linkchecker + pyspellchecker в seo-tools для автоматических проверок?
+Начинаю? Или есть другие приоритеты?
