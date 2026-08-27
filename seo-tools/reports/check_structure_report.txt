@@ -1,21 +1,14 @@
 STRUCTURE AUDIT REPORT
 root: D:\PROJECTS\24stanki
-checked: 1625
-files with errors: 9
+checked: 30
+files with errors: 2
 
-TAG_BALANCE: 0
+TAG_BALANCE: 1
+  blog-tekhnicheskoe-obsluzhivanie-chpu.html: unclosed <div> x3; stray </section>
 
 BAD_JSONLD: 0
 
-MISSING_FILE: 7
-  blog-kak-opredelit-chto-listogibu-nuzhen-remont.html: remont-stankov-chpu.html
-  blog-obsluzhivanie-lentochnoy-pily-chek-list.html: remont-stankov-chpu.html
-  blog-remont-chpu-stoyki-delem-instrukciya.html: remont-stankov-chpu.html
-  blog-remont-gilotiny-cena-realnie-primeri.html: remont-stankov-chpu.html
-  blog-remont-listogiba.html: remont-stankov-chpu.html
-  blog-zapchasti-dlya-listogibov-original-ili-analogi.html: remont-stankov-chpu.html
-  blog.html: blog-remont-gibochnyh-stankov.html
+MISSING_FILE: 0
 
-NO_VIEWPORT: 2
+NO_VIEWPORT: 1
   google1e0151116e608a2e.html: no <meta name="viewport">
-  yandex_32e5528f50fd0785.html: no <meta name="viewport">

@@ -93,24 +93,11 @@
     <a href="tel:89939089837" class="btn btn-primary">📞 Позвонить</a>
     <a href="https://wa.me/79939089837" class="btn btn-outline">💬 WhatsApp</a>
 </div>
-<div class="nav-mobile">
-    <a href="index.html">Главная</a>
-    <a href="uslugi.html">Услуги</a>
-    <a href="remont-listogibov.html" style="padding-left:2rem;font-size:0.9em">→ Ремонт листогибов</a>
-    <a href="remont-gilotin.html" style="padding-left:2rem;font-size:0.9em">→ Ремонт гильотин</a>
-    <a href="remont-trubogibov.html" style="padding-left:2rem;font-size:0.9em">→ Ремонт трубогибов</a>
-    <a href="remont-lentochnyh-pil.html" style="padding-left:2rem;font-size:0.9em">→ Ремонт ленточных пил</a>
-    <a href="remont-profilgebiv.html" style="padding-left:2rem;font-size:0.9em">→ Ремонт профилегибов</a>
-    <a href="remont-valtsev.html" style="padding-left:2rem;font-size:0.9em">→ Ремонт вальцев</a>
-    <a href="price.html">Цены</a>
-    <a href="portfolio.html">Портфолио</a>
-    <a href="blog.html">Блог</a>
-    <a href="tel:89939089837" class="btn btn-primary">📞 Позвонить</a>
-    <a href="https://wa.me/79939089837" class="btn btn-outline">💬 WhatsApp</a>
-</div>
 
 <!-- Breadcrumbs -->
-<nav class="breadcrumbs container" aria-label="Навигация по сайту"></nav>
+<nav class="breadcrumbs container" aria-label="Навигация по сайту">
+    <a href="index.html">Главная</a> → <span>Портфолио</span>
+</nav>
 
 <!-- ===== PAGE HERO ===== -->
 <div class="page-hero">
@@ -138,7 +125,7 @@
 <section class="section section-dark">
     <div class="container">
         <div class="portfolio-grid stagger">
-            <div class="portfolio-card" data-type="profilgeib">
+            <div class="portfolio-card" data-category="profilgeib">
                 <div class="portfolio-img">
                     <img src="images/work1.jpg" alt="ПНР профилегибочного станка Sahinler" loading="lazy">
                 </div>
@@ -152,7 +139,7 @@
                 </div>
             </div>
 
-            <div class="portfolio-card" data-type="listogib">
+            <div class="portfolio-card" data-category="listogib">
                 <div class="portfolio-img">
                     <img src="images/work2.jpg" alt="Ремонт главного цилиндра Stalex" loading="lazy">
                 </div>
@@ -166,7 +153,7 @@
                 </div>
             </div>
 
-            <div class="portfolio-card" data-type="listogib">
+            <div class="portfolio-card" data-category="listogib">
                 <div class="portfolio-img">
                     <img src="images/work3.jpg" alt="ПНР листогибочного пресса Ermaksan" loading="lazy">
                 </div>
@@ -180,7 +167,7 @@
                 </div>
             </div>
 
-            <div class="portfolio-card" data-type="lentochnaya">
+            <div class="portfolio-card" data-category="lentochnaya">
                 <div class="portfolio-img">
                     <img src="images/work4.jpg" alt="ПНР ленточнопильного станка Bekamak" loading="lazy">
                 </div>
@@ -194,7 +181,7 @@
                 </div>
             </div>
 
-            <div class="portfolio-card" data-type="listogib">
+            <div class="portfolio-card" data-category="listogib">
                 <div class="portfolio-img">
                     <img src="images/work5.jpg" alt="ПНР дробильного оборудования" loading="lazy">
                 </div>
@@ -208,7 +195,7 @@
                 </div>
             </div>
 
-            <div class="portfolio-card" data-type="lentochnaya">
+            <div class="portfolio-card" data-category="lentochnaya">
                 <div class="portfolio-img">
                     <img src="images/work6.jpg" alt="Ремонт ленточнопильного станка Bomar" loading="lazy">
                 </div>
@@ -222,7 +209,7 @@
                 </div>
             </div>
 
-            <div class="portfolio-card" data-type="listogib">
+            <div class="portfolio-card" data-category="listogib">
                 <div class="portfolio-img">
                     <img src="images/work7.jpg" alt="ПНР листогибочного пресса E22" loading="lazy">
                 </div>
@@ -236,7 +223,7 @@
                 </div>
             </div>
 
-            <div class="portfolio-card" data-type="listogib">
+            <div class="portfolio-card" data-category="listogib">
                 <div class="portfolio-img">
                     <img src="images/work8.jpg" alt="Настройка листогибочного пресса cybTouch" loading="lazy">
                 </div>
@@ -342,6 +329,7 @@
 </div>
 
 <script src="breadcrumb.js"></script>
+<script src="icons.js"></script>
 <script src="script.js"></script>
 <script>
     // Portfolio filter
@@ -356,7 +344,7 @@
 
                 var filter = btn.getAttribute('data-filter');
                 cards.forEach(function(card) {
-                    if (filter === 'all' || card.getAttribute('data-type') === filter) {
+                    if (filter === 'all' || card.getAttribute('data-category') === filter) {
                         card.style.display = '';
                     } else {
                         card.style.display = 'none';

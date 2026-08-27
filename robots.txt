@@ -1,7 +1,6 @@
 User-agent: *
 Allow: /
 Disallow: /seo-tools/
-Disallow: /preview.html
 Disallow: /images/
 
 Sitemap: https://24stanki.ru/sitemap.xml

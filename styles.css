@@ -12,7 +12,7 @@
   --c-primary-hover: #ff2a2a;
   --c-accent: #e39e08;
   --c-text: #f0f0f0;
-  --c-text-muted: #999;
+  --c-text-muted: #b0b0b0;
   --c-border: #2a2a2a;
   --c-white: #ffffff;
   --c-success: #22c55e;
@@ -261,6 +261,7 @@ p { color: var(--c-text-muted); }
   color: var(--c-primary);
   margin-bottom: 1.5rem;
 }
+.hero-badge svg { width: 16px; height: 16px; }
 .hero h1 {
   font-size: clamp(2rem, 5vw, 3.5rem);
   margin-bottom: 1.5rem;
@@ -332,6 +333,7 @@ p { color: var(--c-text-muted); }
   font-size: 1.3rem;
   flex-shrink: 0;
 }
+.trust-icon svg { width: 24px; height: 24px; }
 .trust-text { font-size: 0.85rem; font-weight: 600; }
 
 /* === SERVICES GRID === */
@@ -380,6 +382,7 @@ p { color: var(--c-text-muted); }
   font-size: 1.5rem;
   margin-bottom: 1.2rem;
 }
+.service-icon svg { width: 24px; height: 24px; }
 .service-card h3 { margin-bottom: 0.6rem; }
 .service-card p { font-size: 0.9rem; margin-bottom: 1.2rem; }
 .service-card .link {
@@ -669,34 +672,32 @@ p { color: var(--c-text-muted); }
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: 9999;
+  z-index: 998;
   background: rgba(10,10,10,0.95);
   backdrop-filter: blur(20px);
-  border-top: 2px solid var(--c-primary);
-  padding: 0.6rem 1rem;
+  padding: 0.75rem 1rem;
+  gap: 0.5rem;
   justify-content: center;
-  gap: 0.8rem;
+  border-top: 1px solid var(--c-border);
 }
-.sticky-cta-bar a {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  padding: 0.7rem 1.2rem;
-  border-radius: var(--radius-full);
-  font-weight: 700;
-  font-size: 0.9rem;
-  transition: var(--transition);
+.sticky-cta-bar .cta-call,
+.sticky-cta-bar .cta-whatsapp {
   flex: 1;
-  justify-content: center;
-  max-width: 200px;
+  text-align: center;
+  padding: 0.6rem 1rem;
+  border-radius: var(--radius-full);
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-decoration: none;
 }
 .sticky-cta-bar .cta-call {
   background: linear-gradient(135deg, var(--c-primary), var(--c-accent));
   color: var(--c-white);
 }
 .sticky-cta-bar .cta-whatsapp {
-  background: #25D366;
+  background: rgba(255,255,255,0.1);
   color: var(--c-white);
+  border: 1px solid var(--c-border);
 }
 
 /* === BREADCRUMBS === */
@@ -772,7 +773,8 @@ p { color: var(--c-text-muted); }
 /* === NAV DROPDOWN === */
 .dropbtn { color: var(--c-text); text-decoration: none; cursor: pointer; }
 .dropdown-content { display: none; position: absolute; background: #1a1a1a; min-width: 200px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.3); z-index: 1000; }
-.dropdown:hover .dropdown-content { display: block; }
+.dropdown:hover .dropdown-content,
+.dropdown:focus-within .dropdown-content { display: block; }
 .dropdown-content a { display: block; padding: 0.75rem 1rem; color: var(--c-text); text-decoration: none; }
 .dropdown-content a:hover { background: rgba(255,255,255,0.05); color: var(--c-primary); }
 
@@ -787,6 +789,7 @@ p { color: var(--c-text-muted); }
 .contact-widget.email { background: rgba(255,255,255,0.1); color: var(--c-text); }
 .contact-widget:hover { transform: translateY(-2px); }
 .icon { font-size: 1.2rem; }
+.icon svg { width: 18px; height: 18px; }
 
 /* === CONTACTS SECTION (inner pages) === */
 .contacts {
@@ -950,6 +953,7 @@ p { color: var(--c-text-muted); }
   font-size: 3rem;
   border-bottom: 1px solid var(--c-border);
 }
+.blog-card-image svg { width: 40px; height: 40px; }
 .blog-card-content { padding: 1.2rem; }
 .blog-card-category {
   font-size: 0.7rem;
@@ -1170,8 +1174,9 @@ p { color: var(--c-text-muted); }
   .process-steps { grid-template-columns: 1fr; }
   .portfolio-grid { grid-template-columns: 1fr; }
   .testimonials-grid { grid-template-columns: 1fr; }
-  .footer-grid { grid-template-columns: 1fr 1fr; }
+  .footer-grid { grid-template-columns: 1fr; }
   .footer-bottom { flex-direction: column; gap: 0.5rem; text-align: center; }
+  .footer-brand p { font-size: 0.8rem; line-height: 1.5; }
   .cta-section { padding: 2.5rem 1.5rem; }
   .section { padding: 3rem 0; }
   .sticky-cta-bar { display: flex; }
@@ -1432,7 +1437,8 @@ header ul li a:hover { color: var(--c-white); }
   z-index: 100;
   padding: 0.5rem 0;
 }
-.dropdown:hover .dropdown-content { display: block; }
+.dropdown:hover .dropdown-content,
+.dropdown:focus-within .dropdown-content { display: block; }
 .dropdown-content a {
   display: block;
   padding: 0.6rem 1.2rem;
@@ -1562,6 +1568,8 @@ section:has(.hero-text) {
   header ul { display: none; }
   .hamburger { display: flex; }
   .contact-widgets { flex-direction: column; align-items: center; }
+  .dropbtn { outline: none; }
+  .dropdown:focus-within .dropdown-content { display: block; position: relative; min-width: 100%; box-shadow: none; background: var(--c-bg-card); }
 }
 
 /* ========== SOUND TOGGLE BUTTON ========== */
