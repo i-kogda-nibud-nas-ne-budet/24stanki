@@ -3,6 +3,10 @@
    Scroll animations, counters, nav, hamburger
    ============================================ */
 
+/* Ставится синхронно до первой отрисовки: CSS-правила
+   :where(html.js) .reveal/.stagger скрывают контент только когда JS реально работает */
+document.documentElement.classList.add('js');
+
 document.addEventListener('DOMContentLoaded', () => {
 
   /* === SCROLL REVEAL (Intersection Observer) === */
@@ -16,7 +20,14 @@ document.addEventListener('DOMContentLoaded', () => {
   }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
 
   document.querySelectorAll('.reveal, .reveal-left, .reveal-right, .reveal-scale, .stagger').forEach(el => {
-    revealObserver.observe(el);
+    // Уже во вьюпорте при загрузке — reveal сразу. Иначе высокий блок (напр. .portfolio-grid ~5400px)
+    // не набирает ratio 0.1 и первый экран остаётся opacity:0
+    const rect = el.getBoundingClientRect();
+    if (rect.top < window.innerHeight && rect.bottom > 0) {
+      el.classList.add('visible');
+    } else {
+      revealObserver.observe(el);
+    }
   });
 
   /* === ANIMATED COUNTERS === */

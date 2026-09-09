@@ -611,7 +611,10 @@ p { color: var(--c-text-muted); }
 }
 
 /* === SCROLL ANIMATIONS === */
-.reveal {
+/* Скрытое состояние применяется только при активном JS (класс .js ставит script.js).
+   Без JS всё содержимое видно — фолбэк против «навсегда невидимого» контента.
+   :where() даёт нулевую специфичность, поэтому правила .visible работают как раньше. */
+:where(html.js) .reveal {
   opacity: 0;
   transform: translateY(40px);
   transition: opacity 0.7s ease, transform 0.7s ease;
@@ -620,7 +623,7 @@ p { color: var(--c-text-muted); }
   opacity: 1;
   transform: translateY(0);
 }
-.reveal-left {
+:where(html.js) .reveal-left {
   opacity: 0;
   transform: translateX(-40px);
   transition: opacity 0.7s ease, transform 0.7s ease;
@@ -629,7 +632,7 @@ p { color: var(--c-text-muted); }
   opacity: 1;
   transform: translateX(0);
 }
-.reveal-right {
+:where(html.js) .reveal-right {
   opacity: 0;
   transform: translateX(40px);
   transition: opacity 0.7s ease, transform 0.7s ease;
@@ -638,7 +641,7 @@ p { color: var(--c-text-muted); }
   opacity: 1;
   transform: translateX(0);
 }
-.reveal-scale {
+:where(html.js) .reveal-scale {
   opacity: 0;
   transform: scale(0.9);
   transition: opacity 0.7s ease, transform 0.7s ease;
@@ -649,7 +652,7 @@ p { color: var(--c-text-muted); }
 }
 
 /* Stagger children */
-.stagger > * {
+:where(html.js) .stagger > * {
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.5s ease, transform 0.5s ease;
@@ -701,7 +704,10 @@ p { color: var(--c-text-muted); }
 }
 
 /* === BREADCRUMBS === */
+/* Скрыты визуально (просвечивали под прозрачным fixed nav поверх логотипа),
+   разметка остаётся для поисковиков (BreadcrumbList) */
 .breadcrumbs {
+  display: none;
   padding: 1rem 0;
   font-size: 0.85rem;
 }
@@ -886,7 +892,8 @@ p { color: var(--c-text-muted); }
 .page-hero {
   background: linear-gradient(135deg, rgba(246,9,9,0.08) 0%, rgba(10,10,10,1) 50%, rgba(227,158,8,0.05) 100%);
   border-bottom: 1px solid var(--c-border);
-  padding: 3rem 0 2rem;
+  /* padding-top >= высота фиксированного nav (~71px), иначе H1 уходит под шапку */
+  padding: 6rem 0 2rem;
 }
 
 /* === PRICING TABLE === */
@@ -1470,6 +1477,11 @@ header ul li a:hover { color: var(--c-white); }
 .hero-text:first-child,
 section:has(.hero-text) {
   padding-top: 0;
+}
+/* blog.html / uslugi.html: hero-text обёрнут в section — вернуть верхний отступ,
+   иначе H1 уходит под фиксированный nav (страницы remont и статьи используют main > div.hero-text и не задеваются) */
+main > section > .hero-text:first-child {
+  padding-top: 5rem;
 }
 .about, .services, .process, .contacts {
   padding: 3rem 0;
